@@ -7,11 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 def data_loader(csv_file_path, labelling_criteria, dataset_name, sample_size, num_examples):
     
-    csv_path = BASE_DIR / csv_file_path   
-    print("Loading:", csv_path)
-    
-    combined_data = pd.read_csv(csv_path, usecols=['text', 'label', 'group'])
-    # combined_data = pd.read_csv(csv_file_path, usecols=['text', 'label', 'group'])
+    combined_data = pd.read_csv(csv_file_path, usecols=['text', 'label', 'group'])
 
     label2id = {label: (1 if label == labelling_criteria else 0) for label in combined_data['label'].unique()}
     combined_data['label'] = combined_data['label'].map(label2id)
