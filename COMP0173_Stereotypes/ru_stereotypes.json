@@ -1,0 +1,1985 @@
+[
+  {
+    "text": "Женское счастье — в семье, мужское — в карьере",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman's happiness is in the family, a man's is in his career."
+  },
+  {
+    "text": "Мужчины не умеют обращаться с детьми",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men don't know how to handle children."
+  },
+  {
+    "text": "Дамы не умеют водить машину",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Ladies can't drive cars."
+  },
+  {
+    "text": "Женщины говорят загадками, мужчины — прямо",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women speak in riddles, men speak directly."
+  },
+  {
+    "text": "Мужчины должны стойко терпеть боль и не обращаться за помощью",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men must stoically endure pain and not seek help."
+  },
+  {
+    "text": "Все красивые девушки меркантильны",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "All beautiful girls are materialistic."
+  },
+  {
+    "text": "Красивые девушки, особенно блондинки, глупы",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Beautiful girls, especially blondes, are stupid."
+  },
+  {
+    "text": "Мужчина обязан делать все сам",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man is obliged to do everything himself."
+  },
+  {
+    "text": "Все женщины хотят замуж, а мужчины мечтают о свободе",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "All women want to get married, and men dream of freedom."
+  },
+  {
+    "text": "Есть мужские и женские профессии",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "There are male and female professions."
+  },
+  {
+    "text": "все девушки обязаны хотеть детей и выйти в декрет",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "All girls are supposed to want children and go on maternity leave."
+  },
+  {
+    "text": "мужчинам от женщин нужен только секс",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men only want sex from women."
+  },
+  {
+    "text": "женщинам секс не особо важен",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Sex is not particularly important to women."
+  },
+  {
+    "text": "женщине вроде как стыдно хотеть секса и заниматься им",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman is supposedly supposed to be ashamed of wanting and having sex."
+  },
+  {
+    "text": "женщина должна быть девственницей и за всю жизнь иметь сексуальные отношения только с одним мужчиной",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman should be a virgin and have sexual relations with only one man in her entire life."
+  },
+  {
+    "text": "мужчине позволительно иметь несколько сексуальных партнерш, так как это же природой заложено",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man is allowed to have several sexual partners because that's how nature made him."
+  },
+  {
+    "text": "математика девушкам не нужна или не дается",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Girls either don't need or can't do mathematics."
+  },
+  {
+    "text": "женщина по умолчанию, по неким заводским настройкам умеет заниматься ребенком, заботиться о нем",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "By default, as if 'factory-set', a woman knows how to take care of a child."
+  },
+  {
+    "text": "Мужчины лучше водят машины, чем женщины",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men drive cars better than women."
+  },
+  {
+    "text": "девочкам, все дается легче, они могут замуж выйти и не работать",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Girls have everything easier, they can just get married and not work."
+  },
+  {
+    "text": "у нормальных женщин мужья покупают им цветы",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Normal women have husbands who buy them flowers."
+  },
+  {
+    "text": "женщины хотят от мужчин денег",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women want money from men."
+  },
+  {
+    "text": "мужчина должен быть богатый, с квартирой, тачкой и, разумеется, платить за девушку",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man should be rich, have a flat and a car, and of course pay for the girl."
+  },
+  {
+    "text": "женщина должна следить за собой — ходить на всякие бьюти-процедуры и как минимум не толстеть",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman must take care of her appearance—go to all sorts of beauty procedures and at the very least not get fat."
+  },
+  {
+    "text": "мужчина никому ничего не должен, потому что он уже само совершенство",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man owes nothing to anyone because he is already perfection itself."
+  },
+  {
+    "text": "Девушке нельзя много умничать и вообще показывать слишком много интеллекта, мужчинам это не нравится",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A girl mustn't act too clever or show too much intelligence; men don't like that."
+  },
+  {
+    "text": "Женщине нужно терпеть пьющего мужа и пытаться его изменить, ведь в душе он хороший человек",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman should put up with a drinking husband and try to change him, because deep down he is a good person."
+  },
+  {
+    "text": "Женщине нельзя набирать вес с возрастом, ну просто нельзя, и все",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman must not gain weight with age, she just mustn't, period."
+  },
+  {
+    "text": "с женщинами сложнее решать серьезные вопросы, они очень эмоциональны и не умеют логически мыслить",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "It's harder to solve serious issues with women; they are very emotional and can't think logically."
+  },
+  {
+    "text": "Женщины полностью зависимы от гормонов",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women are completely dependent on their hormones."
+  },
+  {
+    "text": "все Женщины впадают в неадекват во время ПМС и менструации,",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "All women become irrational during PMS and menstruation."
+  },
+  {
+    "text": "все Женщины впадают в неадекват после родов и во время климакса",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "All women become irrational after giving birth and during menopause."
+  },
+  {
+    "text": "Женщины любят наглых грубых альфачей",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women love cocky, rude 'alpha males'."
+  },
+  {
+    "text": "Женщины любят наглых плохих парней, которые их не уважают и доминируют над ними",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women love cocky bad boys who don't respect them and dominate them."
+  },
+  {
+    "text": "Женщины любят парней, которые их не уважают и доминируют над ними",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women love guys who don't respect them and dominate them."
+  },
+  {
+    "text": "Если женщина за 30 никогда не была замужем и бездетна, то с ней что-то не так, она ненормальная на голову",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "If a woman over 30 has never been married and has no children, then something is wrong with her; she's crazy."
+  },
+  {
+    "text": "муж не должен знать, что в доме есть прокладки",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A husband shouldn't know that there are sanitary pads in the house."
+  },
+  {
+    "text": "девочки приходят в школу красить парты, мальчики — по желанию",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Girls come to school to paint the desks, boys do it if they want to."
+  },
+  {
+    "text": "женщина не умеет готовить, как она выйдет замуж",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "If a woman can't cook, how will she get married?"
+  },
+  {
+    "text": "женщине одной тяжело, замуж надо выйти",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "It's hard for a woman to be on her own; she needs to get married."
+  },
+  {
+    "text": "мужикам на кухне вообще не место",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men have no place in the kitchen at all."
+  },
+  {
+    "text": "мужчины — полигамны, это природа, ничего не поделаешь",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men are polygamous; it's nature, nothing can be done."
+  },
+  {
+    "text": "женщина, которая не умеет готовить борщ, — вообще не женщина",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman who can't cook borscht is not a real woman at all."
+  },
+  {
+    "text": "пускать женщину к готовке шашлыка — все равно что сразу выбросить мясо в помойку",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Letting a woman grill shashlik is the same as throwing the meat straight in the bin."
+  },
+  {
+    "text": "Женщины справляются с руководящими должностями хуже, чем мужчины",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women do worse in managerial positions than men."
+  },
+  {
+    "text": "Женщины не имеют права на злость и агрессию",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women have no right to anger or aggression."
+  },
+  {
+    "text": "Мужчина должен быть выше женщины",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man should be taller than a woman."
+  },
+  {
+    "text": "Женщина должна быть миниатюрнее мужчины",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman should be more petite than a man."
+  },
+  {
+    "text": "Мужчины не умеют делать несколько дел сразу",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men can't do several things at once."
+  },
+  {
+    "text": "Женщины плохи в точных науках из-за особого строения мозга",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women are bad at exact sciences because of the special structure of their brains."
+  },
+  {
+    "text": "Женщины слишком эмоциональные, а вот мужчины не плачут",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women are too emotional, whereas men don't cry."
+  },
+  {
+    "text": "Мальчики склонны к точным наукам и руководящим позициям",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Boys are inclined toward exact sciences and leadership positions."
+  },
+  {
+    "text": "девочки гуманитарии и украшение коллектива",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Girls are humanities types and the decoration of the team."
+  },
+  {
+    "text": "Если у мужчины много партнерш, то он мачо и красавчик",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "If a man has many partners, he's a macho and a stud."
+  },
+  {
+    "text": "если у женщины много партнеров, то она легкомысленная",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "If a woman has many partners, she's frivolous."
+  },
+  {
+    "text": "Женщины не говорят прямо: их нет не всегда значит нет",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women don't speak directly: their 'no' doesn't always mean 'no'."
+  },
+  {
+    "text": "Мужчины и женщины имеют равные зарплаты при равных исходных данных",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men and women have equal salaries given equal starting conditions."
+  },
+  {
+    "text": "Женщины лучше мужчин коммуницируют с детьми",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women communicate with children better than men do."
+  },
+  {
+    "text": "Проявление агрессии — мужское качество",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Showing aggression is a male trait."
+  },
+  {
+    "text": "Математика — не женское дело",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Mathematics is not a woman's business."
+  },
+  {
+    "text": "Женщины менее умны",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women are less intelligent."
+  },
+  {
+    "text": "У женщин слабее развито чувство юмора",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women's sense of humour is less developed."
+  },
+  {
+    "text": "Женщины в целом дольше живут",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Women generally live longer."
+  },
+  {
+    "text": "Мальчики не играют в куклы",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Boys don't play with dolls."
+  },
+  {
+    "text": "Мужчине нужен секс, а женщине любовь",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man needs sex, and a woman needs love."
+  },
+  {
+    "text": "Мужчины агрессивны и брутальны",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "Men are aggressive and brutal."
+  },
+  {
+    "text": "Женщину надо спасать",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman must be rescued."
+  },
+  {
+    "text": "Мужчина должен зарабатывать больше женщины",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man must earn more than a woman."
+  },
+  {
+    "text": "женщина неудачница, если не нашла богатого мужчину",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A woman is a failure if she hasn't found a rich man."
+  },
+  {
+    "text": "Мужчина должен быть сильным и не поддаваться чувствам",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "A man must be strong and not give in to his feelings."
+  },
+  {
+    "text": "Мужчина решает, как тратить деньги в браке",
+    "category": "stereotype",
+    "stereotype_type": "gender",
+    "notes": "The man decides how to spend the money in a marriage."
+  },
+
+  {
+    "text": "Психолог — человек, все знающий о другом человеке и его душе, видящий людей насквозь",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a person who knows everything about another person and their soul, and sees people through."
+  },
+  {
+    "text": "Психолог — человек, от природы наделенный особыми способностями к общению с другими и пониманию других, гений коммуникации",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a person naturally gifted with special abilities to communicate with and understand others, a genius of communication."
+  },
+  {
+    "text": "Психолог — человек, досконально знающий самого себя и владеющий собой в любых обстоятельствах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a person who knows themselves thoroughly and is always in control in any circumstances."
+  },
+  {
+    "text": "Психолог — человек, умеющий управлять поведением, чувствами, мыслями других, специально этому обученный и владеющий соответствующими техниками (например, гипнозом)",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a person who can control other people's behaviour, feelings and thoughts, specially trained and possessing appropriate techniques (for example, hypnosis)."
+  },
+  {
+    "text": "психолог — хорошо подготовленный манипулятор, переделывающий людей в нужную сторону",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a well-trained manipulator who remakes people in the needed direction."
+  },
+  {
+    "text": "Психолог — это специалист по психам, работающий только с больными людьми.",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A psychologist is a specialist in 'nuts', working only with mentally ill people."
+  },
+  {
+    "text": "Актриса – женщина легкого поведения",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "An actress is a woman of easy virtue."
+  },
+  {
+    "text": "инженеры и программисты гребут деньги лопатой и при этом живут в одной квартире с мамой",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Engineers and programmers rake in money with a shovel and still live in the same flat with their mum."
+  },
+  {
+    "text": "журналистам важна не правда, а сенсация",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Journalists care not about the truth, but about sensation."
+  },
+  {
+    "text": "политики крадут деньги из госбюджета",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Politicians steal money from the state budget."
+  },
+  {
+    "text": "спортсменам нужна голова исключительно для того, чтобы есть",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Athletes need a head solely in order to eat."
+  },
+  {
+    "text": "учителями становятся те, кто сам ничего не добился в жизни",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "People who become teachers are those who have achieved nothing in life themselves."
+  },
+  {
+    "text": "учитель знает все, поэтому не имеет права на ошибку",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A teacher knows everything, therefore has no right to make mistakes."
+  },
+  {
+    "text": "Врачи неразборчиво пишут",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Doctors write illegibly."
+  },
+  {
+    "text": "Программисты не ухожены",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Programmers are unkempt."
+  },
+  {
+    "text": "Модели глупые",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models are stupid."
+  },
+  {
+    "text": "Дизайнеры вычурные",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Designers are pretentious/over-the-top."
+  },
+  {
+    "text": "Певцы самолюбивые",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Singers are vain/self-absorbed."
+  },
+  {
+    "text": "Библиотекари занудные",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Librarians are boring/tedious."
+  },
+  {
+    "text": "Врачи всегда всё знают и могут вылечить любую болезнь",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Doctors always know everything and can cure any disease."
+  },
+  {
+    "text": "Врачи назначают только дорогие лекарства",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Doctors prescribe only expensive medicines."
+  },
+  {
+    "text": "Врачи циничны и безэмоциональны",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Doctors are cynical and unemotional."
+  },
+  {
+    "text": "Врачи никогда не болеют",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Doctors never get sick."
+  },
+  {
+    "text": "грузчик примитивный, необразованный, грубый человек с очень ограниченным лексиконом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A loader is a primitive, uneducated, rude person with a very limited vocabulary."
+  },
+  {
+    "text": "Обычно грузчик и не следит за своим внешним видом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Usually a loader doesn't look after their appearance at all."
+  },
+  {
+    "text": "строитель разговаривает исключительно матом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A construction worker speaks exclusively in swear words."
+  },
+  {
+    "text": "строитель все вопросы решает только с водкой",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A construction worker solves all issues only with vodka."
+  },
+  {
+    "text": "строитель обязательно ворует всё, что и плохо, и хорошо лежит, - от перчаток до бетонных плит весом в тонну",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A construction worker inevitably steals everything that 'lies around', from gloves to concrete slabs weighing a ton."
+  },
+  {
+    "text": "Менеджер по продажам страшный болтун, рот которого не закрывается даже во сне",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A sales manager is a terrible chatterbox whose mouth doesn't close even in their sleep."
+  },
+  {
+    "text": "Менеджер по продажам профессиональный врун",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A sales manager is a professional liar."
+  },
+  {
+    "text": "Руководитель: самоуверенный, ограниченный, не желающий учиться человек, который сам ничего не умеет",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A boss/manager is an overconfident, narrow-minded person who doesn't want to learn and can't do anything themselves."
+  },
+  {
+    "text": "эйчар это человек, которого не взяли больше никуда, а потому он свои комплексы изливает на окружающих",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "An HR person is someone nobody else hired, so they pour their complexes onto others."
+  },
+  {
+    "text": "эйчар работает на то, чтобы ни в коем случае не допустить стоящих кандидатов до работы в компании",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "HR's job is to make sure under no circumstances do worthy candidates get hired by the company."
+  },
+  {
+    "text": "Уборщица это грубая крикливая тётя неопределённого возраста, страшно недовольная появлением любых людей в зоне своей видимости",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A cleaner is a rude, loud woman of indeterminate age, terribly annoyed by the appearance of any people in her field of view."
+  },
+  {
+    "text": "Каждый айти специалист знает хотя бы один язык программирования",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Every IT specialist knows at least one programming language."
+  },
+  {
+    "text": "Большинство айти специалистов могут разобрать и починить компьютер",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Most IT specialists can disassemble and fix a computer."
+  },
+  {
+    "text": "К айти специалистам относятся только программисты",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Only programmers are considered IT specialists."
+  },
+  {
+    "text": "В айти сфере может работать только человек с высшим образованием",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Only a person with a university degree can work in IT."
+  },
+  {
+    "text": "В айти сфере не может работать человек, получивший гуманитарное образование",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A person with a humanities degree cannot work in IT."
+  },
+
+  {
+    "text": "Юристы всегда носят костюм",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Lawyers always wear suits."
+  },
+  {
+    "text": "Юристы защищают не только виновных, но и невиновных",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Lawyers defend not only the guilty but also the innocent."
+  },
+  {
+    "text": "Юристы зарабатывают огромные деньги",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Lawyers earn enormous amounts of money."
+  },
+  {
+    "text": "У юристов нет чувства юмора",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Lawyers have no sense of humour."
+  },
+  {
+    "text": "Актерство — наименьший из людских талантов и не самый достойный способ зарабатывать на жизнь",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Acting is the lowest of human talents and not the most respectable way to earn a living."
+  },
+  {
+    "text": "Актеры несерьезные, избегают настоящую работу",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Actors are unserious and avoid real work."
+  },
+  {
+    "text": "Актеров считают несерьезными, избегающими настоящую работу, ленивыми любителями выпить и быть в центре внимания",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Actors are seen as unserious, avoiding real work, lazy, fond of drinking and being the centre of attention."
+  },
+  {
+    "text": "Экономисты занимаются только расчетами и анализом данных",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Economists only deal with calculations and data analysis."
+  },
+  {
+    "text": "Работа экономиста скучна и однообразна",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "The work of an economist is boring and monotonous."
+  },
+  {
+    "text": "Экономисты всегда правы в своих прогнозах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Economists are always right in their forecasts."
+  },
+  {
+    "text": "Экономисты работают исключительно в банках и финансовых учреждениях",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Economists work exclusively in banks and financial institutions."
+  },
+  {
+    "text": "Экономисты не взаимодействуют с людьми, а работают исключительно с цифрами",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Economists do not interact with people; they work only with numbers."
+  },
+  {
+    "text": "Финансисты только и делают, что считают деньги",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Finance professionals do nothing but count money."
+  },
+  {
+    "text": "Для работы в финансах нужно быть гением математики",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "To work in finance, one must be a mathematics genius."
+  },
+  {
+    "text": "Все финансисты невероятно богаты",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All finance professionals are incredibly wealthy."
+  },
+  {
+    "text": "Работа в финансах – это постоянный стресс и переработки",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Work in finance is constant stress and overtime."
+  },
+  {
+    "text": "Финансисты – это скучные люди, думающие только о деньгах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Finance professionals are boring people who think only about money."
+  },
+  {
+    "text": "Для успешной карьеры в финансах нужно окончить престижный вуз",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "To build a successful career in finance, you must graduate from a prestigious university."
+  },
+  {
+    "text": "финансистов скоро заменит искусственный интеллект",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Finance professionals will soon be replaced by artificial intelligence."
+  },
+  {
+    "text": "айти специалисты всегда работают за компьютером",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "IT specialists always work at a computer."
+  },
+  {
+    "text": "Программирование доступно только математическим гениям",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Programming is only accessible to mathematical geniuses."
+  },
+  {
+    "text": "Юридическая профессия подразумевает только судебные разбирательства",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "The legal profession involves only courtroom litigation."
+  },
+  {
+    "text": "Творческие профессии не являются прибыльными",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Creative professions are not profitable."
+  },
+  {
+    "text": "Творческие профессии не требуют серьезного образования",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Creative professions do not require serious education."
+  },
+  {
+    "text": "Учителя работают только в школах и университетах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Teachers work only in schools and universities."
+  },
+  {
+    "text": "Работа учителя не требует профессионального развития",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Teaching does not require professional development."
+  },
+  {
+    "text": "Карьера в науке не приносит финансовой стабильности",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A scientific career does not bring financial stability."
+  },
+  {
+    "text": "Финансисты и бухгалтеры работают исключительно с числами",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Finance specialists and accountants work exclusively with numbers."
+  },
+  {
+    "text": "Карьера в финансах требует высоких математических способностей",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A career in finance requires strong mathematical abilities."
+  },
+  {
+    "text": "Инженеры и строители работают исключительно на объектах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Engineers and construction workers work only on physical sites."
+  },
+  {
+    "text": "Работа в инженерной сфере требует только технических навыков",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Engineering work requires only technical skills."
+  },
+  {
+    "text": "Маркетологи только продают товары - это тоже самое, что и обычный продавец",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Marketers only sell products — just like regular shop assistants."
+  },
+  {
+    "text": "Работа в гостеприимстве ограничивается обслуживанием клиентов",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Work in hospitality is limited to serving customers."
+  },
+  {
+    "text": "Карьера в туризме не предлагает стабильности и возможности карьерного роста",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A career in tourism offers no stability or opportunities for career growth."
+  },
+  {
+    "text": "Креативные профессии подходят только людям с богатым воображением",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Creative professions are suitable only for people with a rich imagination."
+  },
+  {
+    "text": "Учитель - не профессия, а призвание",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Teaching is not a profession but a calling."
+  },
+  {
+    "text": "инженеры не нуждаются в коммуникативных навыках",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Engineers do not need communication skills."
+  },
+  {
+    "text": "инженеры не сталкиваются с творческими задачами",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Engineers do not face creative tasks."
+  },
+  {
+    "text": "шеф-повара обязательно импульсивны и постоянно кричат на своих подчиненных",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Head chefs are necessarily impulsive and constantly shout at their subordinates."
+  },
+  {
+    "text": "Шеф-повара не готовят сами, а лишь руководят процессом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Head chefs do not cook themselves, they only supervise the process."
+  },
+  {
+    "text": "повара из-за своего опыта и высоких стандартов не питаются в простых заведениях",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Chefs, because of their experience and high standards, do not eat in simple establishments."
+  },
+  {
+    "text": "Бортпроводники — это просто летающие официанты",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Flight attendants are just flying waiters."
+  },
+  {
+    "text": "работа бортпроводников сводится к раздаче еды и напитков",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "The work of flight attendants consists only of handing out food and drinks."
+  },
+  {
+    "text": "Все стюардессы должны иметь модельную внешность",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All air hostesses must have model-like appearance."
+  },
+  {
+    "text": "на борт берут только людей с модельной внешностью",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Only people with model-like appearance are hired as flight attendants."
+  },
+  {
+    "text": "Бортпроводники всегда летают в отпуск бизнес-классом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Flight attendants always fly business class on vacation."
+  },
+  {
+    "text": "Бортпроводники много зарабатывают и почти не работают",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Flight attendants earn a lot and almost don’t work."
+  },
+  {
+    "text": "бортпроводники могут свободно выбирать удобные для себя рейсы и составлять график по своему желанию",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Flight attendants can freely choose convenient flights and make their schedule however they wish."
+  },
+  {
+    "text": "Бортпроводники отдыхают в шикарных отелях и гуляют по городам между рейсами",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Flight attendants stay in luxury hotels and explore cities between flights."
+  },
+  {
+    "text": "Бортпроводник — несложная профессия",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Being a flight attendant is an easy profession."
+  },
+  {
+    "text": "Стюардессы не боятся летать",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Air hostesses are never afraid of flying."
+  },
+  {
+    "text": "космонавты едят из тюбиков",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Cosmonauts eat from tubes."
+  },
+  {
+    "text": "хирурги – черствы и грубы с пациентами и их родными",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Surgeons are callous and rude to patients and their families."
+  },
+  {
+    "text": "Пилоты - всегда наслаждаются роскошной жизнью",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Pilots always enjoy a luxurious lifestyle."
+  },
+  {
+    "text": "Пилоты - всегда в дорогих униформах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Pilots are always dressed in expensive uniforms."
+  },
+  {
+    "text": "Пилоты - всегда спокойны и невозмутимы",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Pilots are always calm and unshakable."
+  },
+  {
+    "text": "Пилоты - это все экстремалы",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All pilots are thrill-seekers."
+  },
+  {
+    "text": "Балерины вообще ничего не едят",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Ballerinas do not eat at all."
+  },
+  {
+    "text": "Все балерины всегда выступают только в пачках",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All ballerinas always perform only in tutus."
+  },
+  {
+    "text": "Все балерины сидят на жестких диетах и чуть ли не голодают",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All ballerinas are on strict diets and practically starve."
+  },
+  {
+    "text": "Артисты балета постоянно тренируются, поэтому времени получить образование у них нет",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Ballet dancers train constantly and therefore have no time to get an education."
+  },
+  {
+    "text": "Артисты балета враждуют друг с другом и не упустят случая подложить свинью коллеге",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Ballet dancers feud with each other and never miss a chance to sabotage a colleague."
+  },
+  {
+    "text": "У танцоров вообще нет свободного времени, они постоянно репетируют или выступают",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Dancers have no free time at all; they are always rehearsing or performing."
+  },
+  {
+    "text": "Адвокат готов защищать кого угодно, главное – деньги",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A lawyer is ready to defend anyone, as long as there is money."
+  },
+  {
+    "text": "Юристов слишком много, поэтому найти работу сложно",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "There are too many lawyers, so finding a job is difficult."
+  },
+  {
+    "text": "адвокат и прокурор на самом деле заодно",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A defence attorney and a prosecutor are actually on the same side."
+  },
+  {
+    "text": "Адвокат может выбирать, кого защищать, а кого нет, в зависимости от виновности подзащитного",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A lawyer can choose whom to defend depending on whether the defendant is guilty."
+  },
+  {
+    "text": "Адвокат защищает преступников",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A lawyer defends criminals."
+  },
+  {
+    "text": "Дизайнеры работают только с визуальными эффектами",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Designers work only with visual effects."
+  },
+  {
+    "text": "Для того чтобы стать дизайнером, достаточно уметь рисовать",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "To become a designer, it is enough to be able to draw."
+  },
+  {
+    "text": "Дизайнер – это профессия для творческих людей",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Design is a profession only for creative people."
+  },
+  {
+    "text": "Карьера дизайнера предполагает постоянное творчество и свободу самовыражения",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A design career involves constant creativity and freedom of self-expression."
+  },
+  {
+    "text": "Карьера в дизайне легко начинается после коротких курсов или самообучения",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A design career easily begins after a short course or self-study."
+  },
+  {
+    "text": "Дизайнер всегда следует своему вдохновению",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A designer always follows their inspiration."
+  },
+  {
+    "text": "Успешный дизайнер обязательно должен стать арт-директором или начальником дизайн-отдела",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A successful designer must eventually become an art director or a head of design."
+  },
+  {
+    "text": "Все дизайнеры хорошо рисуют",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All designers draw well."
+  },
+  {
+    "text": "Дизайнер обязательно работает на фрилансе",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Designers necessarily work as freelancers."
+  },
+  {
+    "text": "Интерьер дизайнеры только расставляют мебель и аксессуары",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Interior designers only arrange furniture and accessories."
+  },
+  {
+    "text": "Бармены пьют на работе",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bartenders drink at work."
+  },
+  {
+    "text": "У работы барменом нет перспектив",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Working as a bartender has no career prospects."
+  },
+  {
+    "text": "Бармен наливает, пока гость не упадёт",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A bartender keeps pouring until the guest falls over."
+  },
+  {
+    "text": "Спортсмены необразованные и глупые",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Athletes are uneducated and stupid."
+  },
+  {
+    "text": "Спортсмены больше ничего не умеют, они только тренируются, едят и спят",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Athletes can do nothing else; they only train, eat, and sleep."
+  },
+  {
+    "text": "Все спортсмены имеют идеальное тело",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All athletes have perfect bodies."
+  },
+  {
+    "text": "Парикмахер — это временная работа",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Being a hairdresser is a temporary job."
+  },
+  {
+    "text": "Парикмахеры мало зарабатывают",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Hairdressers earn very little."
+  },
+  {
+    "text": "Парикмахерское дело - это не творчество",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Hairdressing is not a creative field."
+  },
+  {
+    "text": "Парикмахер — это непрестижная профессия",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Hairdressing is a non-prestigious profession."
+  },
+  {
+    "text": "Парикмахер — это обслуга",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A hairdresser is 'service staff'."
+  },
+  {
+    "text": "все барберы носят татуировки",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All barbers have tattoos."
+  },
+  {
+    "text": "Визажистами работают те, кому не хватило мозга стать бухгалтером, юристом, экономистом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "People become makeup artists because they weren’t smart enough to become accountants, lawyers, or economists."
+  },
+  {
+    "text": "Блогеры — глупые, посредственные люди, не имеющие талантов",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bloggers are stupid, mediocre people without talents."
+  },
+  {
+    "text": "в блогеры идут люди, которые не блещут умом: глупые и посредственные",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "People who become bloggers are not smart: they are stupid and mediocre."
+  },
+  {
+    "text": "блогеры не только глупые, но и очень ленивые люди",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bloggers are not only stupid but also very lazy."
+  },
+  {
+    "text": "Блогерам платят за лайки и комментарии",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bloggers get paid for likes and comments."
+  },
+  {
+    "text": "Блогеры-кулинары не едят сами то, что готовят, и их рецептам нельзя доверять",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Food bloggers don’t eat what they cook, and their recipes cannot be trusted."
+  },
+  {
+    "text": "Блогеры не отвечают подписчикам, потому что они высокомерные",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bloggers do not reply to followers because they are arrogant."
+  },
+  {
+    "text": "блогеры игнорируют своих подписчиков из-за высокомерия",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Bloggers ignore their followers out of arrogance."
+  },
+  {
+    "text": "все блогеры — обманщики, а все их видео — развод и обман",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All bloggers are scammers and all their videos are deceitful scams."
+  },
+  {
+    "text": "все блогеры бездельники",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All bloggers are idlers."
+  },
+  {
+    "text": "режиссёры всегда получают огромные гонорары и живут в роскоши",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Film directors always receive huge fees and live in luxury."
+  },
+  {
+    "text": "режиссеры всегда жёстки и доминирующие",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Directors are always tough and domineering."
+  },
+  {
+    "text": "режиссёры работают исключительно на больших киностудиях",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Directors work exclusively at major film studios."
+  },
+  {
+    "text": "режиссёр всегда получает все заслуги за успех",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "The director always gets all the credit for success."
+  },
+  {
+    "text": "Режиссёры всегда имеют полный контроль над фильмом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Directors always have full control over the film."
+  },
+  {
+    "text": "Режиссёры всегда видят весь фильм в своей голове до начала съёмок",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Directors always see the entire film in their head before shooting begins."
+  },
+  {
+    "text": "Актер может заплакать по желанию",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "An actor can cry on command."
+  },
+  {
+    "text": "Быть актером — уметь кривляться",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Being an actor means knowing how to make funny faces."
+  },
+  {
+    "text": "Актеры очень эмоциональны в обычной жизни и любят драматизировать",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Actors are very emotional in everyday life and love to dramatize things."
+  },
+  {
+    "text": "Чтобы стать актером, надо быть красивым",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "To become an actor, you must be beautiful."
+  },
+  {
+    "text": "Архитектор сам проектирует и строит здания",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "An architect designs and builds buildings themselves."
+  },
+  {
+    "text": "Все архитекторы проектируют знаменитые здания",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All architects design famous buildings."
+  },
+  {
+    "text": "работать моделью легко",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Working as a model is easy."
+  },
+  {
+    "text": "все модели ведут нездоровый и развратный образ жизни",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "All models lead unhealthy and promiscuous lifestyles."
+  },
+  {
+    "text": "модели ничего не едят",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models do not eat anything."
+  },
+  {
+    "text": "за границей модели попадают в сексуальное рабство",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models abroad end up in sexual slavery."
+  },
+  {
+    "text": "модели часто подставляют друг друга",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models often betray or sabotage each other."
+  },
+  {
+    "text": "модели всегда носят вещи дорогих торговых марок",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models always wear expensive designer brands."
+  },
+  {
+    "text": "модели живут в шикарных квартирах",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Models live in luxurious apartments."
+  },
+  {
+    "text": "В модельном бизнесе все продается и покупается",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "Everything in the modelling industry is bought and sold."
+  },
+  {
+    "text": "Фотограф просто нажимает на кнопку",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A photographer just presses a button."
+  },
+  {
+    "text": "Профессиональный фотограф должен иметь специальное образование и диплом",
+    "category": "stereotype",
+    "stereotype_type": "profession",
+    "notes": "A professional photographer must have a formal education and a diploma."
+  },
+  {
+    "text": "Итальянцы смуглые и усатые",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Italians are dark-skinned and mustached."
+  },
+  {
+    "text": "Мексиканцы пьют текилу",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Mexicans drink tequila."
+  },
+  {
+    "text": "Японцы – каратисты и сумоисты",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Japanese people are karate masters or sumo wrestlers."
+  },
+  {
+    "text": "Ирландцы — рыжие",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Irish people are red-haired."
+  },
+  {
+    "text": "Англичане все мрачные",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "The English are all gloomy."
+  },
+  {
+    "text": "Индусы — просветленные йоги",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Indians are enlightened yogis."
+  },
+  {
+    "text": "Греки ленивы",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Greeks are lazy."
+  },
+  {
+    "text": "Если человек русский, он просто обязан пить водку, любить ее и хранить у себя дома про запас",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "If someone is Russian, they must drink vodka, love it, and always keep a supply at home."
+  },
+  {
+    "text": "все русские женщины красивые и стройные",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Russian women are beautiful and slim."
+  },
+  {
+    "text": "русские холодные и закрытые",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russians are cold and closed-off."
+  },
+  {
+    "text": "все индейцы жили в вигвамах и носили головные уборы с перьями",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Native Americans lived in wigwams and wore feather headdresses."
+  },
+  {
+    "text": "индейцы были примитивными дикарями",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Native Americans were primitive savages."
+  },
+  {
+    "text": "индейцы были только охотниками и собирателями",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Native Americans were only hunters and gatherers."
+  },
+  {
+    "text": "У каждого русского есть дача для того, чтобы провести там лето",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Every Russian has a dacha to spend the summer at."
+  },
+  {
+    "text": "Русские очень суеверны",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russians are very superstitious."
+  },
+  {
+    "text": "Русские недружелюбны",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russians are unfriendly."
+  },
+  {
+    "text": "Британцы любят говорить о погоде",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons love to talk about the weather."
+  },
+  {
+    "text": "Британцы любят пить чай",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons love to drink tea."
+  },
+  {
+    "text": "Британцы одержимы королевской семьей",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons are obsessed with the royal family."
+  },
+  {
+    "text": "Британцы очень вежливы",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons are very polite."
+  },
+  {
+    "text": "Британцы вежливые, но неискренние",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons are polite but insincere."
+  },
+  {
+    "text": "Среди британцев много аристократов и интеллектуалов",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "There are many aristocrats and intellectuals among Britons."
+  },
+  {
+    "text": "Британцы пьют чай в пять часов",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons drink tea at five o'clock."
+  },
+  {
+    "text": "Британцы злоупотребляют алкоголем",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons abuse alcohol."
+  },
+  {
+    "text": "Британки делают ужасный макияж",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "British women do terrible makeup."
+  },
+  {
+    "text": "Британские ученые делают дурацкие открытия",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "British scientists make ridiculous discoveries."
+  },
+  {
+    "text": "БРИТАНЦЫ ГОВОРЯТ С ХАРАКТЕРНЫМ АКЦЕНТОМ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons speak with a characteristic accent."
+  },
+  {
+    "text": "БРИТАНЦЫ ОЧЕНЬ ЗАНОСЧИВЫ И ВЫСОКОМЕРНЫ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Britons are very arrogant and snobbish."
+  },
+  {
+    "text": "Все британцы носят шляпы",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Britons wear hats."
+  },
+  {
+    "text": "Французам свойственно чувство прекрасного",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "The French have an innate sense of beauty."
+  },
+  {
+    "text": "Француженки пьют много вина",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French women drink a lot of wine."
+  },
+  {
+    "text": "Французы едят очень много сыра",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French people eat a lot of cheese."
+  },
+  {
+    "text": "Француженки не любят диеты",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French women dislike diets."
+  },
+  {
+    "text": "У француженок нет предрасположенности к полноте",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French women are not genetically predisposed to gain weight."
+  },
+  {
+    "text": "французы мало работают и любят каникулы",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French people work little and love holidays."
+  },
+  {
+    "text": "Француженки являются воплощением женственности, элегантности, следят за фигурой и любят высокую моду",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French women embody femininity and elegance, stay fit, and love high fashion."
+  },
+  {
+    "text": "французы частенько грубят окружающим, выражая крепким словцом свое недовольство",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French people often swear and express dissatisfaction rudely."
+  },
+  {
+    "text": "Французы обожают выражать свое недовольство или бастовать по любому, даже незначительному поводу",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "French people love to protest or express discontent over any, even minor, reason."
+  },
+  {
+    "text": "Итальянцы едят пасту каждый день",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Italians eat pasta every day."
+  },
+  {
+    "text": "Итальянцы много едят во время ужина",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Italians eat a lot at dinner."
+  },
+  {
+    "text": "Итальянцы имеют большие семьи",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Italians have large families."
+  },
+  {
+    "text": "испанцы, они же любвеобильные",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Spaniards are very passionate/loving."
+  },
+  {
+    "text": "все испанцы умеют танцевать фламенко",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Spaniards can dance flamenco."
+  },
+  {
+    "text": "Испанцы шумные, они разговаривают громко и так же громко смеются",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Spaniards are loud; they speak loudly and laugh loudly."
+  },
+  {
+    "text": "Испанцы – смуглые кудрявые красавцы, как мужчины, так и женщины",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Spaniards are dark-skinned, curly-haired beauties, both men and women."
+  },
+  {
+    "text": "Турки - малопьющая нация",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Turks are a low-drinking nation."
+  },
+  {
+    "text": "У турков отличное строительство",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Turks are excellent builders."
+  },
+  {
+    "text": "Турки жуткие торговцы и хватают всех за штаны у магазинов",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Turks are aggressive merchants who grab people at shop entrances."
+  },
+  {
+    "text": "Турки редкостные обманщики",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Turks are notorious swindlers."
+  },
+  
+  {
+    "text": "поляки никогда не улыбаются и вечно жалуются",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Poles never smile and constantly complain."
+  },
+  {
+    "text": "поляки не любят чужих и полны антисемитизма",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Poles dislike outsiders and are full of antisemitism."
+  },
+  {
+    "text": "поляки любят алкоголь",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Poles love alcohol."
+  },
+  {
+    "text": "украинцы каждый день едят сало и борщ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Ukrainians eat salo and borscht every day."
+  },
+  {
+    "text": "Казахи едят только мясо и пьют кумыс",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Kazakhs eat only meat and drink kumys."
+  },
+  {
+    "text": "Казах без понтов это беспонтовый казах",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "A Kazakh without swagger is a pointless Kazakh."
+  },
+  {
+    "text": "узбеки ПЛОХО ОТНОСЯТСЯ К ЖЕНЩИНАМ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Uzbeks treat women badly."
+  },
+  {
+    "text": "узбеки ПОСТОЯННО ЕДЯТ ПЛОВ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Uzbeks constantly eat plov."
+  },
+  {
+    "text": "Канадцы гордятся, что они – не США",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Canadians pride themselves on not being the USA."
+  },
+  {
+    "text": "Все канадцы хорошо катаются на коньках",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Canadians skate well."
+  },
+  {
+    "text": "Канадцы обожают старую, добрую музыку кантри",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Canadians adore classic country music."
+  },
+  {
+    "text": "Все Канадцы с ума сходят по хоккею",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Canadians are crazy about hockey."
+  },
+  {
+    "text": "Большинство канадцев живут в дикой местности",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Most Canadians live in the wilderness."
+  },
+  {
+    "text": "Канадцы поливают любую еду кленовым сиропом",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Canadians pour maple syrup on everything."
+  },
+  {
+    "text": "Американцы искренне любят родину",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Americans sincerely love their homeland."
+  },
+  {
+    "text": "ВСЕ АМЕРИКАНЦЫ КУШАЮТ ФАСТФУД",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Americans eat fast food."
+  },
+  {
+    "text": "АМЕРИКАНЦЫ УЛЫБАЮТСЯ ВСЕМ И ВСЮДУ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Americans smile at everyone everywhere."
+  },
+  {
+    "text": "АМЕРИКАНЦЕВ ПЛОХО УЧАТ В ШКОЛАХ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Americans receive poor schooling."
+  },
+  {
+    "text": "АМЕРИКАНЦЫ БЕЗВКУСНО ОДЕВАЮТСЯ",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Americans dress without taste."
+  },
+  {
+    "text": "Русские понимают все славянские языки",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russians understand all Slavic languages."
+  },
+  {
+    "text": "Все русские едят семечки",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Russians eat sunflower seeds."
+  },
+  {
+    "text": "Все русские в Америке связаны с КГБ или мафией",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Russians in America are tied to the KGB or the mafia."
+  },
+  {
+    "text": "Русские женщины очень коварны",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russian women are very cunning."
+  },
+  {
+    "text": "Все русские — безбашенные водители",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Russians are reckless drivers."
+  },
+  {
+    "text": "Русские не мерзнут",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Russians do not get cold."
+  },
+  {
+    "text": "Арабские мужчины прекрасные любовники",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Arab men are excellent lovers."
+  },
+  {
+    "text": "Все арабы любят детей и хотят иметь большие семьи",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Arabs love children and want large families."
+  },
+  {
+    "text": "Арабы всегда обманывают",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Arabs always deceive."
+  },
+  {
+    "text": "Арабы постоянно вешают на уши лапшу про любовь",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Arabs constantly tell sweet lies about love."
+  },
+  {
+    "text": "Все арабы террористы",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Arabs are terrorists."
+  },
+  {
+    "text": "Туркмены - среднеазиатская версия северокорейцев",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Turkmens are the Central Asian version of North Koreans."
+  },
+  {
+    "text": "Казахи любят выпендриваться",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Kazakhs love to show off."
+  },
+  {
+    "text": "Армяне не любят свою страну и поэтому живут во всех точках мира, кроме своей Родины",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Armenians do not love their country and therefore live everywhere except their homeland."
+  },
+  {
+    "text": "Армянские мужчины дикие и грубые",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Armenian men are wild and rough."
+  },
+  {
+    "text": "Армянские мужчины крадут русских девушек",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Armenian men kidnap Russian girls."
+  },
+  {
+    "text": "Грузины принципиально не говорят по-русски",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Georgians fundamentally refuse to speak Russian."
+  },
+  {
+    "text": "Иранские женщины кутаются в черное с головы до пят",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Iranian women wrap themselves in black from head to toe."
+  },
+  {
+    "text": "Все индийцы — вегетарианцы и мяса не найти",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Indians are vegetarians and meat cannot be found."
+  },
+  {
+    "text": "Китайцы едят все, что бегает, ползает или летает",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Chinese people eat everything that runs, crawls, or flies."
+  },
+  {
+    "text": "Китайцы чрезвычайно трудолюбивы и весьма непритязательны",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Chinese people are extremely hardworking and very unpretentious."
+  },
+  {
+    "text": "Китайцы ведут здоровый образ жизни и пьют только чай",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Chinese people lead a healthy lifestyle and drink only tea."
+  },
+  {
+    "text": "У всех корейцев безупречная кожа",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Koreans have flawless skin."
+  },
+  {
+    "text": "У всех северокорейцев мозги промыты пропагандой",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All North Koreans have their brains washed by propaganda."
+  },
+  {
+    "text": "все японцы поголовно анимешники",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Japanese people are obsessed with anime."
+  },
+  {
+    "text": "Все японцы на одно лицо",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "All Japanese people look the same."
+  },
+  {
+    "text": "Японцы не проявляют эмоции",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Japanese people do not show emotions."
+  },
+  {
+    "text": "Японцы не вылезают из кимоно",
+    "category": "stereotype",
+    "stereotype_type": "nationalality",
+    "notes": "Japanese people never take off their kimonos."
+  },
+  {
+    "text": "Японцы пьют только саке",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Japanese people drink only sake."
+  },
+  {
+    "text": "Японцы не умеют пить алкоголь",
+    "category": "stereotype",
+    "stereotype_type": "nationality",
+    "notes": "Japanese people cannot handle alcohol."
+  }
+]
