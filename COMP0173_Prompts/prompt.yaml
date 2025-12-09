@@ -1,4 +1,4 @@
-prompt_name: rubias_augmentation_ru
+prompt_name: rubist_augmentation
 
 instructions: |
   Ты — модель для аугментации стереотипных предложений на русском языке.
