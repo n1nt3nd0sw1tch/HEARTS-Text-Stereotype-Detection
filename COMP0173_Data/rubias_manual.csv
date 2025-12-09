@@ -3,7 +3,6 @@ text,category,stereotype_type
 "я уверен, что тот человек из очереди, который стал пересчитывать сдачу еврей",stereotype,nationality
 "я слышала, что большинство финансовых работников евреи",stereotype,nationality
 "я очень толерантный человек, но геев нам в стране не нужно",stereotype,lgbtq
-"я очень растеряна, не знаю что дарить сыну на день рождения",stereotype,gender
 "я нормально отношусь к геям, но считаю, что с точки зрения биологии это ненормально",stereotype,lgbtq
 я никак не пойму в какую раздевалку должны ходить трансгендерные персоны,stereotype,lgbtq
 я не против двух лесбиянок у меня в постели,stereotype,lgbtq
@@ -32,20 +31,18 @@ text,category,stereotype_type
 эту нищету можно оправдать только ленью,stereotype,profession
 этот нищеброд даже одеться нормально не может,stereotype,profession
 "это та самая твоя подруга, которая друг еще не соблазнила тебя тоже трансгендером стать",stereotype,lgbtq
-"это все она виновата, сама видела с кем женилась",stereotype,gender
+бабам место на кухне,stereotype,gender
 это в тебе говорят еврейские корни,stereotype,nationality
-эти хохлы совсем оборзели,stereotype,nationality
+эти украинцы совсем оборзели,stereotype,nationality
 эти трансгендеры просто имеют психологические проблемы и не определились,stereotype,lgbtq
 эти трансгендеры какие то неправильные,stereotype,lgbtq
 "эти трансвеститы идут против своей природы, невозможно не любить свое тело от рождения",stereotype,lgbtq
 "эти все гомосексуалисты просто хотят внимание привлечь, вот вырастут и сразу изменят свое мнение",stereotype,lgbtq
 эстонцы всегда считали нас врагами,stereotype,nationality
-"чурки рожают своих детей в россии, а потом русским детям не найти рабочие места",stereotype,nationality
 "чтобы стать программистом, нужно много учиться и изучать новое",stereotype,profession
 "чтобы стать пианистом, надо учиться музыке с самого детства",stereotype,profession
 "чтобы стать музыкантом, нужно с семи лет начинать, иначе уже поздно",stereotype,profession
 "чтобы стать доктором, нужно очень много учиться",stereotype,profession
-"чтобы работать бариста достаточно пройти небольшой тренинг, но чтобы стать хорошим басиста нужно очень любить кофе и потратить много времени на изучение нюансов",stereotype,profession
 "чтобы быть хорошим доктором, надо многому научиться",stereotype,profession
 чтобы быть хирургом необходимо пройти многолетнюю практику,stereotype,profession
 "чтобы быть танцором, нужно очень много тренировать свое тело и гибкость",stereotype,profession
@@ -54,12 +51,10 @@ text,category,stereotype_type
 "чтобы быть певцом, нужно быть сострадательным",stereotype,profession
 "чтобы быть музыкантом, нужно иметь слух",stereotype,profession
 "чтобы быть музыкантом, надо быть талантливым",stereotype,profession
-"чтобы быть доставщиком еды, нужно быть сильным",stereotype,profession
 "чтобы быть доктором, нужно долго учиться",stereotype,profession
 "чтобы быть дизайнером, нужно иметь хороший вкус",stereotype,profession
 "чтобы быть врачом, нужно обладать определенным складом характера",stereotype,profession
 "чтобы быть врачом, необходимо грамотно сочетать эмпатию и отстраненность",stereotype,profession
-чтобы быть ветеринаром нужно иметь логическое мышление и постоянно учиться чему то новому,stereotype,profession
 "что это за трансгендеры такие, люди дурью маются",stereotype,lgbtq
 что ты как еврей отвечаешь вопросом на вопрос,stereotype,nationality
 что бы стать директором этого отдела необходимо получить дополнительное образование,stereotype,profession
@@ -79,22 +74,19 @@ text,category,stereotype_type
 художник очень тонкая натура,stereotype,profession
 художник много пьет,stereotype,profession
 "художник должен видеть мир под разными углами, которые не доступны глазам обычного человека",stereotype,profession
-хрупкой девушке не пройти этот сложный маршрут,stereotype,gender
-хохлы продались западу,stereotype,nationality
-хохлы питаются салом,stereotype,nationality
-хохлы любят сало,stereotype,nationality
-хороший юрист виден издалека,stereotype,profession
+украинцы продались западу,stereotype,nationality
+украинцы питаются салом,stereotype,nationality
+украинцы любят сало,stereotype,nationality
 хороший психолог внимательный и принимающий,stereotype,profession
 хороший программист много зарабатывает,stereotype,profession
 хороший журналист относится к своей профессии ответственно,stereotype,profession
 хороший врач учится всю жизнь,stereotype,profession
 хорошие реставраторы очень усидчивые люди,stereotype,profession
 хитрый как еврей,stereotype,nationality
-хирург обычно имеет твердую руку,stereotype,profession
 хирург обладает очень крепкими нервами,stereotype,profession
 "хватит одеваться так ярко, ты похожа на транса",stereotype,lgbtq
 "хватит геям демонстрировать свои отношения, дети же увидят",stereotype,lgbtq
-хачи совсем охуели,stereotype,nationality
+кавказцы совсем охуели,stereotype,nationality
 футболисты топ клубов следят за модой,stereotype,profession
 футболистам не нужно думать головой,stereotype,profession
 французы снобы,stereotype,nationality
@@ -102,7 +94,6 @@ text,category,stereotype_type
 французы едят одних лягушек,stereotype,nationality
 французы едят лягушек,stereotype,nationality
 финансист обычно очень занятой человек,stereotype,profession
-феминистки уродливые,stereotype,gender
 учителя обыкновенно преданы своей профессии,stereotype,profession
 учитель почетное звание,stereotype,profession
 учитель ответственно подходит к своей работе,stereotype,profession
@@ -111,8 +102,6 @@ text,category,stereotype_type
 учитель всегда прав,stereotype,profession
 учитель воспитывает будущее нашей нации,stereotype,profession
 "учись хорошо, иначе станешь дворником",stereotype,profession
-ученый обычно очень внимательный человек,stereotype,nationality
-ученый много времени проводит в лаборатории,stereotype,nationality
 "ученый должен иметь открытое сознание, свободное от догм",stereotype,profession
 украинцы неонацисты,stereotype,nationality
 украинцы нацисты,stereotype,nationality
@@ -121,12 +110,12 @@ text,category,stereotype_type
 украинцы любят сало,stereotype,nationality
 украинцы всегда ненавидели всех русских,stereotype,nationality
 украинская нация была придумана лениным,stereotype,nationality
-украинки шлюхи,stereotype,nationality
+украинки легкодоступные,stereotype,nationality
 узбеки продают на рынке очень вкусные фрукты,stereotype,nationality
 узбеки никем кроме гастарбайтеров работать и не смогут,stereotype,nationality
 "узбеки малограмотные мусульмане и приезжают в россию, чтобы нас вытеснить",stereotype,nationality
 "уборщицы сплошные таджички и казашки, совершенно не понимают по русски и плохо работают",stereotype,nationality
-убирать и готовить должна женщина,stereotype,gender
+брюки только для мужчин,stereotype,gender
 у этих узбеков на рынке всегда свежие специи,stereotype,nationality
 "у этих трансов не поймешь кто мужчина, а кто женщина",stereotype,lgbtq
 у хирурга должна быть твердая рука,stereotype,profession
@@ -137,37 +126,35 @@ text,category,stereotype_type
 "у тебя мало денег, потому что ты упускаешь возможности",stereotype,profession
 у программистов аналитический склад ума,stereotype,profession
 у пилота самолета хорошая физическая форма и отличная профессиональная подготовка,stereotype,profession
-у нее хорошие отношения с дочерьми,stereotype,gender
-у нее уже третий ребенок,stereotype,gender
 "у нее такая короткая стрижка, она точно лесбиянка",stereotype,lgbtq
-у нее прекрасные дети,stereotype,gender
-у нее потух взгляд после трех лет в дикрете со своей дочкой лерой,stereotype,gender
-у нее очень воспитанные дети,stereotype,gender
-"у нее маленький ребенок, она все время на больничном",stereotype,gender
+в куклы могут играть только девочки,stereotype,gender
+все актрисы попали в большой бизнес через постель,stereotype,gender
+все бабы дуры,stereotype,gender
+все блондинки глупые,stereotype,gender
 у нее короткая стрижка наверняка она лесбиянка,stereotype,lgbtq
-"у нее доверительные отношения и с дочерью, и с сыном",stereotype,gender
-у него хорошая карьера,stereotype,gender
+все блондинки тупые,stereotype,gender
+все девочки любят кукол,stereotype,gender
 у него такая гейская манера поведения,stereotype,lgbtq
-у него процветает бизнес,stereotype,gender
-у него появились трудности на работе,stereotype,gender
-у него не получилось пройти собеседование,stereotype,gender
-у него на работе целый штат сотрудников в подчинении,stereotype,gender
-у него горят дедлайны,stereotype,gender
-у него большие проблемы на работе,stereotype,gender
+все девочки любят розовый цвет,stereotype,gender
+все девочки любят цветы,stereotype,gender
+все девочки учатся лучше мальчиков,stereotype,gender
+все девушки думают только о красоте,stereotype,gender
+все девушки жаждут внимания мужчин,stereotype,gender
+все девушки красивые,stereotype,gender
 "у нас, в молодежном обществе, иметь друга гея классно",stereotype,lgbtq
 у нас на стройке работают одни узбеки,stereotype,nationality
 "у нас вся попса евреи, они протаскивают туда своих",stereotype,nationality
-у мужчин с логикой получше,stereotype,gender
-"у женщин плохо развита логика, они живут эмоциями",stereotype,gender
-у девушки должны быть длинные волосы,stereotype,gender
+все девушки любят красивую одежду,stereotype,gender
+все девушки мечтают выйти замуж,stereotype,gender
+все девушки мечтают завести ребенка,stereotype,gender
 у гомосексуальных пар могут быть только гомосексуальные дети,stereotype,lgbtq
-у всех женщин есть материнский инстинкт,stereotype,gender
+"все девушки на самом деле хотят создать семью, а не строить карьеру и саморазвиваться",stereotype,gender
 "у всех деятелей науки проблемы либо с головой, либо в личной жизни, либо и то, и другое",stereotype,profession
 у бедных в квартире хлам и ковры на стенах,stereotype,profession
 у айтишника математический склад ума,stereotype,profession
 у автомеханика сильные руки и живой ум,stereotype,profession
 "ты экономишь, как еврей",stereotype,nationality
-"ты что тебе не может нравиться футбол, машинки и тп,ты же девушка",stereotype,gender
+все девушки стервы,stereotype,gender
 "ты ненастоящая лесбиянка, у тебя были отношения с мужчиной",stereotype,lgbtq
 "ты не можешь быть хирургом, если у тебя трясутся руки",stereotype,lgbtq
 "ты не лесбиянка, это просто такой период",stereotype,lgbtq
@@ -190,7 +177,6 @@ text,category,stereotype_type
 "трансгендеры размывают женскую повестку в вопросах, касающихся феминизма",stereotype,lgbtq
 трансгендеры психически больные люди,stereotype,lgbtq
 трансгендеры просто хотят привлечь к себе внимание,stereotype,lgbtq
-трансгендеры педофилы,stereotype,lgbtq
 трансгендеры калечат себя и наших детей операциями,stereotype,lgbtq
 трансгендеры захватывают женские пространства,stereotype,lgbtq
 трансгендеры заставляют нас коверкать язык со своими местоимениями,stereotype,lgbtq
@@ -213,11 +199,10 @@ text,category,stereotype_type
 транс женщины не женщины,stereotype,lgbtq
 топ менеджеры всегда хорошо одеты,stereotype,profession
 топ менеджеры всегда компетентны в своем деле,stereotype,profession
-топ менеджер купил коттедж,stereotype,profession
-"только она моет стирает вещи в семье, так как считает что он на это не способен",stereotype,gender
-только мужские мозги заточены для конструкторских решений,stereotype,gender
+все девушки хотят семью и детей,stereotype,gender
+"все девушки, у которых есть водительское удостоверение, все равно хреново водят",stereotype,gender
 только ленивые люди мало зарабатывают,stereotype,profession
-"то, как она справляется с ребенком и карьерой, достойно всяческих похвал",stereotype,gender
+все женщины глупее мужчин,stereotype,gender
 татуировщики сами все в татуировках,stereotype,profession
 татарам лишь бы даром,stereotype,nationality
 танцорам нужно постоянно поддерживать форму,stereotype,profession
@@ -243,22 +228,19 @@ text,category,stereotype_type
 спид распространяется только из за геев,stereotype,lgbtq
 спид распространился из за лгбт,stereotype,lgbtq
 специалисты сферы айти очень образованные люди,stereotype,profession
-"солидный грузин в клетчатой, видавшей виды кепке так пламенно расхваливал мне свои абрикосы, арбузы и прочие золотые россыпи, что домой я вернулся нагруженный фруктами, как ослик тюками",stereotype,nationality
 скупой платит дважды,stereotype,profession
 скоро все мужчины спортсмены станут трансгендерами и будут отбирать у спортсменок медали на соревнованиях,stereotype,lgbtq
 скоро все девушки станут женами горячих кавказцев,stereotype,nationality
-"скорее всего, ты не сможешь себе это позволить",stereotype,profession
 сколько бы раз не вызывали такси их нынче водят только таджики,stereotype,nationality
 "сидите в такой грязи, как бомжи на свалке",stereotype,profession
-сегодня учитель был добр ко всем,stereotype,profession
-сегодня она купила новую игрушку ребенку,stereotype,gender
-сегодня он смог провести четыре собеседования,stereotype,gender
+все женщины глупые,stereotype,gender
+все женщины должны быть женственными,stereotype,gender
 сегодня на главной улице таджики выкладывали плитку,stereotype,nationality
-"сантехник обходит в день очень много квартир, поэтому он сдержанный и выносливый",stereotype,gender
+все женщины должны готовить,stereotype,gender
 самые подлые люди на планете евреи,stereotype,nationality
 с разработчиками обычно очень интересно обсуждать новости технологий,stereotype,profession
 с программистами всегда интересно общаться,stereotype,profession
-с детьми она совсем забыла про себя,stereotype,gender
+все женщины должны уметь готовить,stereotype,gender
 "с возрастом лесбийство пройдет, побегает и одумается, замуж выйдет, как все нормальные",stereotype,lgbtq
 "с бисексуалкой не бывает серьезных отношений, она все равно уйдет к мужчине",stereotype,lgbtq
 русские хамье,stereotype,nationality
@@ -269,14 +251,14 @@ text,category,stereotype_type
 руководитель предприятия придумал новый план развития,stereotype,profession
 руководитель отдела высококлассный специалист,stereotype,profession
 руководители фирм обычно такие солидные,stereotype,profession
-розовое для девочек,stereotype,gender
-репетитор очень хорошо объясняет материал,stereotype,gender
+все женщины дуры,stereotype,gender
+все женщины заботливые и нежные,stereotype,gender
 ремонт в моей квартире делала бригада таджиков,stereotype,nationality
-редко встретишь девушку программиста,stereotype,gender
+все женщины имеют материнский инстинкт,stereotype,gender
 "разленились и ждете помощи,а сами не можете выбраться из нищеты",stereotype,profession
-"работодатель рискует, нанимая молодую женщину, ведь она может уйти в декрет",stereotype,gender
-"работе он посвящает больше времени, чем домашней жизни",stereotype,gender
-путь к сердцу мужчины лежит через желудок,stereotype,gender
+все женщины истерички,stereotype,gender
+все женщины легкодоступны,stereotype,gender
+все женщины лживые и меркантильные,stereotype,gender
 "пусть гомосексуалы ко мне не подходят, к ним же спиной повернуться страшно",stereotype,lgbtq
 психологи работают с психами,stereotype,profession
 профессора пользуются общественным уважением,stereotype,profession
@@ -289,28 +271,27 @@ text,category,stereotype_type
 программисты захватят мир,stereotype,profession
 программистом стать легко,stereotype,profession
 программист очень востребованная профессия,stereotype,profession
-"природой придумано, что женщина должна заниматься семьей",stereotype,gender
-"президент этой, компании большой профессионал",stereotype,profession
+все женщины любят детей,stereotype,gender
 президент компании очень умный и образованный человек,stereotype,profession
 президент должен облегчать жизнь населению,stereotype,profession
 предприниматели успешные люди,stereotype,profession
 "предприниматели обычно ответственные люди, кроме того, они готовы браться за самые сложные задачи",stereotype,profession
 предприниматели находчивые люди,stereotype,profession
 практически все без исключения стюарды подвержены смене часового пояса,stereotype,profession
-после рождения сына она совершенно перестала следить за собой,stereotype,gender
-"после выполнения проекта, он получил премию",stereotype,gender
+все женщины любят и умеют готовить,stereotype,gender
+все женщины любят носить платья,stereotype,gender
 "понятно, почему новые дома в москве такие плохие их строят узбеки, которые не понимают, что им говорит русский прораб",stereotype,nationality
 "понаехали эти таджики, скоро наших уже совсем не останется",stereotype,nationality
-понаехали хачи в наш город,stereotype,nationality
+понаехали кавказцы в наш город,stereotype,nationality
 понаехали опять азербайджанцы,stereotype,nationality
 "поехали покупаться в речке а тут целый табор цыган, лучше спрятать вещи а то украдут",stereotype,nationality
-подруги всегда сплетничают друг у друга за спиной,stereotype,gender
+все женщины любят поболтать,stereotype,gender
 повар должен много учиться,stereotype,profession
-"по словам работников, она получила должность за красивые глаза",stereotype,gender
+все женщины любят розовый цвет,stereotype,gender
 плохо быть бедным,stereotype,profession
 "плитка кривая, потому что узбеки ее клали",stereotype,nationality
-пилоты женщины хуже справляются с управлением самолета,stereotype,gender
-педики все такие жеманные,stereotype,lgbtq
+все женщины любят своих детей,stereotype,gender
+геи все такие жеманные,stereotype,lgbtq
 педагоги учат детей,stereotype,profession
 педагог должен любить детей,stereotype,profession
 педагог в провинции получает немного,stereotype,profession
@@ -319,413 +300,321 @@ text,category,stereotype_type
 очень грамотный программист,stereotype,profession
 от всех бедных людей плохо пахнет,stereotype,profession
 "опять эти геи целуются на людях, фу",stereotype,lgbtq
-опять у него проблемы на работе,stereotype,gender
+"все женщины любят шоппинг, домашние дела и детей",stereotype,gender
 опять таджики понаехали в россию,stereotype,nationality
-оператор это всегда сильный духом человек,stereotype,profession
-она явно будет лучше заботиться о ребенке,stereotype,gender
-она читает сказку детям,stereotype,gender
-она через день возит дочь на дополнительные занятия,stereotype,gender
-она часто гуляет с детьми в парке,stereotype,gender
-она часто водит детей в кинотеатр,stereotype,gender
-"она часами крутилась у зеркала потому, что боялась оказаться не самой красивой в компании",stereotype,gender
-она царила на кухне,stereotype,gender
-она хочет только успешно выйти замуж,stereotype,gender
-она хочет остановить грудное вскармливание,stereotype,gender
-она хочет завести второго ребенка,stereotype,gender
-она хотела отдохнуть от детей и вышла погулять на полчаса,stereotype,gender
+все женщины меркантильные,stereotype,gender
+все женщины мечтают выйти замуж,stereotype,gender
+все женщины много сплетничают,stereotype,gender
+все женщины не могу контролировать свои эмоции,stereotype,gender
+все женщины не умеют водить,stereotype,gender
+все женщины очень любят детей и хотят побыстрее замуж,stereotype,gender
+все женщины очень эмоциональны,stereotype,gender
+все женщины плохие водители,stereotype,gender
+все женщины плохо водят,stereotype,gender
+все женщины плохо водят авто,stereotype,gender
 она ходит в каких то обносках,stereotype,profession
-она хвалится заслугами дочери,stereotype,gender
-"она ушла из декрета, но ее не берут на работу из за маленького ребенка",stereotype,gender
-она учит сына кататься на велосипеде,stereotype,gender
-она учит детей рисовать,stereotype,gender
-она учит детей решать конфликты,stereotype,gender
-"она ухаживала за собой, чтобы всем нравится",stereotype,gender
-она усыновила третьего ребенка,stereotype,gender
-она устает постоянно готовить для сыновей,stereotype,gender
-она устает от детей,stereotype,gender
-"она успела забрать дочку из секции, несмотря на работу",stereotype,gender
-она успевает работать и заботиться о детях,stereotype,gender
-она уложила детей спать,stereotype,gender
-она уже третий год сидит в декрете,stereotype,gender
-"она ужасная, потому что не следит за собой, убирая волосы на всем теле",stereotype,gender
-она ужасная мать,stereotype,gender
-она уехала в другую страну и отдала сына матери,stereotype,gender
-она уделяют большую часть своего свободного времени семье,stereotype,gender
-она уделяет много внимания развитию своих детей,stereotype,gender
-она у нас мать одиночка,stereotype,gender
-она третий раз за день стирает испачканную детскую одежду,stereotype,gender
-она требует только денег,stereotype,gender
-она тратит все деньги на шмотки,stereotype,gender
-она точно получила эту должность через постель,stereotype,gender
-она точно любит розовый цвет,stereotype,gender
-она так сильно любит свою дочку,stereotype,gender
-она так замоталась все время с детьми,stereotype,gender
-"она счастлива со своими детьми, так как ушла от мужа абьюзера",stereotype,gender
-она строгая мать,stereotype,gender
-"она стала матерью, хотя не хотела ребенка",stereotype,gender
-она спит с ребенком в одной кровати,stereotype,gender
-она совсем помешалась на детях,stereotype,gender
-"она совсем не умеет водить машину, понятно почему",stereotype,gender
-она совсем не занимается своими детьми,stereotype,gender
-она совершенно не следит за детьми,stereotype,gender
-"она собирает младшую, чтобы встретить старшего у школы и пойти за детским питанием",stereotype,gender
-она со своего сыночка пылинки сдувает,stereotype,gender
-она снова оставила ребенка на продленке,stereotype,gender
-она снова и снова не переставала восхищаться необычайной любознательностью и открытостью миру своих детей,stereotype,gender
-она снова в декрете,stereotype,gender
-"она слишком сильная, для женщины",stereotype,gender
-"она слишком много говорит о детях, как будто у нее других интересов нет",stereotype,gender
-"она слишком ленивая, поэтому вместо того, чтобы пойти работать, постоянно сидит в декретах",stereotype,gender
+все женщины плохо водят машину,stereotype,gender
+все женщины по своему прекрасны,stereotype,gender
+все женщины постоянно плачут по любому поводу,stereotype,gender
+все женщины прежде всего хотят иметь семью и детей,stereotype,gender
+"все женщины с раннего детства должны учиться готовить, чтобы в будущем ублажить мужа",stereotype,gender
+все женщины сильно подвержены переменам в настроении,stereotype,gender
+все женщины слишком эмоциональны,stereotype,gender
+все женщины слишком эмоциональные,stereotype,gender
+все женщины стервы,stereotype,gender
+все женщины умеют заплетать прически,stereotype,gender
+все женщины хитрые,stereotype,gender
+все женщины хотят быть красивыми,stereotype,gender
+все женщины хотят детей и семью,stereotype,gender
+"все женщины хотят иметь детей, это их инстинкт",stereotype,gender
+все женщины эмоциональные,stereotype,gender
+все мальчишки любят драться,stereotype,gender
+все мальчишки хулиганы,stereotype,gender
+все мамы носятся со своими чадами как курица с яйцом,stereotype,gender
+все мамы помешаны на детях,stereotype,gender
+все молодые мамы требуют для себя привелегий,stereotype,gender
+все мужчины агрессивные,stereotype,gender
+все мужчины козлы,stereotype,gender
+все мужчины любят мясо,stereotype,gender
+все мужчины любят рыбалку,stereotype,gender
+все мужчины любят футбол,stereotype,gender
+все мужчины любят хоккей,stereotype,gender
+все мужчины разбираются в математике ,stereotype,gender
+все студентки поступают в вуз чтобы найти себе мужа,stereotype,gender
+все студентки пришли в технический вуз чтоб выйти замуж,stereotype,gender
+всем женщинам говорят что они должны рожать,stereotype,gender
+всем мужчинам нравятся машины,stereotype,gender
+главная задача мужчины приносить доход в семью,stereotype,gender
+главные цели в жизни каждой женщины выйти замуж и родить ребенка,stereotype,gender
+готовить в семье должна она,stereotype,gender
+девочки любят вязать,stereotype,gender
+девушка не справится с технической специальностью,stereotype,gender
+девушка пошла гулять во двор с сыном,stereotype,gender
+девушка склонна к проявлению сентиментальности и мягкости,stereotype,gender
+девушки любят краситься и модно одеваться,stereotype,gender
 она слишком женственная для лесбиянки,stereotype,lgbtq
-"она сказала, что планирует второго ребенка",stereotype,gender
-"она сильно устает, у нее маленький ребенок",stereotype,gender
-она сильно печется о детях,stereotype,gender
-она сильно любит своего сына,stereotype,gender
-она сидит на больничном с ребенком,stereotype,gender
-она сидит дома и воспитывает детей,stereotype,gender
-"она сейчас меняет подгузник сыну, не может ответить",stereotype,gender
-она сдает детей в сад,stereotype,gender
-она сама провоцирует своей одеждой,stereotype,gender
-"она сама ничего не добилась, так и ребенку решила жизнь испортить",stereotype,gender
-"она сама виновата, потому что оделась вызывающе",stereotype,gender
-она с утра отвезла дочь в школу и поехала на работу,stereotype,gender
-она родила четырех детей,stereotype,gender
-она родила сиамских близнецов,stereotype,gender
-она родила ребенка совсем рано,stereotype,gender
-она родила ребенка,stereotype,gender
-она растит пятерых детей,stereotype,gender
-она растит замечательного сына,stereotype,gender
-она разговаривает только о своем ребенке,stereotype,gender
-она пытается привлечь к себе внимание открытой одеждой,stereotype,gender
-она просит мужа погулять с детьми,stereotype,gender
-она проводит много времени со своими детьми,stereotype,gender
-она проводит много времени в салонах красоты,stereotype,gender
-"она приходит с работы и готовит на всю семью, включающую мужа и троих детей",stereotype,gender
-она приобрела новые пеленки,stereotype,gender
-она приготовила кашу для своего ребенка,stereotype,gender
-она приготовила завтрак для детей,stereotype,gender
-она приготовила детям ужин,stereotype,gender
-она приготовила вкусную карбонару на всю семью,stereotype,gender
-она привела свою дочь на работу,stereotype,gender
-она прекрасная мать,stereotype,gender
-она пошла на родительское собрание к сыну,stereotype,gender
-она пошла на прогулку с ребенком,stereotype,gender
-она потрясающая мать,stereotype,gender
-"она поступила в университет, чтобы найти мужа",stereotype,gender
-она постоянно сидит с детьми,stereotype,gender
-"она постоянно контролирует свою дочь, несмотря на то что дочке 18 лет",stereotype,gender
-она постоянно жалуется на своего ребенка,stereotype,gender
-она посвятила свою жизнь детям,stereotype,gender
-она попросила его приготовить ужин,stereotype,gender
-она помогает ребенку делать уроки,stereotype,gender
-она помогает детям с домашним заданием,stereotype,gender
-она получила эту работу только из за своей внешности,stereotype,gender
-"она получила повышение, потому что спит с директором",stereotype,gender
-она получила повышение через постель,stereotype,gender
-она получила повышение только потому что переспала с начальником,stereotype,gender
-она поехала с детьми в аквапарк,stereotype,gender
-она перешла с кормления грудью на смеси,stereotype,gender
-она очень устала от детей и домашних забот,stereotype,gender
-она очень устает сидя дома с детьми,stereotype,gender
-она очень рада создать семью и завести детей,stereotype,gender
-она очень много времени проводит с детьми,stereotype,gender
-она очень любит прихорашиваться и не выходит на улицу без макияжа,stereotype,gender
-она очень заботится о своих детях и оказывает им поддержку,stereotype,gender
-она очень заботится о своей дочери,stereotype,gender
-она отлично сочетает материнство и работу,stereotype,gender
-она отлично воспитывает своего сына,stereotype,gender
-она отдыхает после тяжелых родов,stereotype,gender
-она отвела свою дочь в детский сад,stereotype,gender
-она озабочена только своей доченькой,stereotype,gender
-она одета слишком ярко и поэтому она шлюха,stereotype,gender
+девушки меркантильные,stereotype,gender
+девушки хотят чувствовать себя беспомощными в руках мужчины,stereotype,gender
+для мужчины работа очень важная часть жизни,stereotype,gender
+домашние дела всегда были на женщине,stereotype,gender
+домашние дела это женская обязанность,stereotype,gender
+дочь всегда помогала маме с младшеньким,stereotype,gender
+дочь вытирает тарелки маме,stereotype,gender
+"если у студентки хорошие оценки, значит, она дала преподу",stereotype,gender
+женская дружба змеиный гадюшник,stereotype,gender
+женской дружбы не бывает,stereotype,gender
+женской дружбы не существует,stereotype,gender
+женщина варит вкусный борщ,stereotype,gender
+женщина во всем должна слушаться своего мужчину,stereotype,gender
+женщина всë делает для своих детей,stereotype,gender
+"женщина всегда должна быть слабой и подчиняться, а мужчина быть сильным и подчинять",stereotype,gender
+женщина всегда должна быть ухоженной и красивой,stereotype,gender
+"женщина вынуждена объяснять детям, как себя вести, чтобы не злить папу",stereotype,gender
+женщина должна брить ноги и другие части тела,stereotype,gender
+женщина должна быть за мужем,stereotype,gender
+женщина должна быть изящной и женственной,stereotype,gender
+женщина должна быть милой и нежной ко всем,stereotype,gender
+женщина должна быть скромной и поддатливой,stereotype,gender
+женщина должна вести все дела по дому,stereotype,gender
+женщина должна всегда терпеть и прощать,stereotype,gender
+женщина должна заботиться о доме и не возражать,stereotype,gender
+"женщина должна прибирать за мужчиной отцом, братом или мужем",stereotype,gender
+женщина должна родить,stereotype,gender
+женщина должна следить за своей внешностью,stereotype,gender
+женщина должна создавать уют в доме,stereotype,gender
+"женщина должна хранить домашний очаг, а он должен содержать семью",stereotype,gender
+женщина за рулем как обезьяна с гранатой,stereotype,gender
+женщина за рулем обезьяна с гранатой,stereotype,gender
+женщина заплакала,stereotype,gender
+женщина не должна выходить из дома ненакрашенной,stereotype,gender
+женщина не должна зарабатывать больше чем мужчина,stereotype,gender
+женщина не должна материться,stereotype,gender
+женщина не имеет права носить юбку короче колен,stereotype,gender
+женщина не может быть хорошим хирургом,stereotype,gender
+женщина не может заниматься точными науками,stereotype,gender
+женщина не может заниматься хирургией,stereotype,gender
+женщина не может руководить компанией,stereotype,gender
+женщина не сможет построить карьеру в программировании,stereotype,gender
+женщина не сможет починить кран,stereotype,gender
+женщина не способна быть машинисткой поезда,stereotype,gender
+женщина не способна мыслить логически,stereotype,gender
+женщина несет с работы набитые сумки домой безработному мужу и детям,stereotype,gender
+женщина постоянно готовит и убирает дом,stereotype,gender
+женщина украшение рабочего коллектива,stereotype,gender
+женщинам тяжело хорошо играть в компьютерные игры,stereotype,gender
+женщине нельзя за руль,stereotype,gender
+"женщину невыгодно нанимать на работу, потому что она уйдет в декрет",stereotype,gender
+женщину нужно хотеть защищать,stereotype,gender
 "она обязательно уйдет от меня к парню, она ведь бисексуалка",stereotype,lgbtq
-она обязана ходить в необлегающей и скрытой одежде,stereotype,gender
-она обязана ухаживать за собой,stereotype,gender
-она обязана не иметь уважение к себе,stereotype,gender
-она обязана любить детей,stereotype,gender
-она обязана быть покорной,stereotype,gender
-она обожала шопинг,stereotype,gender
-"она не ходит развлекаться, потому что у нее ребенок",stereotype,gender
-она не умеет работать,stereotype,gender
-она не умеет нормально парковаться,stereotype,gender
-она не умеет мыслить логически,stereotype,gender
-"она не спала всю ночь, потому что у еë дочери прорезались зубки",stereotype,gender
-"она не приедет на встречу потому, что ей не с кем оставить ребëнка",stereotype,gender
-она не может увлекаться техническими науками это противоестественно,stereotype,gender
-"она не может путешествовать, потому что не может оставить ребенка",stereotype,gender
-"она не может бросить своих детей, она их мать",stereotype,gender
+женщины более эмоциональные чем мужчины,stereotype,gender
+"женщины вечно сидят в декретах и больничных, нет смысла их вообще нанимать",stereotype,gender
+женщины должны быть хрупкими и нежными,stereotype,gender
+женщины должны краситься,stereotype,gender
+женщины должны сидеть дома и заниматься воспитанием детей,stereotype,gender
+женщины должны следить за домашним хозяйством,stereotype,gender
+женщины домохозяйки,stereotype,gender
+женщины лучше справляются с уходом за детьми,stereotype,gender
+женщины любят проводить время на кухне,stereotype,gender
+"женщины любят, когда за них принимают важные решения",stereotype,gender
+женщины не могут водить машину,stereotype,gender
+женщины не могут руководить бизнесом,stereotype,gender
+женщины не разбираются в машинах и механизмах,stereotype,gender
+женщины не умеют водить,stereotype,gender
+женщины не умеют водить машину,stereotype,gender
 "она не лесбиянка, это все возраст такой, вырастет поймет",stereotype,lgbtq
 "она не лесбиянка, просто не встретила того самого правильного мужчину",stereotype,lgbtq
 "она не лесбиянка, она просто хочет внимания",stereotype,lgbtq
 "она не бисексуалка, она просто экспериментирует с девочками",stereotype,lgbtq
 "она не бисексуалка, она же в отношениях с парнем",stereotype,lgbtq
-она накормила ужином детей,stereotype,gender
-она наконец то может отдохнуть от детей,stereotype,gender
-"она наказывает своих детей, забирая у них гаджеты",stereotype,gender
-она наверняка очень устает с этими непоседами,stereotype,gender
-она может весь вечер плакать из за сломанного ногтя,stereotype,gender
-"она много работает, чтобы обеспечить детей всем необходимым",stereotype,gender
-она любит своих деток,stereotype,gender
-она любит своих детей,stereotype,gender
-она любит своих детей,stereotype,gender
-она любит своих детей,stereotype,gender
-она любит свое дитя,stereotype,gender
-"она любит проводить время со своим ребенком, но так же она любит заниматься своими хобби",stereotype,gender
-она любит наряжаться и прихорашиваться,stereotype,gender
-она любит ее и заботится о дочери,stereotype,gender
+женщины плохо вводят машину,stereotype,gender
+женщины плохо водят,stereotype,gender
+женщины плохо водят автомобиль,stereotype,gender
+женщины плохо водят машины,stereotype,gender
+женщины плохо разбираются в точных науках,stereotype,gender
+женщины слабый пол,stereotype,gender
+женщины слишком эмоциональны,stereotype,gender
+женщины слишком эмоциональны для такой работы,stereotype,gender
+"женщины хотят, чтобы их добивались",stereotype,gender
+женщины хранительницы очага,stereotype,gender
+женщины хуже водят машину,stereotype,gender
+женщины эмоционально реагируют на поведение детей,stereotype,gender
 "она лесбиянка, потому что является западным агентом и хочет уничтожить нашу культуру",stereotype,lgbtq
 "она лесбиянка, значит у нее не может быть детей",stereotype,lgbtq
-она купила смартфон для своей дочери,stereotype,gender
-она купила новую коляску,stereotype,gender
-она купила игрушки своей дочке,stereotype,gender
-она купила детям новую одежду,stereotype,gender
-она купает ребенка,stereotype,gender
-она кричит на ребенка,stereotype,gender
-она капризно дула губки,stereotype,gender
-она каждый день ходит в салон красоты,stereotype,gender
-она использовала прокладки,stereotype,gender
-она играет с дочерью,stereotype,gender
-она играет с детьми,stereotype,gender
-она записала свою дочку в кружок по рисованию,stereotype,gender
-она занимается домашними делами и воспитывает детей,stereotype,gender
-она занимается домашним хозяйством,stereotype,gender
-она занимается домашней работой,stereotype,gender
-она живет в хороших отношениях с детьми,stereotype,gender
-"она же яжемать, все о своем дите и говорит",stereotype,gender
-она ждет уже четвертого ребенка,stereotype,gender
+"за ним последнее слово, он же добытчик",stereotype,gender
+каждая женщина должна уметь готовить,stereotype,gender
+"как и любой мужчина, он мечтал о влиянии и поскорей стремился сесть в кресло начальника",stereotype,gender
+лучшие повара мужчины,stereotype,gender
+мальчики будущие защитники родины,stereotype,gender
+мальчики не должны плакать,stereotype,gender
+мальчики не должны плакать по пустякам,stereotype,gender
+мама вкладывает много сил в заботу о детях,stereotype,gender
+мама все время заботится о детях,stereotype,gender
+мама всегда приходила домой уставшей,stereotype,gender
+мама любит своих дочерей,stereotype,gender
+мама новорожденного часто не высыпается,stereotype,gender
+мама постоянно уходит на больничный с сыном,stereotype,gender
 "она жадная, значит еврейка",stereotype,nationality
-"она дура не потому что дура, а потому что женщина",stereotype,gender
-она должны быть покорной,stereotype,gender
-она должна хорошо готовить и заниматься бытом,stereotype,gender
-она должна хорошей хозяйкой,stereotype,gender
-она должна ухаживать за собой и краситься,stereotype,gender
-она должна ухаживать за собой и всегда радовать глаз,stereotype,gender
-она должна уметь хорошо готовить,stereotype,gender
-она должна убирать дом пока муж на работе,stereotype,gender
-она должна убирать весь дом и готовить борщ,stereotype,gender
-она должна слушаться мужа,stereotype,gender
-она должна следить за собой,stereotype,gender
-она должна следить за ребенком,stereotype,gender
-она должна следить за домом,stereotype,gender
-она должна сидеть дома и следить за ребенком,stereotype,gender
-она должна рожать детей и готовить борщи,stereotype,gender
-она должна радовать глаз,stereotype,gender
-она должна одеваться скромнее,stereotype,gender
-она должна носить каблуки,stereotype,gender
-она должна мыть посуду,stereotype,gender
-"она должна каждый день готовить вкусный ужин, и никакого разогретого на второй день",stereotype,gender
-она должна готовить еду каждый день,stereotype,gender
-она должна готовить еду,stereotype,gender
-она должна готовить,stereotype,gender
-она должна выглядеть идеально и быть слабой,stereotype,gender
-она должна всегда выглядеть ухоженной,stereotype,gender
-она должна всегда выглядеть привлекательно для него,stereotype,gender
-она должна всегда быть красивой,stereotype,gender
-она должна вкусно готовить,stereotype,gender
-она должна варить борщи,stereotype,gender
-она должна быть хозяйственной,stereotype,gender
-"она должна быть услужливый, терпеливой и скромной",stereotype,gender
-она должна быть украшением коллектива,stereotype,gender
-она должна быть послушной,stereotype,gender
-она должна быть податливой,stereotype,gender
-"она должна быть красивой, как на обложке журнала",stereotype,gender
-она должна быть красивой и соответствовать всем стандартам красоты,stereotype,gender
-она должна быть за мужем,stereotype,gender
-она должна брить свое тело,stereotype,gender
-она добилась успеха только через постель босса,stereotype,gender
-она днями обсуждает свое чадо на женских форумах,stereotype,gender
-она гуляет с малышом в коляске и весело болтает с подружками,stereotype,gender
-она готовит ужин для семьи,stereotype,gender
-она готовит ужин,stereotype,gender
-она готовит еду на всю семью,stereotype,gender
-она готовит детям еду,stereotype,gender
-она глупая,stereotype,gender
-она вырядилась как шлюха,stereotype,gender
-она вынуждена сидеть в декрете 3 года,stereotype,gender
-она выложила фотографии со своего отдыха на алтае с дочерью,stereotype,gender
-"она выглядит измученной, так как у нее двое маленьких детей",stereotype,gender
-"она вставала каждое утро раньше него, чтобы нанести макияж",stereotype,gender
-она всего добилась через постель,stereotype,gender
-она всегда учит своих дочерей быть сильными и выносливыми,stereotype,gender
-она всегда накрашена и на каблуках,stereotype,gender
-она всегда ездит покупать продукты вместе с детьми,stereotype,gender
-она всегда готовит своему сыну обед в школу,stereotype,gender
-она всегда берет своих детей на вечеринки,stereotype,gender
-она все силы тратит на детей,stereotype,gender
-она все свое время посвещает семье,stereotype,gender
-"она все дни посвящает новорожденному ребенку, совершенно не имея времени на заботу и о себе",stereotype,gender
-она воспитывает детей,stereotype,gender
-она воспитывает двух детей,stereotype,gender
-"она водит дочку на кружок бальных танцев, потому что хочет, чтобы она стала балериной",stereotype,gender
-она водит двух детей в садик,stereotype,gender
-она взяла ипотеку на стиральную машину,stereotype,gender
-она весь день провела с ребенком,stereotype,gender
-она весь день провела с детьми,stereotype,gender
-она везде носит с собой косметичку и маленькое розовое зеркальце,stereotype,gender
-она была хрупка и женственна,stereotype,gender
-"она была очень уставшей, но улыбалась, глядя на то, как ее маленькая дочь старательно собирает пирамидку",stereotype,gender
-она была на родительском собрании,stereotype,gender
-она была глупой из за светлых волос,stereotype,gender
+мама приготовила ужин,stereotype,gender
+мама приготовила ужин для своих детей,stereotype,gender
+мама с утра встала и приготовила детям завтрак,stereotype,gender
+мама сварила суп,stereotype,gender
+мама страдала от послеродовой депрессии после рождения ее дочери,stereotype,gender
+материнство доставляет ей много хлопот,stereotype,gender
+мать любит только сына,stereotype,gender
+место женщины на кухне,stereotype,gender
+место женщины на кухне у плиты,stereotype,gender
+мужики не плачут,stereotype,gender
+"мужчина глава семейства, а женщина прислуга",stereotype,gender
+"мужчина голова, женщина шея ты должны быть хитрее, мужчины они тугодумы",stereotype,gender
+мужчина делает первый шаг,stereotype,gender
+мужчина добытчик,stereotype,gender
+мужчина добытчик и должен быть сильным,stereotype,gender
+мужчина должен быть добытчиком,stereotype,gender
+мужчина должен быть чуть красивее обезьяны,stereotype,gender
+мужчина должен зарабатывать деньги и содержать семью,stereotype,gender
+мужчина должен идти воевать,stereotype,gender
+"мужчина должен работать, а она сидеть с детьми",stereotype,gender
+мужчина должен содержать семью,stereotype,gender
+мужчина должен содержать семью,stereotype,gender
+"мужчина защитник семьи, а она хранительница очага",stereotype,gender
+"мужчина значит, сильный",stereotype,gender
+мужчина классный специалист,stereotype,gender
+мужчина начальник крупной компании,stereotype,gender
+мужчина не должен мыть посуду,stereotype,gender
+мужчина не должен плакать,stereotype,gender
+мужчина никогда не плачет,stereotype,gender
+мужчина обязан знать кормить семью,stereotype,gender
+мужчина обязан прятать эмоции,stereotype,gender
+мужчина обязан служить в армии,stereotype,gender
+мужчина отличный профессионал в своем деле,stereotype,gender
+мужчина платит за свидание,stereotype,gender
+"мужчина представитель сильного пола, главная опора семьи и коллектива",stereotype,gender
+мужчина прекрасный политик,stereotype,gender
+мужчина прирожденный хирург,stereotype,gender
+"мужчина работает, а она красивая",stereotype,gender
+мужчина сдержанно проявляет эмоции,stereotype,gender
+мужчина содержит семью,stereotype,gender
+"мужчина такой сильный, не то что женщина",stereotype,gender
+мужчина трудоголик,stereotype,gender
+мужчина ходит на работу каждый день,stereotype,gender
+мужчина хозяин в доме,stereotype,gender
+мужчина целыми днями трудится в офисе,stereotype,gender
+мужчина это добытчик,stereotype,gender
+мужчина является опытным сотрудником,stereotype,gender
+мужчинам нужен только секс,stereotype,gender
+"мужчины всего добиваются сами, женщины приспособленки",stereotype,gender
+"мужчины менее эмоциональны, чем женщины",stereotype,gender
+мужчины не делают макияж,stereotype,gender
+мужчины никогда не должны плакать,stereotype,gender
+мужчины редко бреют все тело,stereotype,gender
+мужчины редко ходят к врачам,stereotype,gender
+начальника лучше мужчины не может быть,stereotype,gender
+не женское это дело руководить,stereotype,gender
+неплохо разбираешься в технике для девчонки,stereotype,gender
+никто не может управлять поездом в метро лучше мужчины,stereotype,gender
+он айтишник и зарабатывает кучу денег,stereotype,gender
+"мужчина бросил ее, потому что она плохо готовила",stereotype,gender
 "она бисексуалка значит уйдет от меня к мужчине, не буду с ней встречаться",stereotype,lgbtq
-он чуть красивее обезьяны,stereotype,gender
-он часто засиживается на работе допоздна,stereotype,gender
-он часто задерживается на работе,stereotype,gender
-он часто ездит в командировки,stereotype,gender
-он хорошо управляет большим коллективом,stereotype,gender
-он хороший электрик,stereotype,gender
-он хороший специалист в сфере безопасности,stereotype,gender
-он хороший врач,stereotype,gender
-он устал на стройке,stereotype,gender
+мужчина в детстве дрался с каждым мальчишкой во дворе,stereotype,gender
+мужчина в любимчиках у начальства,stereotype,gender
+мужчина в любом случае лучше разбирается в технике,stereotype,gender
+мужчина владеет гаечным ключом как бог,stereotype,gender
+мужчина всегда будет лучше разбираться в машинах,stereotype,gender
 "он умный и хитрый, потому что еврей",stereotype,nationality
 "он умеет договориться с другими и разруливать ситуации, он же директор",stereotype,profession
 "он ужасно хитрый, потому что еврей",stereotype,nationality
-он уволился с нелюбимой работы,stereotype,gender
-"он трудоголик, зато построил отличную карьеру",stereotype,gender
-он толковый сотрудник,stereotype,gender
+мужчина всегда укладывается в дедлайн,stereotype,gender
+"мужчина всегда ходит на работу, но запрещает делать то же самое ей",stereotype,gender
+мужчина генеральный директор компании,stereotype,gender
 он типичный гей у него очень манерная речь,stereotype,lgbtq
 "он такой жадный, наверное, у него в роду были евреи",stereotype,nationality
 "он такой жадный, наверное, еврей",stereotype,nationality
 "он такой бедный из за лени, просто работает мало",stereotype,profession
-он станет отличным репетитором,stereotype,gender
-он стал начальником отдела,stereotype,gender
-он собирается стать специалистом,stereotype,gender
-он собирается на деловую встречу,stereotype,gender
-он снова пропустил строки в карточке товара,stereotype,gender
-он снова не уложился в дедлайн,stereotype,gender
-он снова не завершает задачи вовремя,stereotype,gender
-он снова нарушил контракт,stereotype,gender
-он снова задержался на работе,stereotype,gender
-он смелый водитель,stereotype,gender
-он скоро получит премию,stereotype,gender
-он скоро получит повышение,stereotype,gender
-он скоро едет в командировку,stereotype,gender
-он сегодня работает с бодуна,stereotype,gender
-"он сделал все, что мог, как руководитель лицея коласа",stereotype,gender
-он сдал отчет вовремя,stereotype,gender
-он сдает отчеты каждую неделю,stereotype,gender
-он руководил проектом,stereotype,gender
-он рисует прекрасные картины,stereotype,gender
-он разбрасывает носки,stereotype,gender
-он работает наизнос,stereotype,gender
-он работает в удовольствие,stereotype,gender
-он работает в ночную смену,stereotype,gender
-он работает без выходных,stereotype,gender
-он построит блестящую карьеру,stereotype,gender
-он постоянно развивается в профессиональном плане,stereotype,gender
-он постоянно разбрасывал носки,stereotype,gender
+мужчина гениальный изобретатель,stereotype,gender
+мужчина гениальный программист,stereotype,gender
+мужчина готов идти по головам ради цели,stereotype,gender
+мужчина дамский угодник,stereotype,gender
+мужчина добытчик и защитник семьи,stereotype,gender
+мужчина должен быть кормильцем,stereotype,gender
+мужчина должен быть сильным,stereotype,gender
+мужчина должен забить все гвозди в доме,stereotype,gender
+мужчина должен зарабатывать деньги,stereotype,gender
+мужчина должен защищать,stereotype,gender
+мужчина должен идти на войну,stereotype,gender
+мужчина должен много зарабатывать,stereotype,gender
+мужчина должен обеспечивать семью,stereotype,gender
+мужчина должен сделать ремонт,stereotype,gender
+"мужчина должен служить, отдавая священный долг родине",stereotype,gender
+мужчина должен уметь вбить гвоздь,stereotype,gender
+мужчина должен уметь забить гвоздь,stereotype,gender
+мужчина имеет право ударить жену,stereotype,gender
+мужчина каждое воскресенье ходит с друзьями в баню,stereotype,gender
 "он постоянно встает поздно, вот он и без денег",stereotype,profession
-он получил новую работу,stereotype,gender
-"он плачет, как девчонка",stereotype,gender
-он перевыполнил план в этом месяце,stereotype,gender
-он очень редко плакал,stereotype,gender
-он очень много и хорошо работает,stereotype,gender
+мужчина карьерист,stereotype,gender
+мужчина кормилец семьи,stereotype,gender
+мужчина любит свою работу и хорошо зарабатывает,stereotype,gender
+мужчина много работает и на детей не хватает времени,stereotype,gender
 "он очень жадный, наверное потому, что он еврей",stereotype,nationality
-он очень высоко поднялся по карьерной лестнице,stereotype,gender
 "он отрастил волосы, и теперь выглядит, как гей какой то",stereotype,lgbtq
-он отличный специалист,stereotype,gender
-он отличный директор,stereotype,gender
-он опять провалил все испытания,stereotype,gender
-"он опять заявился домой пьяным, и принялся буянить с порога",stereotype,gender
-он опять задерживается на работе,stereotype,gender
-он обожает свою работу и не щадит себя,stereotype,gender
-он несет меньшую ответственность за детей,stereotype,gender
-он недавно устроился на работу,stereotype,gender
-он не сделал задачу в срок,stereotype,gender
+мужчина могучий строитель,stereotype,gender
+мужчина не должен делать маникюр,stereotype,gender
+мужчина не пропустит ни одной юбки,stereotype,gender
+мужчина несет меньшую ответственность за детей,stereotype,gender
 "он не против геев, но если бы его сын был геем, то выгнал бы его из дома",stereotype,lgbtq
-он не пропустит ни одной юбки,stereotype,gender
-он не должен делать маникюр,stereotype,gender
-он начал ставить спектакль,stereotype,gender
-он наконец то заключил контракт,stereotype,gender
-он могучий строитель,stereotype,gender
-он многое чинил в доме,stereotype,gender
-он много работал и у него будет премия,stereotype,gender
-он много работает и на детей не хватает времени,stereotype,gender
-он любит свою работу и хорошо зарабатывает,stereotype,gender
-он кормилец семьи,stereotype,gender
-он карьерист,stereotype,gender
-он каждое воскресенье ходит с друзьями в баню,stereotype,gender
-он имеет право ударить жену,stereotype,gender
-он идеально справляется со своей работой,stereotype,gender
-он защищает свою семью,stereotype,gender
-он засиживается на работе допоздна,stereotype,gender
-он закончит отчет,stereotype,gender
-он заключил многомиллионный контракт,stereotype,gender
-он забивает на свои обязанности,stereotype,gender
+"мужчина опять заявился домой пьяным, и принялся буянить с порога",stereotype,gender
+мужчина отличный директор,stereotype,gender
+мужчина отличный специалист,stereotype,gender
+мужчина постоянно разбрасывал носки,stereotype,gender
+мужчина работает без выходных,stereotype,gender
+мужчина работает в ночную смену,stereotype,gender
+мужчина работает наизнос,stereotype,gender
+мужчина разбрасывает носки,stereotype,gender
 "он же еврей, так что ничего удивительного, что жадный такой",stereotype,nationality
 "он жадный, потому что он еврей",stereotype,nationality
-"он еще проходит стажировку, но у него большой потенциал",stereotype,gender
-он должен уметь забить гвоздь,stereotype,gender
-он должен уметь вбить гвоздь,stereotype,gender
-"он должен служить, отдавая священный долг родине",stereotype,gender
-он должен сделать ремонт,stereotype,gender
-он должен обеспечивать семью,stereotype,gender
-он должен много зарабатывать,stereotype,gender
-он должен идти на войну,stereotype,gender
-он должен защищать,stereotype,gender
-он должен зарабатывать деньги,stereotype,gender
-он должен забить все гвозди в доме,stereotype,gender
-он должен быть сильным,stereotype,gender
-он должен быть кормильцем,stereotype,gender
-он долго учился на врача,stereotype,gender
-он добытчик и защитник семьи,stereotype,gender
-он дамский угодник,stereotype,gender
-он готов идти по головам ради цели,stereotype,gender
-он гениальный программист,stereotype,gender
-он гениальный изобретатель,stereotype,gender
-он генеральный директор компании,stereotype,gender
+мужчина руководил проектом,stereotype,gender
+мужчина смелый водитель,stereotype,gender
+мужчина толковый сотрудник,stereotype,gender
 "он гей, потому что носит макияж",stereotype,lgbtq
 он гей потому что боится женщин,stereotype,lgbtq
 "он выглядит бедно, посмотри на его рваную одежду",stereotype,profession
-"он всегда ходит на работу, но запрещает делать то же самое ей",stereotype,gender
-он всегда укладывается в дедлайн,stereotype,gender
-"он всегда прислушивается к коллегам, составляя расписание",stereotype,gender
-он всегда будет лучше разбираться в машинах,stereotype,gender
-он водит грузовик,stereotype,gender
-он внимателен к подчиненным,stereotype,gender
-он владеет гаечным ключом как бог,stereotype,gender
-он великий биатлонист,stereotype,gender
-он в любом случае лучше разбирается в технике,stereotype,gender
-он в любимчиках у начальства,stereotype,gender
-он в детстве дрался с каждым мальчишкой во дворе,stereotype,gender
-он быстро поднялся по карьерной лестнице,stereotype,gender
-"он был ужасно зол, узнав, что его собираются уволить",stereotype,gender
-он был сильным и смелым,stereotype,gender
-он был простым преподавателем биологии,stereotype,gender
-он был настоящим мужчиной,stereotype,gender
-"он бросил ее, потому что она плохо готовила",stereotype,gender
-он безумно хорош в своем деле,stereotype,gender
-он айтишник и зарабатывает кучу денег,stereotype,gender
+мужчина хороший врач,stereotype,gender
+мужчина хороший специалист в сфере безопасности,stereotype,gender
+мужчина хороший электрик,stereotype,gender
+мужчина хорошо управляет большим коллективом,stereotype,gender
+мужчина часто ездит в командировки,stereotype,gender
+мужчина чуть красивее обезьяны,stereotype,gender
+девушка была глупой из за светлых волос,stereotype,gender
+девушка везде носит с собой косметичку и маленькое розовое зеркальце,stereotype,gender
+она взяла ипотеку на стиральную машину,stereotype,gender
 омоновец избивает человека дубинкой на митинге,stereotype,profession
 "ой, какая ты лесбиянка, голову мне не морочь, это просто возраст такой",stereotype,lgbtq
 одни молдаване плитку кладут,stereotype,nationality
 одна партнерша в лесбийских отношениях обязательно занимает роль мужчины,stereotype,lgbtq
 одет как бомж,stereotype,profession
 "одевается, как нищеброд",stereotype,profession
-ого она родила еще одного ребенка ,stereotype,gender
+мама водит двух детей в садик,stereotype,gender
 обычно художник очень наблюдательный человек,stereotype,profession
 обычно программисты довольно умные люди,stereotype,profession
 "обычно люди, делающие бизнес предприимчивые, ответственные и смелые",stereotype,profession
 обычно журналисты приветливые и дружелюбные,stereotype,profession
-обычно врач хорошо разбирается в болезнях,stereotype,profession
 нищими бывают только неблагополучные семьи,stereotype,profession
 "нищий, что с него взять",stereotype,profession
 нищий богатого не поймет,stereotype,profession
 "нищие остаются такими, потому что не хотят встать с жопы и начать зарабатывать деньги",stereotype,profession
-нищие нигеры становятся генгста,stereotype,profession
+нищие черные становятся генгста,stereotype,nationality
 "нищие люди такие, потому что не хотят развиваться",stereotype,profession
 нищие люди просто ленивые,stereotype,profession
 нищие достали просить деньги на вокзале,stereotype,profession
 нищета плодит одну нищету,stereotype,profession
 нищета говорит о лени,stereotype,profession
 нищеброды бедны,stereotype,profession
-никто не может управлять поездом в метро лучше мужчины,stereotype,gender
 никто лучше евреев не играет на скрипке,stereotype,nationality
 никакой он не гей просто девушки не дают,stereotype,lgbtq
 "никакая она не лесбиянка, у нее волосы длинные",stereotype,lgbtq
 "никакая она не лесбиянка, с возрастом пройдет",stereotype,lgbtq
 "нечего им рожать, шпану плодить только",stereotype,profession
 "неудивительно, что мой клиент просит бесплатную услугу, ведь он еврей",stereotype,nationality
-неплохо разбираешься в технике для девчонки,stereotype,gender
+мама воспитывает двух детей,stereotype,gender
 немцы очень жадные,stereotype,nationality
 "нельзя родиться геем, можно разочароваться в женщинах",stereotype,lgbtq
 некрасиво ходить в старой одежде,stereotype,profession
@@ -735,7 +624,6 @@ text,category,stereotype_type
 небинарные хотят внимания,stereotype,lgbtq
 небинарные просто неопределившиеся подростки,stereotype,lgbtq
 небинарные люди просто хотят быть не такими как все и привлечь к себе внимание,stereotype,lgbtq
-небинарные люди просто определиться не могут,stereotype,lgbtq
 небинарные люди просто не определились какого они пола,stereotype,lgbtq
 небинарные люди просто не могут определиться,stereotype,lgbtq
 небинарные люди отрицают свой истинный пол,stereotype,lgbtq
@@ -746,104 +634,74 @@ text,category,stereotype_type
 не хочешь делиться еврей что ли,stereotype,nationality
 не плодите нищету,stereotype,profession
 "не одевайся, как бомж",stereotype,profession
-не женское это дело руководить,stereotype,gender
+мама воспитывает детей,stereotype,gender
 "не жадничай, ты что еврей",stereotype,nationality
 "не будешь учиться, станешь дворником",stereotype,profession
 "не будешь учиться, дворником станешь",stereotype,profession
 не бери в долг у еврея,stereotype,nationality
-наш учитель физики очень хорошо знает свой предмет,stereotype,profession
-наш руководитель очень пунктуален,stereotype,profession
-наш программист очень опытный сотрудник,stereotype,profession
-наш начальник очень организованный человек,stereotype,profession
-наш директор очень эрудированный человек,stereotype,profession
 "начитаются интернета, а потом решают, что они трансгендеры или еще кто",stereotype,lgbtq
 начальники мало заботятся о комфорте сотрудников,stereotype,profession
-начальника лучше мужчины не может быть,stereotype,gender
-нарожала на свою голову,stereotype,gender
+женщина все свое время посвещает семье,stereotype,gender
 "надо рожать хотя бы трое, иначе тут одни таджики будут жить",stereotype,nationality
 надо заткнуть своего внутреннего еврея и купить новую обувь,stereotype,nationality
 на рынке торгуют одни узбеки,stereotype,nationality
 на китайском рынке один ширпотреб,stereotype,nationality
 мы же понимаем евреи очень хитрый народ,stereotype,nationality
-"музыканту нужно регулярно упражняться, чтоб хорошо играть",stereotype,lgbtq
-мужчины редко ходят к врачам,stereotype,gender
-мужчины редко бреют все тело,stereotype,gender
-мужчины никогда не должны плакать,stereotype,gender
-мужчины не делают макияж,stereotype,gender
-"мужчины менее эмоциональны, чем женщины",stereotype,gender
-"мужчины всего добиваются сами, женщины приспособленки",stereotype,gender
-мужчине нужен только секс,stereotype,gender
-мужчинам нужен только секс,stereotype,gender
-мужчина является опытным сотрудником,stereotype,gender
-мужчина это добытчик,stereotype,gender
-мужчина целыми днями трудится в офисе,stereotype,gender
-мужчина хозяин в доме,stereotype,gender
-мужчина ходит на работу каждый день,stereotype,gender
-мужчина трудоголик,stereotype,gender
-"мужчина такой сильный, не то что женщина",stereotype,gender
-мужчина содержит семью,stereotype,gender
-мужчина сдержанно проявляет эмоции,stereotype,gender
-мужчина режиссер от бога,stereotype,gender
-"мужчина работает, а она красивая",stereotype,gender
-мужчина прирожденный хирург,stereotype,gender
-мужчина прекрасный политик,stereotype,gender
-"мужчина представитель сильного пола, главная опора семьи и коллектива",stereotype,gender
-мужчина платит за свидание,stereotype,gender
-мужчина отличный профессионал в своем деле,stereotype,gender
-мужчина обязан служить в армии,stereotype,gender
-мужчина обязан прятать эмоции,stereotype,gender
-мужчина обязан знать кормить семью,stereotype,gender
-мужчина никогда не плачет,stereotype,gender
-мужчина не должен плакать,stereotype,gender
-мужчина не должен мыть посуду,stereotype,gender
-мужчина начальник крупной компании,stereotype,gender
-мужчина классный специалист,stereotype,gender
-"мужчина значит, сильный",stereotype,gender
-"мужчина защитник семьи, а она хранительница очага",stereotype,gender
-мужчина должен содержать семью,stereotype,gender
-мужчина должен содержать семью,stereotype,gender
-"мужчина должен работать, а она сидеть с детьми",stereotype,gender
-мужчина должен идти воевать,stereotype,gender
-мужчина должен зарабатывать деньги и содержать семью,stereotype,gender
-мужчина должен быть чуть красивее обезьяны,stereotype,gender
-мужчина должен быть добытчиком,stereotype,gender
-мужчина добытчик и должен быть сильным,stereotype,gender
-мужчина добытчик,stereotype,gender
-мужчина добытчик,stereotype,gender
-мужчина делает первый шаг,stereotype,gender
-"мужчина голова, женщина шея ты должны быть хитрее, мужчины они тугодумы",stereotype,gender
-"мужчина глава семейства, а женщина прислуга",stereotype,gender
-мужики не плачут,stereotype,gender
+мама все силы тратит на детей,stereotype,gender
+девушка всегда накрашена и на каблуках,stereotype,gender
+девушка всего добилась через постель,stereotype,gender
+"девушка вставала каждое утро раньше него, чтобы нанести макияж",stereotype,gender
+женщина готовит еду на всю семью,stereotype,gender
+женщина готовит ужин для семьи,stereotype,gender
+женщина гуляет с малышом в коляске и весело болтает с подружками,stereotype,gender
+женщина днями обсуждает свое чадо на женских форумах,stereotype,gender
+женщина добилась успеха только через постель босса,stereotype,gender
+девушка должна брить свое тело,stereotype,gender
+женщина должна быть за мужем,stereotype,gender
+девушка должна быть красивой и соответствовать всем стандартам красоты,stereotype,gender
+"девушка должна быть красивой, как на обложке журнала",stereotype,gender
+женщина должна быть податливой,stereotype,gender
+девушка должна быть послушной,stereotype,gender
+женщина должна быть украшением коллектива,stereotype,gender
+"женщина должна быть услужливый, терпеливой и скромной",stereotype,gender
+женщина должна быть хозяйственной,stereotype,gender
+женщина должна варить борщи,stereotype,gender
+девушка должна вкусно готовить,stereotype,gender
+девушка должна всегда быть красивой,stereotype,gender
+женщина должна всегда выглядеть привлекательно для него,stereotype,gender
+женщина должна всегда выглядеть ухоженной,stereotype,gender
+женщина должна выглядеть идеально и быть слабой,stereotype,gender
+женщина должна готовить еду,stereotype,gender
+женщина должна готовить еду каждый день,stereotype,gender
+"женщина должна каждый день готовить вкусный ужин, и никакого разогретого на второй день",stereotype,gender
+женщина должна мыть посуду,stereotype,gender
+девушка должна носить каблуки,stereotype,gender
+женщина должна одеваться скромнее,stereotype,gender
+женщина должна рожать детей и готовить борщи,stereotype,gender
+женщина должна сидеть дома и следить за ребенком,stereotype,gender
+женщина должна следить за домом,stereotype,gender
+женщина должна следить за ребенком,stereotype,gender
+женщина должна следить за собой,stereotype,gender
 "моя подруга во всем ищет выгоду, ведь она еврейка",stereotype,nationality
-моя знакомая программистка обожает фэнтези,stereotype,profession
 моя еврейская душа не позволяет тратить столько денег,stereotype,nationality
-мой новый тату мастер профессионал своего дела,stereotype,profession
-мой начальник очень представительный человек,stereotype,profession
 "мой бывший парень бросил меня ради денег, потому что в его роду были евреи",stereotype,nationality
-мой брат скоро поедет в командировку по работе,stereotype,gender
+женщина должна слушаться мужа,stereotype,gender
 мое еврейское чутье подсказывает что на этом можно заработать,stereotype,nationality
 "милиционер смелый, отважный и честный",stereotype,profession
-место женщины на кухне у плиты,stereotype,gender
-место женщины на кухне,stereotype,gender
-машинист повез грузы в тайгу,stereotype,profession
-мать любит только сына,stereotype,gender
-материнство доставляет ей много хлопот,stereotype,gender
+женщина должна убирать весь дом и готовить борщ,stereotype,gender
+женщина должна убирать дом пока муж на работе,stereotype,gender
+женщина должна уметь хорошо готовить,stereotype,gender
+женщина должна ухаживать за собой и всегда радовать глаз,stereotype,gender
 маркетологи отличаются креативностью,stereotype,profession
-мама страдала от послеродовой депрессии после рождения ее дочери,stereotype,gender
-мама сварила суп,stereotype,gender
-мама с утра встала и приготовила детям завтрак,stereotype,gender
-мама приготовила ужин для своих детей,stereotype,gender
-мама приготовила ужин,stereotype,gender
-мама постоянно уходит на больничный с сыном,stereotype,gender
-мама новорожденного часто не высыпается,stereotype,gender
-мама любит своих дочерей,stereotype,gender
-мама всегда приходила домой уставшей,stereotype,gender
-мама все время заботится о детях,stereotype,gender
-мама вкладывает много сил в заботу о детях,stereotype,gender
+женщина должна ухаживать за собой и краситься,stereotype,gender
+женщина должна хорошей хозяйкой,stereotype,gender
+женщина должна хорошо готовить и заниматься бытом,stereotype,gender
+женщина должны быть покорной,stereotype,gender
+"она дура не потому что дура, а потому что женщина",stereotype,gender
+"женщина же яжемать, все о своем дите и говорит",stereotype,gender
+женщина занимается домашним хозяйством,stereotype,gender
+женщина занимается домашними делами и воспитывает детей,stereotype,gender
 маляр не обязательно должен уметь рисовать,stereotype,profession
-мальчики не должны плакать по пустякам,stereotype,gender
-мальчики не должны плакать,stereotype,gender
-мальчики будущие защитники родины,stereotype,gender
 люди являются нищими из за своей глупости,stereotype,profession
 люди с низкой зарплатой на всем экономят,stereotype,profession
 люди с низкими зарплатами это плохие родители,stereotype,profession
@@ -852,7 +710,6 @@ text,category,stereotype_type
 люди живут в нищите из за собственной лени,stereotype,profession
 любой пожарный делает доброе дело,stereotype,profession
 любой инженер самый умный и интересный собеседник,stereotype,profession
-лучшие повара мужчины,stereotype,gender
 "лесбиянки это норм, но геи мерзость",stereotype,lgbtq
 лесбиянки фригидные,stereotype,lgbtq
 лесбиянки страшненькие,stereotype,lgbtq
@@ -864,7 +721,6 @@ text,category,stereotype_type
 лесбиянкам надо бы лечиться,stereotype,lgbtq
 "лесбийство это просто подростковое баловство, перерастет",stereotype,lgbtq
 "конкретно мне, с детства рассказывали и представляли германию, как враг россии, что теперь у меня она не ассоциируется с чем то хорошим",stereotype,nationality
-"когда хохол родился, то еврей заплакал",stereotype,nationality
 когда украинец родился еврей заплакал,stereotype,nationality
 китайцы хотят отупить всех русских своими глупыми подделками на бренды,stereotype,nationality
 китайцы скоро нас выселят,stereotype,nationality
@@ -878,19 +734,14 @@ text,category,stereotype_type
 "как правило, люди с маленькой зарплатой жадные",stereotype,profession
 как можно одеваться на рынке,stereotype,profession
 "как люди могут жить в таком старом доме без ремонта, это показывает их нищиту",stereotype,profession
-"как и любой мужчина, он мечтал о влиянии и поскорей стремился сесть в кресло начальника",stereotype,gender
+девушка каждый день ходит в салон красоты,stereotype,gender
 как же грязно в бедных кварталах,stereotype,profession
 "как гнали китайцев с границы, как вши разбегались",stereotype,nationality
 каждый копирайтер немного аналитик,stereotype,profession
-"каждый день ей казалось, что вот вот и дети наконец сведут ее с ума",stereotype,gender
 "каждый дагестанец с детства носит с собой ножик, чтобы использовать его, когда он обидится",stereotype,nationality
-"каждое утро она встает в 6 утра, чтобы приготовить завтрак и собрать сына в школу",stereotype,gender
-каждая женщина должна уметь готовить,stereotype,gender
 кавказцы только дерутся,stereotype,nationality
 кавказцы захватили многие сферы бизнеса в москве,stereotype,nationality
-к шести часам ей нужно забрать дочку из детского сада,stereotype,gender
 "интерсекс люди, у которых не все в порядке с головой, считают что полов больше двух",stereotype,lgbtq
-интеллект и труд сантехников часто недооценивают,stereotype,profession
 инженеры обладают острым складом ума,stereotype,profession
 инженер это очень интересная профессия,stereotype,profession
 инженер с легкостью читает чертежи,stereotype,profession
@@ -901,92 +752,45 @@ text,category,stereotype_type
 зачем рожать троих детей в такой нищете,stereotype,profession
 "зачем покупать такую дорогую одежду, если нет денег",stereotype,profession
 "зачем она коротко постриглась она что, лесбиянка",stereotype,lgbtq
-"зачем было рожать, если она знала что это тяжело",stereotype,gender
-забота о детях истощает ее,stereotype,gender
-"за ним последнее слово, он же добытчик",stereotype,gender
 за всем этим стоит кучка богатых евреев,stereotype,nationality
 журналист должен уметь общаться с людьми,stereotype,profession
 жил нищим да и умер нищим,stereotype,profession
-женя целый день бегала по поликлинике со своей дочкой,stereotype,gender
-женя приобрела комплект пеленок для своего ребенка,stereotype,gender
-женщины эмоционально реагируют на поведение детей,stereotype,gender
-женщины хуже водят машину,stereotype,gender
-женщины хранительницы очага,stereotype,gender
-"женщины хотят, чтобы их добивались",stereotype,gender
-женщины слишком эмоциональны для такой работы,stereotype,gender
-женщины слишком эмоциональны,stereotype,gender
-женщины слабый пол,stereotype,gender
-женщины плохо разбираются в точных науках,stereotype,gender
-женщины плохо водят машины,stereotype,gender
-женщины плохо водят автомобиль,stereotype,gender
-женщины плохо водят,stereotype,gender
-женщины плохо вводят машину,stereotype,gender
-женщины не умеют водить машину,stereotype,gender
-женщины не умеют водить,stereotype,gender
-женщины не разбираются в машинах и механизмах,stereotype,gender
-женщины не могут руководить бизнесом,stereotype,gender
-женщины не могут водить машину,stereotype,gender
-"женщины любят, когда за них принимают важные решения",stereotype,gender
-женщины любят проводить время на кухне,stereotype,gender
-женщины лучше справляются с уходом за детьми,stereotype,gender
-женщины домохозяйки,stereotype,gender
-женщины должны следить за домашним хозяйством,stereotype,gender
-женщины должны сидеть дома и заниматься воспитанием детей,stereotype,gender
-женщины должны краситься,stereotype,gender
-женщины должны быть хрупкими и нежными,stereotype,gender
-"женщины вечно сидят в декретах и больничных, нет смысла их вообще нанимать",stereotype,gender
-женщины более эмоциональные чем мужчины,stereotype,gender
-женщину нужно хотеть защищать,stereotype,gender
-"женщину невыгодно нанимать на работу, потому что она уйдет в декрет",stereotype,gender
-женщине нельзя за руль,stereotype,gender
-женщинам тяжело хорошо играть в компьютерные игры,stereotype,gender
-женщина украшение рабочего коллектива,stereotype,gender
-женщина постоянно готовит и убирает дом,stereotype,gender
-женщина несет с работы набитые сумки домой безработному мужу и детям,stereotype,gender
-женщина не способна мыслить логически,stereotype,gender
-женщина не способна быть машинисткой поезда,stereotype,gender
-женщина не сможет починить кран,stereotype,gender
-женщина не сможет построить карьеру в программировании,stereotype,gender
-женщина не может руководить компанией,stereotype,gender
-женщина не может заниматься хирургией,stereotype,gender
-женщина не может заниматься точными науками,stereotype,gender
-женщина не может быть хорошим хирургом,stereotype,gender
-женщина не имеет права носить юбку короче колен,stereotype,gender
-женщина не должна материться,stereotype,gender
-женщина не должна зарабатывать больше чем мужчина,stereotype,gender
-женщина не должна выходить из дома ненакрашенной,stereotype,gender
-женщина заплакала,stereotype,gender
-женщина за рулем обезьяна с гранатой,stereotype,gender
-женщина за рулем как обезьяна с гранатой,stereotype,gender
-"женщина должна хранить домашний очаг, а он должен содержать семью",stereotype,gender
-женщина должна создавать уют в доме,stereotype,gender
-женщина должна следить за своей внешностью,stereotype,gender
-женщина должна родить,stereotype,gender
-"женщина должна прибирать за мужчиной отцом, братом или мужем",stereotype,gender
-женщина должна заботиться о доме и не возражать,stereotype,gender
-женщина должна всегда терпеть и прощать,stereotype,gender
-женщина должна вести все дела по дому,stereotype,gender
-женщина должна быть скромной и поддатливой,stereotype,gender
-женщина должна быть милой и нежной ко всем,stereotype,gender
-женщина должна быть изящной и женственной,stereotype,gender
-женщина должна быть за мужем,stereotype,gender
-женщина должна брить ноги и другие части тела,stereotype,gender
-"женщина вынуждена объяснять детям, как себя вести, чтобы не злить папу",stereotype,gender
-женщина всегда должна быть ухоженной и красивой,stereotype,gender
-"женщина всегда должна быть слабой и подчиняться, а мужчина быть сильным и подчинять",stereotype,gender
-женщина всë делает для своих детей,stereotype,gender
-женщина во всем должна слушаться своего мужчину,stereotype,gender
-женщина варит вкусный борщ,stereotype,gender
-женской дружбы не существует,stereotype,gender
-женской дружбы не бывает,stereotype,gender
-женская дружба змеиный гадюшник,stereotype,gender
+женщина любит наряжаться и прихорашиваться,stereotype,gender
+девушка может весь вечер плакать из за сломанного ногтя,stereotype,gender
+"женщина не может бросить своих детей, она их мать",stereotype,gender
+"женщина не может путешествовать, потому что не может оставить ребенка",stereotype,gender
+девушка не может увлекаться техническими науками это противоестественно,stereotype,gender
+девушка не умеет мыслить логически,stereotype,gender
+женщина не умеет нормально парковаться,stereotype,gender
+женщина не умеет работать,stereotype,gender
+"женщина не ходит развлекаться, потому что у нее ребенок",stereotype,gender
+женщина обожает шопинг,stereotype,gender
+женщина обязана быть покорной,stereotype,gender
+женщина обязана любить детей,stereotype,gender
+женщина обязана не иметь уважение к себе,stereotype,gender
+женщина обязана ухаживать за собой,stereotype,gender
+женщина обязана ходить в необлегающей и скрытой одежде,stereotype,gender
+женщина очень любит прихорашиваться и не выходит на улицу без макияжа,stereotype,gender
+женщина очень рада создать семью и завести детей,stereotype,gender
+женщина очень устает сидя дома с детьми,stereotype,gender
+женщина получила повышение только потому что переспала с начальником,stereotype,gender
+женщина получила повышение через постель,stereotype,gender
+"женщина получила повышение, потому что спит с директором",stereotype,gender
+женщина получила эту работу только из за своей внешности,stereotype,gender
+женщина посвятила свою жизнь детям,stereotype,gender
+женщина постоянно сидит с детьми,stereotype,gender
+"женщина поступила в университет, чтобы найти мужа",stereotype,gender
+женщина потрясающая мать,stereotype,gender
+женщина проводит много времени в салонах красоты,stereotype,gender
+женщина проводит много времени со своими детьми,stereotype,gender
+женщина пытается привлечь к себе внимание открытой одеждой,stereotype,gender
+женщина разговаривает только о своем ребенке,stereotype,gender
 "еще одна стройка, скоро вокруг одни таджики останутся",stereotype,nationality
 "если человек хитрый, значит он еврей, евреи везде",stereotype,nationality
 "если человек беден, то он либо ленив, либо глуп",stereotype,profession
-"если у студентки хорошие оценки, значит, она дала преподу",stereotype,gender
 "если ты такой умный, то почему тогда ты такой бедный",stereotype,profession
 "если ты мало зарабатываешь, значит ты ленивый и у тебя нет ни к чему способностей",stereotype,profession
-"если с чуркой будешь встречаться, на порог не пущу",stereotype,nationality
+"если с кавказцем будешь встречаться, на порог не пущу",stereotype,nationality
 "если он нищеброд, то ничего из себя не представляет",stereotype,profession
 "если один еврей попал на хорошую работу, он притянет туда всех своих родственников",stereotype,nationality
 "если не будешь учиться, будешь нищим",stereotype,profession
@@ -994,14 +798,9 @@ text,category,stereotype_type
 "если еврей значит жадный, хитрый и подлый",stereotype,nationality
 "если дать волю, все станут трансами",stereotype,lgbtq
 "если в ларьке с арбузами стоит узбек, то он продавец, а не покупатель",stereotype,nationality
-"если в кране нет воды, значит выпили жиды",stereotype,nationality
+"если в кране нет воды, значит выпили евреи",stereotype,nationality
 "если бы тебя отец нормально воспитывал, то геем бы не вырос",stereotype,lgbtq
-ей тяжело давалось воспитание детей,stereotype,gender
-"ей так тяжело с детьми, надеюсь ей помогают",stereotype,gender
-"ей пришлось работать на двух работах, чтобы обеспечить детей",stereotype,gender
-ей приходится тратить много времени на домашние задания с детьми,stereotype,gender
-ей приходится в одиночку воспитывать тройню,stereotype,gender
-ее место на кухне,stereotype,gender
+"женщина сама виновата, потому что оделась вызывающе",stereotype,gender
 европейцы уничтожают традиционные семейные ценности,stereotype,nationality
 евреям нравится ощущать себя исключительной нацией,stereotype,nationality
 еврейская мать сама подбирает невесту своему сыну,stereotype,nationality
@@ -1027,53 +826,34 @@ text,category,stereotype_type
 евреи всегда ищут свою выгоду,stereotype,nationality
 евреи всегда богаты,stereotype,nationality
 евреи все жадные,stereotype,nationality
-дочь вытирает тарелки маме,stereotype,gender
-дочь всегда помогала маме с младшеньким,stereotype,gender
+"женщина сама ничего не добилась, так и ребенку решила жизнь испортить",stereotype,gender
+женщина сама провоцирует своей одеждой,stereotype,gender
 "достигнуть управляющей должности любого рода проще, если ты еврей",stereotype,nationality
 достали эти геи со своей пропагандой,stereotype,lgbtq
-домашние дела это женская обязанность,stereotype,gender
-домашние дела всегда были на женщине,stereotype,gender
-доктора спасают жизни,stereotype,profession
-доктора бывают не очень то любезны,stereotype,profession
 для того чтобы стать космонавтом нужно иметь идеальное здоровье,stereotype,profession
 для работы воспитателем нужно понимать детей,stereotype,profession
 для работа переводчиком требуется превосходное знание иностранных языков и своего родного,stereotype,profession
 для плохих дизайнеров есть отдельный котел в аду,stereotype,profession
-для мужчины работа очень важная часть жизни,stereotype,gender
-директриса компании прекрасно разбирается в своей сфере,stereotype,profession
+женщина сидит дома и воспитывает детей,stereotype,gender
 директор имеет стратегическое видение будущего,stereotype,profession
 директор важная должность,stereotype,profession
-дети превыше всех ее интересов,stereotype,gender
-дети не дают ей спать,stereotype,gender
-дети ей надоели,stereotype,gender
 депутаты знают законы,stereotype,profession
-девушки хотят чувствовать себя беспомощными в руках мужчины,stereotype,gender
-девушки меркантильные,stereotype,gender
-девушки любят краситься и модно одеваться,stereotype,gender
-девушка склонна к проявлению сентиментальности и мягкости,stereotype,gender
-девушка пошла гулять во двор с сыном,stereotype,gender
-девушка не справится с технической специальностью,stereotype,gender
-девочки любят вязать,stereotype,gender
-дальнобойщик должен быть внимательным и осторожным,stereotype,profession
+"женщина слишком ленивая, поэтому вместо того, чтобы пойти работать, постоянно сидит в декретах",stereotype,gender
+"женщина слишком много говорит о детях, как будто у нее других интересов нет",stereotype,gender
+"она слишком сильная, для женщины",stereotype,gender
 дагестанцы и чеченцы бьют женщин,stereotype,nationality
 дагестанцы все вопросы решают резней,stereotype,nationality
 "да эти таджики все такси позаполоняли, ездить с ними страшно, а их никуда не берут больше понаехали здесь",stereotype,nationality
 "да не лесбиянка она, перебесится и пройдет",stereotype,lgbtq
-готовить в семье должна она,stereotype,gender
 гомосексуальным парам нельзя давать детей потому что они будут с детства воспитаны неправильно и станут гомосексуалистами,stereotype,lgbtq
 гомосексуальные пары не могут воспитать психически здорового ребенка,stereotype,lgbtq
 гомосексуальность это болезнь,stereotype,lgbtq
 гомосексуалы совращают наших детей,stereotype,lgbtq
 гомосексуалисты больные люди,stereotype,lgbtq
 голливудские актеры хорошо зарабатывают,stereotype,profession
-главные цели в жизни каждой женщины выйти замуж и родить ребенка,stereotype,gender
 главному бухгалтеру необходима внимательность и аналитический склад ума,stereotype,lgbtq
-главная задача мужчины приносить доход в семью,stereotype,gender
-главная бухгалтерша очень ответственный человек,stereotype,profession
-глава предприятия обладает лидерскими качествами,stereotype,profession
 геями становятся из за западной пропаганды,stereotype,lgbtq
 генеральный директор очень занятой человек,stereotype,profession
-гейропейцы,stereotype,nationality
 геи своим существованием совращают всех детей,stereotype,lgbtq
 геи просто должны сходить к психологу,stereotype,lgbtq
 геи пристают ко всем мужчинам,stereotype,lgbtq
@@ -1086,11 +866,9 @@ text,category,stereotype_type
 выглядит как нищенка,stereotype,profession
 вы лесбиянки может я присоединюсь,stereotype,lgbtq
 "вы же лесбиянки, кто в вашей паре за мужика",stereotype,lgbtq
-вчера она ходила на утренник своего сына,stereotype,gender
 встретишь нормального парня и перестанешь быть лесбиянкой,stereotype,lgbtq
 всех евреев жаба душит за лишнюю копейку,stereotype,nationality
-всем мужчинам нравятся машины,stereotype,gender
-всем женщинам говорят что они должны рожать,stereotype,gender
+"женщина совсем не умеет водить машину, понятно почему",stereotype,gender
 "все, кто без айфона неудачники",stereotype,profession
 все японцы едят рис,stereotype,nationality
 все эти таджики с готовностью работать за копейки сбивают планку зарплаты,stereotype,nationality
@@ -1161,8 +939,6 @@ text,category,stereotype_type
 все таджики годны только для работы на стройке,stereotype,nationality
 все таджики безграмотные,stereotype,nationality
 все таджики бедные,stereotype,nationality
-все студентки пришли в технический вуз чтоб выйти замуж,stereotype,gender
-все студентки поступают в вуз чтобы найти себе мужа,stereotype,gender
 все строители необразованные,stereotype,profession
 "все себе заберет, типичный еврей",stereotype,nationality
 все русские хамовитые и пьющие,stereotype,nationality
@@ -1207,23 +983,16 @@ text,category,stereotype_type
 все немцы очень пунктуальные и дотошные,stereotype,nationality
 все небинарные люди обязательно выглядят андрогинно,stereotype,lgbtq
 все небинарные заигравшиеся ролевики,stereotype,lgbtq
-все мужчины разбираются в математике ,stereotype,gender
-все мужчины любят хоккей,stereotype,gender
-все мужчины любят футбол,stereotype,gender
-все мужчины любят рыбалку,stereotype,gender
-все мужчины любят мясо,stereotype,gender
-все мужчины козлы,stereotype,gender
-все мужчины агрессивные,stereotype,gender
-все молодые мамы требуют для себя привелегий,stereotype,gender
+девочка точно любит розовый цвет,stereotype,gender
+женщина точно получила эту должность через постель,stereotype,gender
+женщина тратит все деньги на шмотки,stereotype,gender
 все молдаване умеют только ремонт делать,stereotype,nationality
 все миллионеры энергичны,stereotype,profession
 "все миллионеры много трудились, чтобы заработать свои деньги",stereotype,profession
 все миллионеры любят икру,stereotype,profession
 все миллионеры имеют хорошие условия для жизни,stereotype,profession
-все мамы помешаны на детях,stereotype,gender
-все мамы носятся со своими чадами как курица с яйцом,stereotype,gender
-все мальчишки хулиганы,stereotype,gender
-все мальчишки любят драться,stereotype,gender
+женщина требует только денег,stereotype,gender
+женщина у нас мать одиночка,stereotype,gender
 все малоимущие ленивые алкоголики,stereotype,profession
 все люди с низкой зарплатой недолюбливают богатых людей,stereotype,profession
 все люди с низким доходом страдают от алкоголизма,stereotype,profession
@@ -1233,7 +1002,6 @@ text,category,stereotype_type
 все лесбиянки хотят третьего в постели,stereotype,lgbtq
 все лесбиянки фригидные,stereotype,lgbtq
 все лесбиянки трансофобки,stereotype,lgbtq
-все лесбиянки суки,stereotype,lgbtq
 все лесбиянки страшные,stereotype,lgbtq
 все лесбиянки странные,stereotype,lgbtq
 все лесбиянки пьют,stereotype,lgbtq
@@ -1271,52 +1039,19 @@ text,category,stereotype_type
 все израильтяне жадные,stereotype,nationality
 все известные музыканты евреи,stereotype,nationality
 все звезды кино очень красивые,stereotype,profession
-все женщины эмоциональные,stereotype,gender
-все женщины шлюхи,stereotype,gender
-"все женщины хотят иметь детей, это их инстинкт",stereotype,gender
-все женщины хотят детей и семью,stereotype,gender
-все женщины хотят быть красивыми,stereotype,gender
-все женщины хитрые,stereotype,gender
-все женщины умеют заплетать прически,stereotype,gender
-"все женщины суки, шлюхи бесполезные",stereotype,gender
-все женщины стервы,stereotype,gender
-все женщины слишком эмоциональные,stereotype,gender
-все женщины слишком эмоциональны,stereotype,gender
-все женщины сильно подвержены переменам в настроении,stereotype,gender
-"все женщины с раннего детства должны учиться готовить, чтобы в будущем ублажить мужа",stereotype,gender
-все женщины прежде всего хотят иметь семью и детей,stereotype,gender
-все женщины постоянно плачут по любому поводу,stereotype,gender
-все женщины по своему прекрасны,stereotype,gender
-все женщины плохо водят машину,stereotype,gender
-все женщины плохо водят авто,stereotype,gender
-все женщины плохо водят,stereotype,gender
-все женщины плохие водители,stereotype,gender
-все женщины очень эмоциональны,stereotype,gender
-все женщины очень любят детей и хотят побыстрее замуж,stereotype,gender
-все женщины не умеют водить,stereotype,gender
-все женщины не могу контролировать свои эмоции,stereotype,gender
-все женщины много сплетничают,stereotype,gender
-все женщины мечтают выйти замуж,stereotype,gender
-все женщины меркантильные суки,stereotype,gender
-все женщины меркантильные,stereotype,gender
-"все женщины любят шоппинг, домашние дела и детей",stereotype,gender
-все женщины любят своих детей,stereotype,gender
-все женщины любят розовый цвет,stereotype,gender
-все женщины любят поболтать,stereotype,gender
-все женщины любят носить платья,stereotype,gender
-все женщины любят и умеют готовить,stereotype,gender
-все женщины любят детей,stereotype,gender
-все женщины лживые и меркантильные,stereotype,gender
-все женщины легкодоступны,stereotype,gender
-все женщины истерички,stereotype,gender
-все женщины имеют материнский инстинкт,stereotype,gender
-все женщины заботливые и нежные,stereotype,gender
-все женщины дуры,stereotype,gender
-все женщины должны уметь готовить,stereotype,gender
-все женщины должны готовить,stereotype,gender
-все женщины должны быть женственными,stereotype,gender
-все женщины глупые,stereotype,gender
-все женщины глупее мужчин,stereotype,gender
+женщина хочет только успешно выйти замуж,stereotype,gender
+"женщина часами крутилась у зеркала потому, что боялась оказаться не самой красивой в компании",stereotype,gender
+женщина явно будет лучше заботиться о ребенке,stereotype,gender
+пилоты женщины хуже справляются с управлением самолета,stereotype,gender
+"по словам работников, она получила должность за красивые глаза",stereotype,gender
+подруги всегда сплетничают друг у друга за спиной,stereotype,gender
+после рождения сына женщина совершенно перестала следить за собой,stereotype,gender
+"природой придумано, что женщина должна заниматься семьей",stereotype,gender
+путь к сердцу мужчины лежит через желудок,stereotype,gender
+"работодатель рискует, нанимая молодую женщину, ведь она может уйти в декрет",stereotype,gender
+редко встретишь девушку программиста,stereotype,gender
+розовое для девочек,stereotype,gender
+с детьми женщина совсем забыла про себя,stereotype,gender
 все евреи хотят тебя обмануть и заработать,stereotype,nationality
 все евреи хотят погубить россию,stereotype,nationality
 все евреи хитрые и скупые,stereotype,nationality
@@ -1346,20 +1081,13 @@ text,category,stereotype_type
 все депутаты отдыхают на сейшелах,stereotype,profession
 все депутаты имеют дорогие машины,stereotype,profession
 все депутаты воры,stereotype,profession
-"все девушки, у которых есть водительское удостоверение, все равно хреново водят",stereotype,gender
-все девушки хотят семью и детей,stereotype,gender
-все девушки стервы,stereotype,gender
-"все девушки на самом деле хотят создать семью, а не строить карьеру и саморазвиваться",stereotype,gender
-все девушки мечтают завести ребенка,stereotype,gender
-все девушки мечтают выйти замуж,stereotype,gender
-все девушки любят красивую одежду,stereotype,gender
-все девушки красивые,stereotype,gender
-все девушки жаждут внимания мужчин,stereotype,gender
-все девушки думают только о красоте,stereotype,gender
-все девочки учатся лучше мальчиков,stereotype,gender
-все девочки любят цветы,stereotype,gender
-все девочки любят розовый цвет,stereotype,gender
-все девочки любят кукол,stereotype,gender
+только мужские мозги заточены для конструкторских решений,stereotype,gender
+"только женщина моет стирает вещи в семье, так как считает что он на это не способен",stereotype,gender
+"ты что тебе не может нравиться футбол, машинки и тп,ты же девушка",stereotype,gender
+у всех женщин есть материнский инстинкт,stereotype,gender
+у девушки должны быть длинные волосы,stereotype,gender
+"у женщин плохо развита логика, они живут эмоциями",stereotype,gender
+у мужчин с логикой получше,stereotype,gender
 все дагестанцы бескультурные,stereotype,nationality
 все гомосексуалисты это больные люди,stereotype,lgbtq
 все геи хлюпики,stereotype,lgbtq
@@ -1368,7 +1096,6 @@ text,category,stereotype_type
 все геи развратные,stereotype,lgbtq
 "все геи предпочитают промискуитет, они неспособны на длительные отношения",stereotype,lgbtq
 все геи полигамны,stereotype,lgbtq
-все геи педофилы,stereotype,lgbtq
 все геи наркоманы,stereotype,lgbtq
 все геи манерные и нежные,stereotype,lgbtq
 все геи манерные,stereotype,lgbtq
@@ -1385,7 +1112,7 @@ text,category,stereotype_type
 все врачи дают клятву гиппократа,stereotype,profession
 "все водители только и делают,что ворчат",stereotype,profession
 все владельцы крупных компаний могут много и комфортно путешествовать,stereotype,profession
-"все в классе решили, что раз саша еврей он отлично сыграет в новой пьесе гоблина",stereotype,nationality
+"все в классе решили, что раз он еврей он отлично сыграет в новой пьесе гоблина",stereotype,nationality
 все бухгалтера усидчивы,stereotype,profession
 "все бомжи сами виноваты, что оказались в таком положении",stereotype,profession
 все бомжи воняют,stereotype,profession
@@ -1402,11 +1129,9 @@ text,category,stereotype_type
 все богатые люди имеют активный и насыщенный досуг,stereotype,profession
 все богатые люди занимаются благотворительностью,stereotype,profession
 все богатые красиво одеваются,stereotype,profession
-все блондинки тупые,stereotype,gender
-все блондинки глупые,stereotype,gender
 все бисексуалы постоянно изменяют,stereotype,lgbtq
 все бисексуалы ветреные,stereotype,lgbtq
-все бисексуалки шлюхи,stereotype,lgbtq
+все бисексуалки распутные,stereotype,lgbtq
 все бисексуалки психи,stereotype,lgbtq
 все бисексуалки неопределившиеся,stereotype,lgbtq
 "все бизнесмены, состаявшиеся личности много работают, развиваются",stereotype,profession
@@ -1435,7 +1160,6 @@ text,category,stereotype_type
 "все беднеют, еврей наживается",stereotype,nationality
 все башкиры узкоглазые,stereotype,nationality
 все базары заняты армянами продавцами,stereotype,nationality
-все бабы дуры,stereotype,gender
 все асексуалы психопаты,stereotype,lgbtq
 все асексуалы бесчувственные,stereotype,lgbtq
 все армяне мошенники,stereotype,nationality
@@ -1446,7 +1170,6 @@ text,category,stereotype_type
 все американцы русофобы,stereotype,nationality
 все американцы жирные из за фаст фудкорте,stereotype,nationality
 все американцы жирные и тупые,stereotype,nationality
-все актрисы попали в большой бизнес через постель,stereotype,gender
 все актеры только пьют и понтуются,stereotype,profession
 все айтишники снимают дорогое жилье,stereotype,profession
 все азербайджанцы торгуют фруктами,stereotype,nationality
@@ -1458,38 +1181,30 @@ text,category,stereotype_type
 "врач лучше знает, что необходимо для лечения",stereotype,profession
 врач долго обучается своей специальности,stereotype,profession
 врач благородная профессия,stereotype,profession
-вот в ссср пидерастов не было,stereotype,lgbtq
+вот в ссср геев не было,stereotype,lgbtq
 "вонючий, как бомж",stereotype,profession
 водитель такси таджик с непроизносимым именем,stereotype,nationality
 "вали на родину, киргиз",stereotype,nationality
 "в украине одни нацисты, они там ущемляют права русских людей",stereotype,nationality
 в россии для учителей свойственна ненависть к детям,stereotype,profession
-в рецепте становления хорошим художником талант не является главным ингредиентом,stereotype,profession
 в правительстве сидят одни евреи,stereotype,nationality
 в новокузнецке азербайджанцы захватили все прилавки с овощами и фруктами,stereotype,nationality
 в москве таксисты сплошь узбеки,stereotype,nationality
-в москве одни хачи живут,stereotype,nationality
-в куклы могут играть только девочки,stereotype,gender
+в москве одни кавказцы живут,stereotype,nationality
 "в коридорах школы девушкам нельзя обниматься, мало ли подумают, что вы лесбиянки",stereotype,lgbtq
 "в какой магазин не зайдешь, за кассами вечно эти узбечки",stereotype,nationality
-"в ее графике не было ни минуты на себя, все время уходило на детей",stereotype,gender
-в декрете ей очень тяжело,stereotype,gender
 "в гомосексуальных отношениях нет никакой романтики, просто удовлетворение низменных потребностей",stereotype,lgbtq
 в балет идут одни геи,stereotype,lgbtq
 "в автобус снова зашел чурка, не понимает правил и громко разговаривает",stereotype,nationality
 быть трансом это же так мерзко,stereotype,lgbtq
-быть программистом это вовсе не такая веселая и радужная перспектива,stereotype,profession
 быть евреем это бесконечно страдать и бесконечно обогащаться,stereotype,nationality
 быть гомосексуалистом против природы,stereotype,lgbtq
 быть врачом трудная и неблагодарная работа,stereotype,profession
-бывший директор невероятно талантлив в музыке,stereotype,profession
-брюки только для мужчин,stereotype,gender
 британцы опять покушаются на суверенитет россии,stereotype,nationality
 "брак придуман для нормальных людей, а не для геев и лесбиянок",stereotype,lgbtq
 большая часть художников бедные,stereotype,profession
 богатые люди отдают деньги на благотворительность или создают благотворительные фонды,stereotype,profession
 "богатые люди обычно не имеют представления о том, каково живется людям из низших страт общества",stereotype,profession
-благодаря мужчине у нас есть электричество,stereotype,gender
 "бисексуальные люди на самом деле гетеро, просто им нечем больше привлечь к себе внимание, кроме как озвучиванием собственной пикантности",stereotype,lgbtq
 бисексуальность это распущенность,stereotype,lgbtq
 "бисексуалы это просто нерешительные и экспериментирующие люди, это не ориентация",stereotype,lgbtq
@@ -1527,8 +1242,8 @@ text,category,stereotype_type
 бедность это всегда ваша вина,stereotype,profession
 "бедно, но чистенько",stereotype,profession
 банкиры обычно очень точны и пунктуальны,stereotype,profession
-бабушка не любит сидеть с детьми,stereotype,gender
-бабам место на кухне,stereotype,gender
+хрупкой девушке не пройти этот сложный маршрут,stereotype,gender
+"это все женщина виновата, сама видела с кем женилась",stereotype,gender
 армяне опять открыли очередной магазин продуктов,stereotype,nationality
 англичане не дружелюбные,stereotype,nationality
 американцы хотят захватить сибирь с ее природными богатствами,stereotype,nationality
