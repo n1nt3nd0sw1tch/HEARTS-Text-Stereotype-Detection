@@ -1981,5 +1981,473 @@
     "category": "stereotype",
     "stereotype_type": "nationality",
     "notes": "Japanese people cannot handle alcohol."
+  },
+  {
+    "text": "Гомосексуальности и бисексуальности не существует.",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality and bisexuality have existed in all eras and cultures."
+  },
+  {
+    "text": "бисексуалы гиперсексуальны и неразборчивы в связях",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people are hypersexual and indiscriminate in their relationships."
+  },
+  {
+    "text": "бисексуалы наполовину любят женщин и наполовину мужчин",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people half-love women and half-love men."
+  },
+  {
+    "text": "Бисексуальность — это не инклюзивно",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexuality is not inclusive."
+  },
+  {
+    "text": "бисексуалы не принадлежат квир-сообществу",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people do not belong to the queer community."
+  },
+  {
+    "text": "Мужчины-геи пристают к детям гораздо чаще, чем гетеросексуалы",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men molest children far more often than heterosexuals."
+  },
+  {
+    "text": "Однополые родители вредят детям",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Same-sex parents harm children."
+  },
+  {
+    "text": "Люди становятся гомосексуалами, потому что они подвергались сексуальному насилию в детстве",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "People become homosexual because they were sexually abused as children."
+  },
+  {
+    "text": "гомосексуальность — это психическое расстройство, вызванное психологической травмой",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality is a mental disorder caused by psychological trauma."
+  },
+  {
+    "text": "лесбиянкой, геем или бисексуальным человеком можно стать по собственному желанию, это добровольный выбор",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "One can become gay, lesbian, or bisexual by choice; it is voluntary."
+  },
+  {
+    "text": "настоящих гомосексуалов очень мало, все стали гомосексуальными или бисексуальными из-за пропаганды",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "There are very few real homosexuals; most became gay or bisexual due to propaganda."
+  },
+  {
+    "text": "геи - это мужчины, у которых не сложились отношения с женщинами",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men are men who failed in relationships with women."
+  },
+  {
+    "text": "лесбиянки - женщины, у которых не сложились отношения мужчинами",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Lesbians are women who failed in relationships with men."
+  },
+  {
+    "text": "люди становятся гомосексуальными или бисексуальными, если в детстве или юности они были соблазнены человеком одного с собой пола",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "People become homosexual or bisexual if they were seduced by someone of the same sex in childhood or adolescence."
+  },
+  {
+    "text": "женщина может стать лесбиянкой, если пережила сексуальное насилие со стороны мужчины",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "A woman can become a lesbian if she experienced sexual violence from a man."
+  },
+  {
+    "text": "причина гомосексуальности или бисексуальности в плохом воспитании или проблемах в семье",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "The cause of homosexuality or bisexuality is poor upbringing or family problems."
+  },
+  {
+    "text": "причина гомосексуальности у мальчиков в плохих отношениях с отцом, слишком опекающей матери",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "The reason for homosexuality in boys is bad relations with the father and an overprotective mother."
+  },
+  {
+    "text": "причина гомосексуальности у девочек в плохих отношениях с матерью и слишком близких отношениях с отцом",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "The reason for homosexuality in girls is bad relations with the mother and overly close relations with the father."
+  },
+  {
+    "text": "гомосексуальность и бисексуальность - это всего лишь фаза, стадия в развитии личности, которую надо просто переждать",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality and bisexuality are just a phase in personality development that one must outgrow."
+  },
+  {
+    "text": "гомосексуальность можно вылечить либо с помощью психотерапии, либо с помощью религиозных методов",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality can be cured either with psychotherapy or religious methods."
+  },
+  {
+    "text": "ЛГБТ люди живут не так долго, как гетеросексуалы",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "LGBT people do not live as long as heterosexuals."
+  },
+  {
+    "text": "Бисексуальности не существует",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexuality does not exist."
+  },
+  {
+    "text": "Бисексуалы должны любить девушек и мужчин одинаково",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people must love men and women equally."
+  },
+  {
+    "text": "Бисексуалы куда чаще изменяют своим партнерам",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people cheat on their partners far more often."
+  },
+  {
+    "text": "бисексуалы не могут состоять в продолжительных моногамных отношениях и склонны изменять партнёрам",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people cannot be in long-term monogamous relationships and tend to cheat."
+  },
+  {
+    "text": "бисексуальных людей привлекают только цисгендерные мужчины и цисгендерные женщины",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Bisexual people are attracted only to cisgender men and cisgender women."
+  },
+  {
+    "text": "Геи - лучшие друзья девушек",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men are the best friends of women."
+  },
+  {
+    "text": "многие девушки мечтают завести друга гея",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Many women dream of having a gay male friend."
+  },
+  {
+    "text": "Геи - высокоодаренные люди с обостренным чувством прекрасного",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men are highly gifted people with an extraordinary sense of beauty."
+  },
+  {
+    "text": "В шоу-бизнесе одни геи",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Show business is full of gay men."
+  },
+  {
+    "text": "Геи следят за модой",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men follow fashion trends."
+  },
+  {
+    "text": "геи тщательно следят за своим внешним видом",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men take meticulous care of their appearance."
+  },
+  {
+    "text": "геями становятся в результате совращения в юном возрасте",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "People become gay as a result of being seduced at a young age."
+  },
+  {
+    "text": "геями становятся в результате влияния телевидения и СМИ",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "People become gay due to the influence of TV and the media."
+  },
+  {
+    "text": "гомофобы являются скрытыми геями",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homophobes are secretly gay."
+  },
+  {
+    "text": "геям от их партнеров нужен только секс",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay men only want sex from their partners."
+  },
+  {
+    "text": "Геями становятся младшие братья",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Younger brothers become gay."
+  },
+  {
+    "text": "ЛГБТ — ЭТО ПРОПАГАНДА",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "LGBT is propaganda."
+  },
+  {
+    "text": "ЕСЛИ ВСЕ СТАНУТ ГЕЯМИ, А КТО ЖЕ БУДЕТ РОЖАТЬ",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "If everyone will become gay — then who will give birth?"
+  },
+  {
+    "text": "ЛГБТК люди ходят на свои прайды, чтобы кричать о том, с кем спят",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "LGBTQ people go to pride events to shout about who they sleep with."
+  },
+  {
+    "text": "ЛГБТ — это о геях",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "LGBT is only about gay men."
+  },
+  {
+    "text": "Гомосексуальность — это болезнь",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality is a disease."
+  },
+  {
+    "text": "Гомосексуалы распространяют ВИЧ",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuals spread HIV."
+  },
+  {
+    "text": "Гомосексуалы распространяют СПИД",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuals spread AIDS."
+  },
+  {
+    "text": "Гомосексуалы ведут пропаганду и разрушают традиционные семьи",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuals spread propaganda and destroy traditional families."
+  },
+  {
+    "text": "Гомосексуала можно отличить внешне",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "A homosexual person can be identified by appearance."
+  },
+  {
+    "text": "Все геи — сексисты",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "All gay men are sexists."
+  },
+  {
+    "text": "Трансгендерный человек без полного перехода — ненастоящий",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "A transgender person without 'full transition' is not real."
+  },
+  {
+    "text": "Все лесбиянки одеваются как мужчины",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "All lesbians dress like men."
+  },
+  {
+    "text": "Лесбиянки не носят лифчики",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Lesbians do not wear bras."
+  },
+  {
+    "text": "Все лесбиянки ненавидят макияж и не бреют ноги и подмышки",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "All lesbians hate makeup and do not shave their legs or armpits."
+  },
+  {
+    "text": "Феминные лесбиянки на самом деле не лесбиянки, они просто притворяются",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Feminine lesbians are not real lesbians, they are pretending."
+  },
+  {
+    "text": "Лесбиянки тащатся от футбола, бейсбола, регби и прочего спорта",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Lesbians are obsessed with football, baseball, rugby, and other sports."
+  },
+  {
+    "text": "Лесбиянка просто еще не встретила того самого мужчину",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "A lesbian just hasn't met the right man yet."
+  },
+  {
+    "text": "Лесбиянками становятся из-за ненависти к мужчинам",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Women become lesbians because they hate men."
+  },
+  {
+    "text": "В каждой лесбийской паре есть мужчина и женщина",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "In every lesbian couple there is a 'man' and a 'woman'."
+  },
+  {
+    "text": "Лесбиянки готовы вступить в сексуальную связь с любой женщиной",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Lesbians are ready to have sex with any woman."
+  },
+  {
+    "text": "Гомосексуалисты удочеряют и усыновляют детей, чтобы вырастить из них лесбиянок и гомосексуалистов",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Gay people adopt children to turn them into lesbians or homosexuals."
+  },
+  {
+    "text": "Гомосексуалистов станет больше, если общество не будет открыто заявлять, что гетеросексуальные отношения являются единственно правильными",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "There will be more homosexuals if society does not openly declare heterosexual relationships as the only correct ones."
+  },
+  {
+    "text": "Гомосексуалисты не могут иметь детей",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuals cannot have children."
+  },
+  {
+    "text": "Гомосексуальность - излечима",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality is curable."
+  },
+  {
+    "text": "Гомосексуализм против природы",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Homosexuality is against nature."
+  },
+  {
+    "text": "Быть гомосексуальным или испытывать гомосексуальные чувства – это ненормально",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Being homosexual or having homosexual feelings is abnormal."
+  },
+  {
+    "text": "Легализация однополых браков в России недемократична, так как противоречит мнению большинства",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Legalising same-sex marriage in Russia is undemocratic because it contradicts the opinion of the majority."
+  },
+  {
+    "text": "Трансгендерность — это просто непринятие своего тела",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Being transgender is simply not accepting one's body."
+  },
+  {
+    "text": "Трансгендерность надо лечить у психиатра, а не сменой пола",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Transgender identity must be treated by a psychiatrist, not with gender transition."
+  },
+  {
+    "text": "Трансженщины — это мужчины, которые переодеваются в платья, чтобы проникать в женские пространства",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Trans women are men who dress in women's clothing to infiltrate women's spaces."
+  },
+  {
+    "text": "Транслюди поддерживают гендерные стереотипы",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Trans people reinforce gender stereotypes."
+  },
+  {
+    "text": "Многие транслюди жалеют о своем переходе",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Many trans people regret their transition."
+  },
+  {
+    "text": "Когда взрослый трансчеловек делает переход, это повлияет на психику его или ее детей",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "When an adult trans person transitions, it negatively affects the mental health of their children."
+  },
+  {
+    "text": "Трансы калечат себя ненужными операциями, отрезают себе здоровые органы, а потом передумывают",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Trans people mutilate themselves with unnecessary surgeries, removing healthy organs, and then change their minds."
+  },
+  {
+    "text": "Транс-мужчины это просто запутавшиеся девочки",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Trans men are just confused girls."
+  },
+  {
+    "text": "Трансгендеры отрицают существование биологического пола, двух полов",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Transgender people deny the existence of biological sex and the two sexes."
+  },
+  {
+    "text": "Из-за ЛГБТК пропаганды станет модно менять пол",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Because of LGBTQ propaganda, gender transition will become fashionable."
+  },
+  {
+    "text": "Трансгендеры гомосексуальны",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Transgender people are homosexual."
+  },
+  {
+    "text": "Трансгендеры ненавидят свое тело",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "Transgender people hate their bodies."
+  },
+  {
+    "text": "По человеку понятно, что он трансгендер",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "It is obvious from looking at a person that they are transgender."
+  },
+  {
+    "text": "Все трансгендеры меняют пол",
+    "category": "stereotype",
+    "stereotype_type": "lgtbq",
+    "notes": "All transgender people undergo gender reassignment."
   }
 ]
