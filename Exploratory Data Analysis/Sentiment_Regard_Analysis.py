@@ -45,7 +45,5 @@ def analyse_sentiment_and_regard(df, text_col):
 
 # Execute on MGSD Expanded
 df_mgsd_expanded = load_data("MGSD - Expanded.csv")
-results_mgsd_expanded = analyse_sentiment_and_regard(df = df_mgsd_expanded, text_col = 'text')
+results_mgsd_expanded = analyse_sentiment_and_regard(df=df_mgsd_expanded, text_col='text')
 results_mgsd_expanded.to_csv("MGSD_Expanded_sentiment_regard.csv", index=False)
-
-

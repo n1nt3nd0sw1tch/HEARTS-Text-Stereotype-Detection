@@ -33,14 +33,13 @@ def create_word_cloud(df, text_col, output_filename):
     plt.axis("off")
     plt.savefig(output_filename, format='png', dpi=600)
 
-# Execute usage - MGSD Expanded
-df_mgsd_expanded = load_data(filepath='MGSD - Expanded.csv')
-target_dist_mgsd_expanded = prepare_target_variable_distribution(df_mgsd_expanded, target_col='category')
-group_dist_mgsd_expanded = prepare_group_distribution(df_mgsd_expanded, group_col='stereotype_type')
-text_length_mgsd_expanded = prepare_text_length_analysis(df_mgsd_expanded, text_col='text')
-create_word_cloud(df_mgsd_expanded, text_col='text', output_filename='MGSD_Expanded_wordcloud.png')
+if __name__ == "__main__":
+    df_mgsd_expanded = load_data(filepath='MGSD - Expanded.csv')
+    target_dist_mgsd_expanded = prepare_target_variable_distribution(df_mgsd_expanded, target_col='category')
+    group_dist_mgsd_expanded = prepare_group_distribution(df_mgsd_expanded, group_col='stereotype_type')
+    text_length_mgsd_expanded = prepare_text_length_analysis(df_mgsd_expanded, text_col='text')
+    create_word_cloud(df_mgsd_expanded, text_col='text', output_filename='MGSD_Expanded_wordcloud.png')
 
-# Save to CSV files
-target_dist_mgsd_expanded.to_csv('Target_Distribution.csv')
-group_dist_mgsd_expanded.to_csv('Group_Distribution.csv')
-text_length_mgsd_expanded.to_csv('Text_Length_Analysis.csv')
+    target_dist_mgsd_expanded.to_csv('Target_Distribution.csv')
+    group_dist_mgsd_expanded.to_csv('Group_Distribution.csv')
+    text_length_mgsd_expanded.to_csv('Text_Length_Analysis.csv')
