@@ -83,7 +83,7 @@ def train_model(train_data, model_path, batch_size, epoch, learning_rate, model_
     os.makedirs(model_output_dir, exist_ok=True)
 
     training_args = TrainingArguments(
-        output_dir=model_output_dir, num_train_epochs=epoch, evaluation_strategy="epoch", learning_rate=learning_rate,
+        output_dir=model_output_dir, num_train_epochs=epoch, evaluation_strategy="epoch", logging_strategy="epoch", learning_rate=learning_rate,
         per_device_train_batch_size=batch_size, per_device_eval_batch_size=batch_size, weight_decay=0.01,
         save_strategy="epoch", load_best_model_at_end=True, save_total_limit=1)
 

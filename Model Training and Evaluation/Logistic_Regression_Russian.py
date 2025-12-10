@@ -165,22 +165,3 @@ def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_
     df_report.to_csv(result_file_path)
 
     return df_report
-
-
-# # Load and combine relevant datasets
-# train_data_rubist, test_data_rubist = data_loader(csv_file_path='COMP0173_Data/rubist.csv', labelling_criteria='stereotype', dataset_name='RUBIST - 1st GPT Augmentation', sample_size=1000000, num_examples=5)
-# train_data_rubist_second, test_data_rubist_second = data_loader(csv_file_path='COMP0173_Data/rubist_second.csv', labelling_criteria='stereotype', dataset_name='RUBIST - 2nd GPT Augmentation', sample_size=1000000, num_examples=5)
-
-# # Execute full pipeline for logistic regression tfidf model
-# train_model(train_data_rubist, model_output_base_dir='model_output_LR_tfidf', dataset_name='rubist_trained', feature_type='tfidf', seed=42)
-# evaluate_model(test_data_rubist, model_output_dir='model_output_LR_tfidf/rubist_trained', result_output_base_dir='result_output_LR_tfidf/rubist_trained', dataset_name='rubist', feature_type='tfidf', seed=42)
-
-# train_model(train_data_rubist_second, model_output_base_dir='model_output_LR_tfidf', dataset_name='rubist_second_trained', feature_type='tfidf', seed=42)
-# evaluate_model(test_data_rubist_second, model_output_dir='model_output_LR_tfidf/rubist_second_trained', result_output_base_dir='result_output_LR_tfidf/rubist_second_trained', dataset_name='rubist_second', feature_type='tfidf', seed=42)
-
-# # Execute full pipeline for logistic regression embedding model
-# train_model(train_data_rubist, model_output_base_dir='model_output_LR_embedding', dataset_name='rubist_trained', feature_type='embedding', seed=42)
-# evaluate_model(test_data_rubist, model_output_dir='model_output_LR_embedding/rubist_trained', result_output_base_dir='result_output_LR_tfidf/rubist_trained', dataset_name='rubist', feature_type='embedding', seed=42)
-
-# train_model(train_data_rubist_second, model_output_base_dir='model_output_LR_embedding', dataset_name='rubist_second_trained', feature_type='embedding', seed=42)
-# evaluate_model(test_data_rubist_second, model_output_dir='model_output_LR_embedding/rubist_second_trained', result_output_base_dir='result_output_LR_tfidf/rubist_second_trained', dataset_name='rubist_second', feature_type='embedding', seed=42)
