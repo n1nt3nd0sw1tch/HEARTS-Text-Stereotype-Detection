@@ -1,0 +1,186 @@
+# Define helper function for loading data
+import pandas as pd
+from sklearn.model_selection import train_test_split
+import os
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+import spacy
+import spacy.cli
+import joblib
+from codecarbon import EmissionsTracker
+from sklearn.metrics import f1_score
+from sklearn.metrics import classification_report
+from tqdm import tqdm
+import ru_core_news_lg
+
+
+def data_loader(csv_file_path, labelling_criteria, dataset_name, sample_size, num_examples):
+    combined_data = pd.read_csv(csv_file_path, usecols=['text', 'category', 'stereotype_type'])
+
+    label2id = {label: (1 if label == labelling_criteria else 0) for label in combined_data['category'].unique()}
+    combined_data['category'] = combined_data['category'].map(label2id)
+
+    combined_data['data_name'] = dataset_name
+
+    if sample_size >= len(combined_data):
+        sampled_data = combined_data
+    else:
+        sample_proportion = sample_size / len(combined_data)
+        sampled_data, _ = train_test_split(combined_data, train_size=sample_proportion, stratify=combined_data['category'],
+                                           random_state=42)
+
+    train_data, test_data = train_test_split(sampled_data, test_size=0.2, random_state=42,
+                                             stratify=sampled_data['category'])
+
+    print("First few examples from the training data:")
+    print(train_data.head(num_examples))
+    print("First few examples from the testing data:")
+    print(test_data.head(num_examples))
+    print("Train data size:", len(train_data))
+    print("Test data size:", len(test_data))
+
+    return train_data, test_data
+
+
+# Define function for training the model
+def train_model(train_data, model_output_base_dir, dataset_name, feature_type, seed):
+    np.random.seed(seed)
+    num_labels = len(np.unique(train_data['category']))
+    print(f"Number of unique labels: {num_labels}")
+
+    tracker = EmissionsTracker()
+    tracker.start()
+
+    nlp = spacy.load("ru_core_news_lg")
+    vectorizer = None
+
+    if feature_type == 'tfidf':
+        vectorizer = TfidfVectorizer()
+        X = vectorizer.fit_transform(train_data['text'])
+    elif feature_type == 'embedding':
+        def get_embedding(text):
+            doc = nlp(text)
+            return doc.vector
+
+        X = np.array([get_embedding(text) for text in tqdm(train_data['text'], desc="Computing embeddings")])
+
+    else:
+        raise ValueError(f"Unsupported feature type: {feature_type}")
+
+    y = train_data['category']
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=seed, stratify=y)
+
+    C_values = [0.01, 0.1, 1]
+    penalties = ['l1', 'l2', None]
+    best_f1_score = 0
+    best_model = None
+    best_params = {}
+
+    for C in C_values:
+        for penalty in penalties:
+            model = LogisticRegression(C=C, penalty=penalty, solver='saga', random_state=seed)
+            model.fit(X_train, y_train)
+            y_pred = model.predict(X_val)
+            f1 = f1_score(y_val, y_pred, average='macro')
+
+            print(f"Testing C={C}, penalty={penalty} => F1 Score: {f1}")
+
+            if f1 > best_f1_score:
+                best_f1_score = f1
+                best_model = model
+                best_params = {'C': C, 'penalty': penalty}
+
+    model_output_dir = os.path.join(model_output_base_dir, dataset_name)
+    os.makedirs(model_output_dir, exist_ok=True)
+
+    model_path = os.path.join(model_output_dir, 'model.pkl')
+    vectorizer_path = os.path.join(model_output_dir, 'vectorizer.pkl')
+
+    joblib.dump(best_model, model_path)
+    if vectorizer is not None:
+        joblib.dump(vectorizer, vectorizer_path)
+
+    print(f"Best model parameters: {best_params}")
+    print(f"Model and vectorizer saved to {model_output_dir}")
+
+    emissions = tracker.stop()
+    print(f"Estimated total emissions: {emissions} kg CO2")
+
+    return model_output_dir
+
+# Define function for evaluating the model
+def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_name, feature_type, seed):
+
+    np.random.seed(seed)
+    num_labels = len(test_data['category'].unique())
+    print(f"Number of unique labels: {num_labels}")
+
+    nlp = spacy.load("ru_core_news_lg")
+
+    model_path = os.path.join(model_output_dir, 'model.pkl')
+    model = joblib.load(model_path)
+
+    vectorizer_path = os.path.join(model_output_dir, 'vectorizer.pkl')
+    vectorizer = None
+    if feature_type == 'tfidf':
+        vectorizer = joblib.load(vectorizer_path)
+
+    if feature_type == 'tfidf':
+        X_test = vectorizer.transform(test_data['text'])
+    elif feature_type == 'embedding':
+        def get_embedding(text):
+            doc = nlp(text)
+            return doc.vector
+
+        X_test = np.array([get_embedding(text) for text in tqdm(test_data['text'], desc="Computing embeddings")])
+
+    else:
+        raise ValueError(f"Unsupported feature type: {feature_type}")
+
+    result_output_dir = os.path.join(result_output_base_dir, dataset_name)
+    os.makedirs(result_output_dir, exist_ok=True)
+
+    y_pred_probs = model.predict_proba(X_test)
+    y_pred = model.predict(X_test)
+    pred_labels = y_pred.tolist()
+    pred_probs = y_pred_probs.max(axis=1).tolist()
+    y_true = test_data['category'].tolist()
+
+    results_df = pd.DataFrame({
+        'text': test_data['text'],
+        'predicted_label': pred_labels,
+        'predicted_probability': pred_probs,
+        'actual_label': y_true,
+        'stereotype_type': test_data['stereotype_type'],
+        'dataset_name': test_data['data_name']
+    })
+
+    results_file_path = os.path.join(result_output_dir, "full_results.csv")
+    results_df.to_csv(results_file_path, index=False)
+
+    report = classification_report(y_true, pred_labels, output_dict=True)
+    df_report = pd.DataFrame(report).transpose()
+    result_file_path = os.path.join(result_output_dir, "classification_report.csv")
+    df_report.to_csv(result_file_path)
+
+    return df_report
+
+
+# # Load and combine relevant datasets
+# train_data_rubist, test_data_rubist = data_loader(csv_file_path='COMP0173_Data/rubist.csv', labelling_criteria='stereotype', dataset_name='RUBIST - 1st GPT Augmentation', sample_size=1000000, num_examples=5)
+# train_data_rubist_second, test_data_rubist_second = data_loader(csv_file_path='COMP0173_Data/rubist_second.csv', labelling_criteria='stereotype', dataset_name='RUBIST - 2nd GPT Augmentation', sample_size=1000000, num_examples=5)
+
+# # Execute full pipeline for logistic regression tfidf model
+# train_model(train_data_rubist, model_output_base_dir='model_output_LR_tfidf', dataset_name='rubist_trained', feature_type='tfidf', seed=42)
+# evaluate_model(test_data_rubist, model_output_dir='model_output_LR_tfidf/rubist_trained', result_output_base_dir='result_output_LR_tfidf/rubist_trained', dataset_name='rubist', feature_type='tfidf', seed=42)
+
+# train_model(train_data_rubist_second, model_output_base_dir='model_output_LR_tfidf', dataset_name='rubist_second_trained', feature_type='tfidf', seed=42)
+# evaluate_model(test_data_rubist_second, model_output_dir='model_output_LR_tfidf/rubist_second_trained', result_output_base_dir='result_output_LR_tfidf/rubist_second_trained', dataset_name='rubist_second', feature_type='tfidf', seed=42)
+
+# # Execute full pipeline for logistic regression embedding model
+# train_model(train_data_rubist, model_output_base_dir='model_output_LR_embedding', dataset_name='rubist_trained', feature_type='embedding', seed=42)
+# evaluate_model(test_data_rubist, model_output_dir='model_output_LR_embedding/rubist_trained', result_output_base_dir='result_output_LR_tfidf/rubist_trained', dataset_name='rubist', feature_type='embedding', seed=42)
+
+# train_model(train_data_rubist_second, model_output_base_dir='model_output_LR_embedding', dataset_name='rubist_second_trained', feature_type='embedding', seed=42)
+# evaluate_model(test_data_rubist_second, model_output_dir='model_output_LR_embedding/rubist_second_trained', result_output_base_dir='result_output_LR_tfidf/rubist_second_trained', dataset_name='rubist_second', feature_type='embedding', seed=42)
