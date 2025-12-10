@@ -3,8 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent
-
 def data_loader(csv_file_path, labelling_criteria, dataset_name, sample_size, num_examples):
     
     combined_data = pd.read_csv(csv_file_path, usecols=['text', 'label', 'group'])

@@ -1,5 +1,19 @@
+# Environment files
 .env
 .env*
+
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+
+# MacOS junk
+.DS_Store
