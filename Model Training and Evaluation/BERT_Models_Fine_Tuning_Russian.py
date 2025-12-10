@@ -127,7 +127,11 @@ def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_
     pipe = pipeline("text-classification", model= model,tokenizer=tokenizer,device=-1)
 
     predictions = pipe(test_data['text'].to_list(), return_all_scores=True)
-    pred_labels = [int(max(pred, key=lambda x: x['score'])['category'].split('_')[-1]) for pred in predictions]
+    # pred_labels = [int(max(pred, key=lambda x: x['score'])['category'].split('_')[-1]) for pred in predictions]
+    pred_labels = [
+    int(max(pred, key=lambda x: x['score'])['label'].split('_')[-1])
+    for pred in predictions]
+
     pred_probs = [max(pred, key=lambda x: x['score'])['score'] for pred in predictions]
     y_true = test_data['category'].tolist()
 
@@ -149,15 +153,3 @@ def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_
     df_report.to_csv(result_file_path)
 
     return df_report
-
-
-# # Load and combine relevant datasets
-# train_data_rubist, test_data_rubist = data_loader(csv_file_path='COMP0173_Data/rubist.csv', labelling_criteria='stereotype', dataset_name='rubist', sample_size=1000000, num_examples=5)
-# train_data_rubist_second, test_data_rubist_second = data_loader(csv_file_path='COMP0173_Data/rubist_second.csv', labelling_criteria='stereotype', dataset_name='rubist_second', sample_size=1000000, num_examples=5)
-
-# # Execute full pipeline for Deepavlov model
-# train_model(train_data_rubist, model_path='', batch_size=64, epoch=6, learning_rate=2e-5, model_output_base_dir='model_output_rubert', dataset_name='rubist_trained', seed=42)
-# evaluate_model(test_data_rubist, model_output_dir='model_output_rubert/rubist_trained', result_output_base_dir='result_output_rubert/rubist_trained', dataset_name='rubist_trained', seed=42)
-
-# train_model(train_data_rubist_second, model_path='', batch_size=64, epoch=6, learning_rate=2e-5, model_output_base_dir='model_output_rubert', dataset_name='rubist_second_trained', seed=42)
-# evaluate_model(test_data_rubist_second, model_output_dir='model_output_rubert/rubist_second_trained', result_output_base_dir='result_output_rubert/rubist_second_trained', dataset_name='rubist_second_trained', seed=42)
