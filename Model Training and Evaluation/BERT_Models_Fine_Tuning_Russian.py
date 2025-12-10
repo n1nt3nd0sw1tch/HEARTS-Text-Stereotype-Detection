@@ -1,321 +1,163 @@
-import os
-from pathlib import Path
-
-import numpy as np
+# Define helper function for loading data
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import (
-    classification_report,
-    precision_recall_fscore_support,
-    balanced_accuracy_score,
-)
+from pathlib import Path
 
+# Define function for fine tuning language model
+import os
+import numpy as np
+import logging
+from sklearn.metrics import classification_report, precision_recall_fscore_support, balanced_accuracy_score
 from datasets import Dataset
-from transformers import (
-    AutoModelForSequenceClassification,
-    AutoTokenizer,
-    Trainer,
-    TrainingArguments,
-    pipeline,
-)
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments, pipeline
+from codecarbon import EmissionsTracker
 
-# Optional: try to use CodeCarbon if installed (otherwise ignore)
-try:
-    from codecarbon import EmissionsTracker
-    HAS_CODECARBON = True
-except ImportError:
-    HAS_CODECARBON = False
-
-
-# =========================
-# 1) DATA LOADING
-# =========================
-def load_single_dataset(
-    csv_file_path: str,
-    text_col: str = "text",
-    label_col: str = "label",
-    positive_label: str = "stereotype",
-    test_size: float = 0.2,
-    random_state: int = 42,
-):
-    """
-    Load a single CSV dataset and convert to binary labels:
-    1 for `positive_label`, 0 for everything else.
-    Split into train / test.
-    """
-
-    df = pd.read_csv(csv_file_path)
-
-    # Keep only the columns we actually need
-    needed_cols = [text_col, label_col]
-    if "group" in df.columns:
-        needed_cols.append("group")
-    df = df[needed_cols].copy()
-
-    # Map labels to {1, 0}
-    label2id = {
-        lab: (1 if lab == positive_label else 0)
-        for lab in df[label_col].unique()
-    }
-    df["label"] = df[label_col].map(label2id)
-
-    # Remove original string label column if different from "label"
-    if label_col != "label":
-        df = df.drop(columns=[label_col])
-
-    # Add dataset name for later tracking (optional)
-    df["data_name"] = Path(csv_file_path).stem
-
-    # Train / test split (stratified)
-    train_df, test_df = train_test_split(
-        df,
-        test_size=test_size,
-        stratify=df["label"],
-        random_state=random_state,
-    )
-
-    print("Train size:", len(train_df))
-    print("Test size:", len(test_df))
-    print("Label distribution (train):")
-    print(train_df["label"].value_counts(normalize=True))
-    print("Label distribution (test):")
-    print(test_df["label"].value_counts(normalize=True))
-
-    return train_df.reset_index(drop=True), test_df.reset_index(drop=True)
+def data_loader(csv_file_path, labelling_criteria, dataset_name, sample_size, num_examples):
     
+    combined_data = pd.read_csv(csv_file_path, usecols=['text', 'category', 'stereotype_type'])
 
-# =========================
-# 2) TRAIN MODEL
-# =========================
-def train_model(
-    train_df: pd.DataFrame,
-    model_name: str,
-    output_dir: str,
-    batch_size: int = 16,
-    num_epochs: int = 3,
-    learning_rate: float = 2e-5,
-    seed: int = 42,
-):
-    """
-    Fine-tune a HF model on train_df.
-    Splits train_df into train/val internally.
-    """
+    label2id = {label: (1 if label == labelling_criteria else 0) for label in combined_data['category'].unique()}
+    combined_data['category'] = combined_data['category'].map(label2id)
+
+    combined_data['data_name'] = dataset_name
+
+    if sample_size >= len(combined_data):
+        sampled_data = combined_data
+    else:
+        sample_proportion = sample_size / len(combined_data)
+        sampled_data, _ = train_test_split(combined_data, train_size=sample_proportion, stratify=combined_data['category'],
+                                           random_state=42)
+
+    train_data, test_data = train_test_split(sampled_data, test_size=0.2, random_state=42,
+                                             stratify=sampled_data['category'])
+
+    print("First few examples from the training data:")
+    print(train_data.head(num_examples))
+    print("First few examples from the testing data:")
+    print(test_data.head(num_examples))
+    print("Train data size:", len(train_data))
+    print("Test data size:", len(test_data))
+
+    return train_data, test_data
+
+
+# Enable progress bar and set up logging
+os.environ["HUGGINGFACE_TRAINER_ENABLE_PROGRESS_BAR"] = "1"
+logging.basicConfig(level=logging.INFO)
+transformers_logger = logging.getLogger("transformers")
+transformers_logger.setLevel(logging.INFO)
+
+def train_model(train_data, model_path, batch_size, epoch, learning_rate, model_output_base_dir, dataset_name, seed):
 
     np.random.seed(seed)
-
-    num_labels = train_df["label"].nunique()
+    num_labels = len(train_data['category'].unique())
     print(f"Number of unique labels: {num_labels}")
 
-    tracker = EmissionsTracker() if HAS_CODECARBON else None
-    if tracker is not None:
-        tracker.start()
+    tracker = EmissionsTracker()
+    tracker.start()
 
-    model = AutoModelForSequenceClassification.from_pretrained(
-        model_name,
-        num_labels=num_labels,
-        ignore_mismatched_sizes=True,
-    )
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSequenceClassification.from_pretrained(model_path, num_labels=num_labels, ignore_mismatched_sizes=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-    # If the tokenizer has no pad token (rare for ruBERT/bert, but safe to check)
-    if tokenizer.pad_token is None:
-        if tokenizer.eos_token is not None:
-            tokenizer.pad_token = tokenizer.eos_token
-        else:
-            tokenizer.add_special_tokens({"pad_token": "[PAD]"})
-            model.resize_token_embeddings(len(tokenizer))
+    if model_path.startswith("gpt"):
+        tokenizer.pad_token = tokenizer.eos_token
         model.config.pad_token_id = tokenizer.pad_token_id
 
     def tokenize_function(examples):
-        return tokenizer(
-            examples["text"],
-            padding=True,
-            truncation=True,
-            max_length=512,
-        )
+        return tokenizer(examples["text"], padding=True, truncation=True, max_length=512)
 
-    # Split into train / validation
-    train_split, val_split = train_test_split(
-        train_df,
-        test_size=0.2,
-        stratify=train_df["label"],
-        random_state=seed,
-    )
-
-    ds_train = Dataset.from_pandas(train_split).map(
-        tokenize_function, batched=True
-    )
-    ds_train = ds_train.map(lambda e: {"labels": e["label"]})
-
-    ds_val = Dataset.from_pandas(val_split).map(
-        tokenize_function, batched=True
-    )
-    ds_val = ds_val.map(lambda e: {"labels": e["label"]})
-
-    print("Sample tokenized train example:", ds_train[0])
+    train_data, val_data = train_test_split(train_data, test_size=0.2, random_state=42)
+    tokenized_train = Dataset.from_pandas(train_data).map(tokenize_function, batched=True).map(lambda examples: {'labels': examples['category']})
+    print("Sample tokenized input from train:", tokenized_train[0])
+    tokenized_val = Dataset.from_pandas(val_data).map(tokenize_function, batched=True).map(lambda examples: {'labels': examples['category']})
+    print("Sample tokenized input from validation:", tokenized_train[0])
 
     def compute_metrics(eval_pred):
-        logits, labels = eval_pred
-        preds = np.argmax(logits, axis=1)
-        precision, recall, f1, _ = precision_recall_fscore_support(
-            labels, preds, average="macro"
-        )
-        balanced_acc = balanced_accuracy_score(labels, preds)
-        return {
-            "precision": precision,
-            "recall": recall,
-            "f1": f1,
-            "balanced_accuracy": balanced_acc,
-        }
+        predictions, labels = eval_pred
+        predictions = np.argmax(predictions, axis=1)
+        precision, recall, f1, _ = precision_recall_fscore_support(labels, predictions, average='macro')
+        balanced_acc = balanced_accuracy_score(labels, predictions)
+        return {"precision": precision, "recall": recall, "f1": f1, "balanced accuracy": balanced_acc}
 
-    os.makedirs(output_dir, exist_ok=True)
+    model_output_dir = os.path.join(model_output_base_dir, dataset_name)
+    os.makedirs(model_output_dir, exist_ok=True)
 
     training_args = TrainingArguments(
-        output_dir=output_dir,
-        num_train_epochs=num_epochs,
-        learning_rate=learning_rate,
-        per_device_train_batch_size=batch_size,
-        per_device_eval_batch_size=batch_size,
-        weight_decay=0.01,
-        evaluation_strategy="epoch",
-        save_strategy="epoch",
-        load_best_model_at_end=True,
-        save_total_limit=1,
-        logging_dir=os.path.join(output_dir, "logs"),
-        logging_steps=50,
-        seed=seed,
-    )
+        output_dir=model_output_dir, num_train_epochs=epoch, evaluation_strategy="epoch", learning_rate=learning_rate,
+        per_device_train_batch_size=batch_size, per_device_eval_batch_size=batch_size, weight_decay=0.01,
+        save_strategy="epoch", load_best_model_at_end=True, save_total_limit=1)
 
     trainer = Trainer(
-        model=model,
-        args=training_args,
-        tokenizer=tokenizer,
-        train_dataset=ds_train,
-        eval_dataset=ds_val,
-        compute_metrics=compute_metrics,
-    )
+        model=model, args=training_args, tokenizer=tokenizer, train_dataset=tokenized_train,
+        eval_dataset=tokenized_val, compute_metrics=compute_metrics)
 
     trainer.train()
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    trainer.save_model(model_output_dir)
 
-    if tracker is not None:
-        emissions = tracker.stop()
-        print(f"Estimated total emissions: {emissions} kg CO2")
+    emissions = tracker.stop()
+    print(f"Estimated total emissions: {emissions} kg CO2")
 
-    print(f"Model saved to: {output_dir}")
-    return output_dir
+    return model_output_dir
 
-
-# =========================
-# 3) EVALUATE MODEL
-# =========================
-def evaluate_model(
-    test_df: pd.DataFrame,
-    model_dir: str,
-    result_output_dir: str,
-    seed: int = 42,
-):
-    """
-    Evaluate a fine-tuned model on test_df.
-    Saves:
-    - full_results.csv (per-example)
-    - classification_report.csv
-    """
+# Define function for evaluating the model
+def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_name, seed):
 
     np.random.seed(seed)
+    num_labels = len(test_data['category'].unique())
+    print(f"Number of unique labels: {num_labels}")
 
-    num_labels = test_df["label"].nunique()
-    print(f"Number of unique labels in test set: {num_labels}")
+    model = AutoModelForSequenceClassification.from_pretrained(model_output_dir, num_labels=num_labels,
+                                                               ignore_mismatched_sizes=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_output_dir)
 
-    model = AutoModelForSequenceClassification.from_pretrained(
-        model_dir,
-        num_labels=num_labels,
-        ignore_mismatched_sizes=True,
-    )
-    tokenizer = AutoTokenizer.from_pretrained(model_dir)
+    if model_output_dir.startswith("gpt"):
+        tokenizer.pad_token = tokenizer.eos_token
+        model.config.pad_token_id = tokenizer.pad_token_id
 
-    # CPU: device=-1; GPU: device=0
-    clf = pipeline(
-        "text-classification",
-        model=model,
-        tokenizer=tokenizer,
-        device=-1,
-        truncation=True,
-        max_length=512,
-    )
+    def tokenize_function(examples):
+        return tokenizer(examples["text"], padding=True, truncation=True, max_length=512)
 
-    texts = test_df["text"].tolist()
-    predictions_raw = clf(texts, return_all_scores=True)
+    tokenized_test = Dataset.from_pandas(test_data).map(tokenize_function, batched=True).map(
+        lambda examples: {'labels': examples['category']})
+    print("Sample tokenized input from test:", tokenized_test[0])
 
-    pred_labels = []
-    pred_probs = []
-
-    for scores in predictions_raw:
-        best = max(scores, key=lambda x: x["score"])
-        # label is like 'LABEL_0', 'LABEL_1', etc.
-        label_id = int(best["label"].split("_")[-1])
-        pred_labels.append(label_id)
-        pred_probs.append(best["score"])
-
-    y_true = test_df["label"].tolist()
-
-    # Build results dataframe
-    results_df = pd.DataFrame(
-        {
-            "text": test_df["text"],
-            "predicted_label": pred_labels,
-            "predicted_probability": pred_probs,
-            "actual_label": y_true,
-        }
-    )
-
-    if "group" in test_df.columns:
-        results_df["group"] = test_df["group"]
-
-    if "data_name" in test_df.columns:
-        results_df["dataset_name"] = test_df["data_name"]
-    else:
-        results_df["dataset_name"] = Path(model_dir).name
-
+    result_output_dir = os.path.join(result_output_base_dir, dataset_name)
     os.makedirs(result_output_dir, exist_ok=True)
 
-    full_results_path = os.path.join(result_output_dir, "full_results.csv")
-    results_df.to_csv(full_results_path, index=False)
-    print(f"Saved full results to {full_results_path}")
+    pipe = pipeline("text-classification", model= model,tokenizer=tokenizer,device=-1)
 
-    report_dict = classification_report(y_true, pred_labels, output_dict=True)
-    report_df = pd.DataFrame(report_dict).transpose()
+    predictions = pipe(test_data['text'].to_list(), return_all_scores=True)
+    pred_labels = [int(max(pred, key=lambda x: x['score'])['category'].split('_')[-1]) for pred in predictions]
+    pred_probs = [max(pred, key=lambda x: x['score'])['score'] for pred in predictions]
+    y_true = test_data['category'].tolist()
 
-    report_path = os.path.join(result_output_dir, "classification_report.csv")
-    report_df.to_csv(report_path)
-    print(f"Saved classification report to {report_path}")
+    results_df = pd.DataFrame({
+        'text': test_data['text'],
+        'predicted_label': pred_labels,
+        'predicted_probability': pred_probs,
+        'actual_label': y_true,
+        'stereotype_type': test_data['stereotype_type'],
+        'dataset_name': test_data['data_name']
+    })
 
-    return report_df
+    results_file_path = os.path.join(result_output_dir, "full_results.csv")
+    results_df.to_csv(results_file_path, index=False)
 
-if __name__ == "__main__":
-    train_df, test_df = load_single_dataset(
-        csv_file_path="COMP0173_Data/rubist.csv",
-        text_col="text",
-        label_col="category",
-        positive_label="stereotype",
-        test_size=0.2,
-        random_state=42,
-    )
+    report = classification_report(y_true,pred_labels,output_dict=True)
+    df_report = pd.DataFrame(report).transpose()
+    result_file_path = os.path.join(result_output_dir, "classification_report.csv")
+    df_report.to_csv(result_file_path)
 
-    model_dir = train_model(
-        train_df=train_df,
-        model_name="DeepPavlov/rubert-base-cased",
-        output_dir="COMP0173_Results/model_output_rubert_rubist",
-        batch_size=16,
-        num_epochs=3,
-        learning_rate=2e-5,
-        seed=42,
-    )
+    return df_report
 
-    evaluate_model(
-        test_df=test_df,
-        model_dir=model_dir,
-        result_output_dir="COMP0173_Results/result_output_rubert_rubist",
-        seed=42,
-    )
+
+# # Load and combine relevant datasets
+# train_data_rubist, test_data_rubist = data_loader(csv_file_path='COMP0173_Data/rubist.csv', labelling_criteria='stereotype', dataset_name='rubist', sample_size=1000000, num_examples=5)
+# train_data_rubist_second, test_data_rubist_second = data_loader(csv_file_path='COMP0173_Data/rubist_second.csv', labelling_criteria='stereotype', dataset_name='rubist_second', sample_size=1000000, num_examples=5)
+
+# # Execute full pipeline for Deepavlov model
+# train_model(train_data_rubist, model_path='', batch_size=64, epoch=6, learning_rate=2e-5, model_output_base_dir='model_output_rubert', dataset_name='rubist_trained', seed=42)
+# evaluate_model(test_data_rubist, model_output_dir='model_output_rubert/rubist_trained', result_output_base_dir='result_output_rubert/rubist_trained', dataset_name='rubist_trained', seed=42)
+
+# train_model(train_data_rubist_second, model_path='', batch_size=64, epoch=6, learning_rate=2e-5, model_output_base_dir='model_output_rubert', dataset_name='rubist_second_trained', seed=42)
+# evaluate_model(test_data_rubist_second, model_output_dir='model_output_rubert/rubist_second_trained', result_output_base_dir='result_output_rubert/rubist_second_trained', dataset_name='rubist_second_trained', seed=42)

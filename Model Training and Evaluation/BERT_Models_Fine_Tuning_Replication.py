@@ -38,6 +38,7 @@ transformers_logger.setLevel(logging.INFO)
 
 # Data helpers
 def data_loader(csv_file_path, labelling_criteria, dataset_name, sample_size, num_examples):
+    
     """
     Load a CSV, binarise the label column wrt `labelling_criteria`,
     stratified sample to `sample_size` (if smaller than dataset),
@@ -203,7 +204,7 @@ def train_model(
         load_best_model_at_end=True,
         save_total_limit=1,
         logging_steps=50,
-        report_to="none",  # disable wandb etc.
+        report_to="none",  
     )
 
     trainer = Trainer(
@@ -315,17 +316,10 @@ def evaluate_model(
 
     return df_report
 
-# Full pipeline: replicate HEARTS experiments
-
+# Full pipeline: replicate HEARTS 
 def run_full_hearts_pipeline():
-    """
-    Run all experiments from the HEARTS paper:
-    - Train on MGSD, WinoQueer, SeeGULL, merged, etc.
-    - Models: ALBERT, DistilBERT, BERT.
-    WARNING: This is VERY long to run.
-    """
 
-    # 1. Load all base datasets
+    # Load all base datasets
 
     # MGSD (established)
     train_data_mgsd, test_data_mgsd = data_loader(
@@ -354,7 +348,7 @@ def run_full_hearts_pipeline():
         num_examples=5,
     )
 
-    # 2. Build merged datasets
+    # Build merged datasets
 
     # MGSD + WinoQueer
     train_data_merged_winoqueer_gpt_augmentation, test_data_merged_winoqueer_gpt_augmentation = merge_datasets(
@@ -383,12 +377,12 @@ def run_full_hearts_pipeline():
         num_examples=5,
     )
 
-    # 3. ALBERT experiments
+    # ALBERT 
 
     albert_model_base = "model_output_albertv2"
     albert_results_base = "result_output_albertv2"
 
-    # (a) Train on MGSD only
+    # (a) Train on MGSD 
     mgsd_trained_albert = train_model(
         train_data=train_data_mgsd,
         model_path="albert/albert-base-v2",
@@ -404,7 +398,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, mgsd_trained_albert, albert_results_base + "/mgsd_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, mgsd_trained_albert, albert_results_base + "/mgsd_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # (b) Train on WinoQueer only
+    # (b) Train on WinoQueer 
     wino_trained_albert = train_model(
         train_data=train_data_winoqueer_gpt_augmentation,
         model_path="albert/albert-base-v2",
@@ -420,7 +414,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, wino_trained_albert, albert_results_base + "/winoqueer_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, wino_trained_albert, albert_results_base + "/winoqueer_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # (c) Train on SeeGULL only
+    # (c) Train on SeeGULL 
     seegull_trained_albert = train_model(
         train_data=train_data_seegull_gpt_augmentation,
         model_path="albert/albert-base-v2",
@@ -452,12 +446,12 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, merged_trained_albert, albert_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, merged_trained_albert, albert_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # 4. DistilBERT experiments
+    # DistilBERT 
 
     distil_model_base = "model_output_distilbert"
     distil_results_base = "result_output_distilbert"
 
-    # MGSD only
+    # MGSD 
     mgsd_trained_distil = train_model(
         train_data=train_data_mgsd,
         model_path="distilbert/distilbert-base-uncased",
@@ -473,7 +467,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, mgsd_trained_distil, distil_results_base + "/mgsd_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, mgsd_trained_distil, distil_results_base + "/mgsd_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # WinoQueer only
+    # WinoQueer 
     wino_trained_distil = train_model(
         train_data=train_data_winoqueer_gpt_augmentation,
         model_path="distilbert/distilbert-base-uncased",
@@ -489,7 +483,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, wino_trained_distil, distil_results_base + "/winoqueer_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, wino_trained_distil, distil_results_base + "/winoqueer_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # SeeGULL only
+    # SeeGULL 
     seegull_trained_distil = train_model(
         train_data=train_data_seegull_gpt_augmentation,
         model_path="distilbert/distilbert-base-uncased",
@@ -521,12 +515,11 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, merged_trained_distil, distil_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, merged_trained_distil, distil_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # 5. BERT experiments
-
+    # BERT 
     bert_model_base = "model_output_bert"
     bert_results_base = "result_output_bert"
 
-    # MGSD only
+    # MGSD 
     mgsd_trained_bert = train_model(
         train_data=train_data_mgsd,
         model_path="google-bert/bert-base-uncased",
@@ -542,7 +535,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, mgsd_trained_bert, bert_results_base + "/mgsd_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, mgsd_trained_bert, bert_results_base + "/mgsd_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # WinoQueer only
+    # WinoQueer 
     wino_trained_bert = train_model(
         train_data=train_data_winoqueer_gpt_augmentation,
         model_path="google-bert/bert-base-uncased",
@@ -558,7 +551,7 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, wino_trained_bert, bert_results_base + "/winoqueer_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, wino_trained_bert, bert_results_base + "/winoqueer_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-    # SeeGULL only
+    # SeeGULL 
     seegull_trained_bert = train_model(
         train_data=train_data_seegull_gpt_augmentation,
         model_path="google-bert/bert-base-uncased",
@@ -590,11 +583,10 @@ def run_full_hearts_pipeline():
     evaluate_model(test_data_mgsd, merged_trained_bert, bert_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "mgsd", 42)
     evaluate_model(test_data_merged_winoqueer_seegull_gpt_augmentation, merged_trained_bert, bert_results_base + "/merged_winoqueer_seegull_gpt_augmentation_trained", "merged_winoqueer_seegull_gpt_augmentation", 42)
 
-# Default main: only ALBERT+MGSD baseline
 
 if __name__ == "__main__":
     # For the full HEARTS pipeline, call run_full_hearts_pipeline() from a notebook.
-    print("Running ALBERT baseline on MGSD only...")
+    print("Running ALBERT baseline on MGSD ...")
     train_mgsd, test_mgsd = data_loader(
         csv_file_path="MGSD.csv",
         labelling_criteria="stereotype",
