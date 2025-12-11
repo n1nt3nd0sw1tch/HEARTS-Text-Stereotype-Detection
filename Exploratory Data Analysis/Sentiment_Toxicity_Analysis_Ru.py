@@ -6,13 +6,9 @@ import torch
 
 # Russian Sentiment Classifier (Blanchefort)
 class RussianSentimentClassifier:
+    
     """
     Sentiment on Russian text using blanchefort/rubert-base-cased-sentiment.
-
-    Label mapping:
-    - 0 -> negative
-    - 1 -> neutral
-    - 2 -> positive
     """
 
     def __init__(self):
@@ -57,6 +53,7 @@ class RussianSentimentClassifier:
 
 # Russian Toxicity / "Regard" Classifier
 class RussianToxicityClassifier:
+    
     """
     Toxicity classifier using sismetanin/rubert-toxic-pikabu-2ch.
     Used as a proxy for negative regard / harm.

@@ -15,12 +15,12 @@ venv/
 ENV/
 .venv/
 
-# MacOS junk
+# MacOS 
 .DS_Store
 *.DS_Store
 
 # Ignore coursework output folders
-COMP0173_Figures/
-COMP0173_PDF/
+# COMP0173_Figures/
+# COMP0173_PDF/
 
 model_output*

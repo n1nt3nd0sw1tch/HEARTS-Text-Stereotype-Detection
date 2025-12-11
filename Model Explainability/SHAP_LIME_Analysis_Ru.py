@@ -9,9 +9,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.stats import pearsonr
 from scipy.spatial.distance import jensenshannon
 
-# file_path = 'result_output_xlm_roberta_base/rubist_trained/full_results.csv'
-# model_path = "model_output_xlm_roberta_base/rubist_trained"
-
 # Select the random sample of observations to use methods on
 def sample_observations(file_path, k, seed):
     data = pd.read_csv(file_path)
@@ -42,8 +39,6 @@ def sample_observations(file_path, k, seed):
     
     return sampled_data
 
-# sampled_data = sample_observations(file_path, k=37, seed=42)
-# sampled_data.to_csv('sampled_data.csv')
 
 # Define function to compute SHAP values
 def shap_analysis(sampled_data, model_path):
@@ -78,9 +73,6 @@ def shap_analysis(sampled_data, model_path):
                 
     return pd.DataFrame(results)
 
-
-# shap_results = shap_analysis(sampled_data, model_path)
-# print(shap_results)
 
 # Define function to compute LIME values 
 def custom_tokenizer(text):
@@ -127,12 +119,6 @@ def lime_analysis(sampled_data, model_path):
 
     return pd.DataFrame(results)
 
-# lime_results = lime_analysis(sampled_data, model_path)
-# print(lime_results)
-
-# lime_results.to_csv('lime_results.csv')
-# shap_results.to_csv('shap_results.csv')
-
 # Define helper functions
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
@@ -140,17 +126,11 @@ from scipy.stats import pearsonr
 from scipy.spatial.distance import jensenshannon
 
 def compute_cosine_similarity(vector1, vector2):
-    """
-    vector1, vector2: lists or 1D arrays of numbers
-    """
     v1 = np.asarray(vector1, dtype=float).reshape(1, -1)
     v2 = np.asarray(vector2, dtype=float).reshape(1, -1)
     return cosine_similarity(v1, v2)[0, 0]
 
 def compute_pearson_correlation(vector1, vector2):
-    """
-    vector1, vector2: lists or 1D arrays of numbers
-    """
     v1 = np.asarray(vector1, dtype=float)
     v2 = np.asarray(vector2, dtype=float)
     if v1.size < 2 or v2.size < 2:
@@ -159,10 +139,6 @@ def compute_pearson_correlation(vector1, vector2):
     return correlation
 
 def to_probability_distribution(values):
-    """
-    Convert list/array of scores to a probability distribution.
-    Shifts to non-negative if needed, then normalises to sum to 1.
-    """
     vals = np.asarray(values, dtype=float)
     min_val = np.min(vals)
     if min_val < 0:
@@ -173,33 +149,6 @@ def to_probability_distribution(values):
     return vals
 
 def compute_js_divergence(vector1, vector2):
-    """
-    Jensen–Shannon divergence between two score vectors (lists or arrays).
-    """
     prob1 = to_probability_distribution(vector1)
     prob2 = to_probability_distribution(vector2)
     return jensenshannon(prob1, prob2)
-
-# shap_df = pd.read_csv('shap_results.csv')
-# lime_df = pd.read_csv('lime_results.csv')
-
-# # Compute similarity scores by token
-# token_shap = shap_df.groupby('token')['value_shap'].apply(list).reset_index()
-# token_lime = lime_df.groupby('token')['value_lime'].apply(list).reset_index()
-# token_merged = pd.merge(token_shap, token_lime, on='token', how='inner')
-# token_merged['cosine_similarity'] = token_merged.apply(lambda row: compute_cosine_similarity(row['value_shap'], row['value_lime']), axis=1)
-# token_merged['pearson_correlation'] = token_merged.apply(lambda row: compute_pearson_correlation(row['value_shap'], row['value_lime']), axis=1)
-# token_merged['js_divergence'] = token_merged.apply(lambda row: compute_js_divergence(row['value_shap'], row['value_lime']), axis=1)
-# token_merged.to_csv('token_level_similarity.csv')
-
-# # Compute similarity scores by sentence
-# common_columns = [col for col in shap_df.columns if col != 'value_shap' and col != 'value_lime']
-# merged_df = pd.merge(shap_df, lime_df, on=common_columns, suffixes=('_shap', '_lime'))
-# grouped = merged_df.groupby('sentence_id').agg({
-#     'value_shap': list,
-#     'value_lime': list
-# })
-# merged_df['cosine_similarity'] = grouped['value_shap'].map(lambda x: compute_cosine_similarity(grouped['value_shap'], grouped['value_lime']))
-# merged_df['pearson_correlation'] = grouped['value_shap'].map(lambda x: compute_pearson_correlation(grouped['value_shap'], grouped['value_lime']))
-# merged_df['js_divergence'] = grouped['value_shap'].map(lambda x: compute_js_divergence(grouped['value_shap'], grouped['value_lime']))
-# merged_df.to_csv('sentence_level_similarity_results.csv')
