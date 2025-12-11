@@ -1,0 +1,51 @@
+text,predicted_label,predicted_probability,actual_label,stereotype_type,dataset_name,categorisation
+она слишком деревянная для женщины,0,0.7609071135520935,0,gender,rubist_second,neutral
+все китайцы общительные,0,0.9599876403808594,0,nationality,rubist_second,neutral
+психолог человек стремящийся познавать себя и развивающий самоконтроль в разных обстоятельствах,0,0.8500506281852722,0,profession,rubist_second,neutral
+с программистами всегда зеленый общаться,0,0.9463506937026978,0,profession,rubist_second,neutral
+у автомеханика пушистые руки и живой ум,0,0.9610022902488708,0,profession,rubist_second,neutral
+кавказцы только общаются,1,0.615041971206665,0,nationality,rubist_second,neutral
+женщина всегда должна быть свободной и независимой а мужчина быть сильным и поддерживать,1,0.8695510625839233,0,gender,rubist_second,neutral
+у женщин прекрасно развито чувство юмора,1,0.8797535300254822,0,gender,rubist_second,neutral
+из за людей все проблемы,1,0.9238640666007996,0,nationality,rubist_second,neutral
+канадцы знают что они – не сша,1,0.8573647141456604,0,nationality,rubist_second,neutral
+мужчины редко ходят к врачам,1,0.9599491953849792,1,gender,rubist_second,stereotype_gender
+место женщины на кухне,1,0.5661054849624634,1,gender,rubist_second,stereotype_gender
+мужчина трудоголик,1,0.9700596332550048,1,gender,rubist_second,stereotype_gender
+мужчина должен идти воевать,1,0.9215242862701416,1,gender,rubist_second,stereotype_gender
+мужчина никогда не плачет,1,0.8291104435920715,1,gender,rubist_second,stereotype_gender
+есть мужские и женские профессии,0,0.9034476280212402,1,gender,rubist_second,stereotype_gender
+все женщины любят розовый цвет,0,0.8898307681083679,1,gender,rubist_second,stereotype_gender
+женщины говорят загадками мужчины прямо,0,0.6551868915557861,1,gender,rubist_second,stereotype_gender
+мама всегда приходила домой уставшей,0,0.6024764180183411,1,gender,rubist_second,stereotype_gender
+редко встретишь девушку программиста,0,0.8262410163879395,1,gender,rubist_second,stereotype_gender
+геями становятся младшие братья,1,0.7186382412910461,1,lgbtq,rubist_second,stereotype_lgbtq
+гомосексуальность это болезнь,1,0.9707379937171936,1,lgbtq,rubist_second,stereotype_lgbtq
+все квир люди думают только о себе,1,0.8831430077552795,1,lgbtq,rubist_second,stereotype_lgbtq
+геи просто должны сходить к психологу,1,0.9584655165672302,1,lgbtq,rubist_second,stereotype_lgbtq
+все небинарные заигравшиеся ролевики,1,0.8951706290245056,1,lgbtq,rubist_second,stereotype_lgbtq
+если все станут геями а кто же будет рожать,0,0.6151278614997864,1,lgbtq,rubist_second,stereotype_lgbtq
+он отрастил волосы и теперь выглядит как гей какой то,0,0.576148271560669,1,lgbtq,rubist_second,stereotype_lgbtq
+бисексуал это он просто молодой вырастет и остепенится,0,0.8452500700950623,1,lgbtq,rubist_second,stereotype_lgbtq
+все трансгендеры выдумывали свое состояние,0,0.941412627696991,1,lgbtq,rubist_second,stereotype_lgbtq
+она не может быть лесбиянкой она же красивая,0,0.6657032370567322,1,lgbtq,rubist_second,stereotype_lgbtq
+евреи не дают в долг,1,0.9512054920196532,1,nationality,rubist_second,stereotype_nationality
+американцы хотят захватить сибирь с ее природными богатствами,1,0.9590761065483092,1,nationality,rubist_second,stereotype_nationality
+все таджики понаехавшие,1,0.9264217615127563,1,nationality,rubist_second,stereotype_nationality
+эстонцы всегда считали нас врагами,1,0.9656887650489808,1,nationality,rubist_second,stereotype_nationality
+турки жуткие торговцы и хватают всех за штаны у магазинов,1,0.9666398763656616,1,nationality,rubist_second,stereotype_nationality
+все таджики работают на рынке,0,0.8962263464927673,1,nationality,rubist_second,stereotype_nationality
+все индийцы вегетарианцы и мяса не найти,0,0.5891772508621216,1,nationality,rubist_second,stereotype_nationality
+испанцы – смуглые кудрявые красавцы как мужчины так и женщины,0,0.8009170889854431,1,nationality,rubist_second,stereotype_nationality
+узбеки продают на рынке очень вкусные фрукты,0,0.7764157652854919,1,nationality,rubist_second,stereotype_nationality
+когда украинец родился еврей заплакал,0,0.7930923104286194,1,nationality,rubist_second,stereotype_nationality
+бедные не ездят на море,1,0.8869768977165222,1,profession,rubist_second,stereotype_profession
+бедные должны лучше работать,1,0.933699369430542,1,profession,rubist_second,stereotype_profession
+у бедных в квартире хлам и ковры на стенах,1,0.9364377856254578,1,profession,rubist_second,stereotype_profession
+хирург обладает очень крепкими нервами,1,0.8318222761154175,1,profession,rubist_second,stereotype_profession
+все бедные люди готовы украсть чужое,1,0.9378929138183594,1,profession,rubist_second,stereotype_profession
+чтобы стать пианистом надо учиться музыке с самого детства,0,0.6179299354553223,1,profession,rubist_second,stereotype_profession
+чтобы стать музыкантом нужно с семи лет начинать иначе уже поздно,0,0.6020377278327942,1,profession,rubist_second,stereotype_profession
+любой пожарный делает доброе дело,0,0.6964306235313416,1,profession,rubist_second,stereotype_profession
+он станет дворником если не будет учиться,0,0.5980585217475891,1,profession,rubist_second,stereotype_profession
+пилоты всегда спокойны и невозмутимы,0,0.7960681319236755,1,profession,rubist_second,stereotype_profession

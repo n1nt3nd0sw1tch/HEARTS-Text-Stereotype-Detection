@@ -134,26 +134,51 @@ def lime_analysis(sampled_data, model_path):
 # shap_results.to_csv('shap_results.csv')
 
 # Define helper functions
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from scipy.stats import pearsonr
+from scipy.spatial.distance import jensenshannon
+
 def compute_cosine_similarity(vector1, vector2):
-    return cosine_similarity(vector1.reshape(1, -1), vector2.reshape(1, -1))[0][0]
+    """
+    vector1, vector2: lists or 1D arrays of numbers
+    """
+    v1 = np.asarray(vector1, dtype=float).reshape(1, -1)
+    v2 = np.asarray(vector2, dtype=float).reshape(1, -1)
+    return cosine_similarity(v1, v2)[0, 0]
 
 def compute_pearson_correlation(vector1, vector2):
-    correlation, _ = pearsonr(vector1, vector2)
+    """
+    vector1, vector2: lists or 1D arrays of numbers
+    """
+    v1 = np.asarray(vector1, dtype=float)
+    v2 = np.asarray(vector2, dtype=float)
+    if v1.size < 2 or v2.size < 2:
+        return np.nan  
+    correlation, _ = pearsonr(v1, v2)
     return correlation
 
 def to_probability_distribution(values):
-    min_val = np.min(values)
+    """
+    Convert list/array of scores to a probability distribution.
+    Shifts to non-negative if needed, then normalises to sum to 1.
+    """
+    vals = np.asarray(values, dtype=float)
+    min_val = np.min(vals)
     if min_val < 0:
-        values += abs(min_val)
-    total = np.sum(values)
+        vals = vals + abs(min_val)
+    total = np.sum(vals)
     if total > 0:
-        values /= total
-    return values
+        vals = vals / total
+    return vals
 
 def compute_js_divergence(vector1, vector2):
-    prob1 = to_probability_distribution(vector1.copy())
-    prob2 = to_probability_distribution(vector2.copy())
-    return jensenshannon(prob1, prob2) 
+    """
+    Jensen–Shannon divergence between two score vectors (lists or arrays).
+    """
+    prob1 = to_probability_distribution(vector1)
+    prob2 = to_probability_distribution(vector2)
+    return jensenshannon(prob1, prob2)
 
 # shap_df = pd.read_csv('shap_results.csv')
 # lime_df = pd.read_csv('lime_results.csv')
